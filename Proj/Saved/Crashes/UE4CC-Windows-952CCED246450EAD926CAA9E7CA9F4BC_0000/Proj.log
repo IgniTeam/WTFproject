@@ -1,0 +1,660 @@
+﻿Log file open, 11/16/19 12:02:13
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Proj
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.105872
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-8386587
+LogInit: Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 7 (Service Pack 1), CPU:         Intel(R) Core(TM) i5-2500 CPU @ 3.30GHz, GPU: NVIDIA GeForce GTX 1050
+LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Engine.ini]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Engine.ini]
+[2019.11.16-09.02.13:577][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Engine.ini]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Engine.ini]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.16-09.02.13:577][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.16-09.02.13:578][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.16-09.02.13:578][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.16-09.02.13:578][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.16-09.02.13:578][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Engine.ini]
+[2019.11.16-09.02.13:578][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Engine.ini]
+[2019.11.16-09.02.13:580][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Scalability.ini]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Scalability.ini]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Scalability.ini]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Scalability.ini]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.16-09.02.13:580][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Scalability.ini]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Scalability.ini]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Scalability.ini]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.16-09.02.13:581][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.16-09.02.13:581][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.16-09.02.13:582][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.16-09.02.13:584][  0]LogHAL: Display: Platform has ~ 8 GB [8546017280 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.16-09.02.13:584][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.16-09.02.13:584][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Scalability.ini]
+[2019.11.16-09.02.13:584][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.16-09.02.13:584][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.16-09.02.13:584][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Scalability.ini]
+[2019.11.16-09.02.13:584][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.16-09.02.13:584][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Scalability.ini]
+[2019.11.16-09.02.13:584][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.16-09.02.13:584][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.16-09.02.13:584][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.16-09.02.13:584][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.16-09.02.13:584][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.16-09.02.13:584][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.16-09.02.13:584][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.16-09.02.13:584][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.16-09.02.13:584][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.16-09.02.13:584][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Scalability.ini]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Scalability.ini]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Scalability.ini]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Scalability.ini]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.16-09.02.13:585][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.16-09.02.13:586][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.16-09.02.13:586][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.16-09.02.13:586][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.16-09.02.13:586][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Config/Windows/Engine.ini]
+[2019.11.16-09.02.13:586][  0]LogInit: Computer: MICHAEL-PC
+[2019.11.16-09.02.13:586][  0]LogInit: User: Михаил
+[2019.11.16-09.02.13:586][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.16-09.02.13:586][  0]LogInit: High frequency timer resolution =3.215468 MHz
+[2019.11.16-09.02.13:586][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2019.11.16-09.02.13:586][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.16-09.02.13:586][  0]LogMemory: Process Physical Memory: 102.64 MB used, 102.64 MB peak
+[2019.11.16-09.02.13:586][  0]LogMemory: Process Virtual Memory: 104.34 MB used, 104.34 MB peak
+[2019.11.16-09.02.13:586][  0]LogMemory: Physical Memory: 6000.85 MB used,  2149.27 MB free, 8150.12 MB total
+[2019.11.16-09.02.13:586][  0]LogMemory: Virtual Memory: 530.29 MB used,  8388077.50 MB free, 8388608.00 MB total
+[2019.11.16-09.02.13:599][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.11.16-09.02.13:619][  0]LogInit: Using OS detected language (ru-RU).
+[2019.11.16-09.02.13:619][  0]LogInit: Using OS detected locale (ru-RU).
+[2019.11.16-09.02.13:620][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2019.11.16-09.02.13:620][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/ru/Editor.locres' could not be opened for reading!
+[2019.11.16-09.02.13:620][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/ru/EditorTutorials.locres' could not be opened for reading!
+[2019.11.16-09.02.13:620][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/ru/Keywords.locres' could not be opened for reading!
+[2019.11.16-09.02.13:620][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/ru/Category.locres' could not be opened for reading!
+[2019.11.16-09.02.13:620][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/ru/ToolTips.locres' could not be opened for reading!
+[2019.11.16-09.02.13:620][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/ru/PropertyNames.locres' could not be opened for reading!
+[2019.11.16-09.02.13:620][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/ru/Engine.locres' could not be opened for reading!
+[2019.11.16-09.02.13:621][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2019.11.16-09.02.13:621][  0]LogWindows: File 'shcore.dll' does not exist
+[2019.11.16-09.02.13:621][  0]LogInit: Setting process to DPI aware
+[2019.11.16-09.02.13:646][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.16-09.02.13:646][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.16-09.02.13:811][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.16-09.02.13:811][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.16-09.02.13:861][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.11.16-09.02.13:861][  0]LogD3D11RHI:       1958/0/3819 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.16-09.02.13:861][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.16-09.02.13:871][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.16-09.02.13:871][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.16-09.02.13:871][  0]LogWindows: EnumDisplayDevices:
+[2019.11.16-09.02.13:871][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2019.11.16-09.02.13:871][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.11.16-09.02.13:871][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.11.16-09.02.13:872][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.11.16-09.02.13:872][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2019.11.16-09.02.13:872][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2019.11.16-09.02.13:872][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2019.11.16-09.02.13:872][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.11.16-09.02.13:872][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.11.16-09.02.13:872][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.11.16-09.02.13:872][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.11.16-09.02.13:872][  0]LogRHI: Texture pool is 1371 MB (70% of 1958 MB)
+[2019.11.16-09.02.13:895][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.16-09.02.13:913][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.11.16-09.02.14:253][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.16-09.02.14:263][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.16-09.02.14:275][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.16-09.02.14:285][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.16-09.02.14:294][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.16-09.02.14:304][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.16-09.02.14:314][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.16-09.02.14:324][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.16-09.02.14:328][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.16-09.02.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.16-09.02.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.16-09.02.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.16-09.02.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.16-09.02.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.16-09.02.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.16-09.02.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.16-09.02.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.16-09.02.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.16-09.02.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.16-09.02.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.16-09.02.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.16-09.02.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.16-09.02.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.16-09.02.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.16-09.02.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.16-09.02.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.16-09.02.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.16-09.02.14:368][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.16-09.02.14:387][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.16-09.02.14:387][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.16-09.02.14:404][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.16-09.02.14:404][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.16-09.02.14:411][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.16-09.02.14:419][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.16-09.02.14:427][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.16-09.02.14:436][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.16-09.02.14:466][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.16-09.02.14:466][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.16-09.02.14:466][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.16-09.02.14:474][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.16-09.02.14:523][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Intermediate/Shaders/WorkingDirectory/1240/).
+[2019.11.16-09.02.14:523][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'J:/Users/Михаил/AppData/Local/Temp/UnrealShaderWorkingDir/A782BAD940ADA63154407FAC8E301F9E/'.
+[2019.11.16-09.02.14:525][  0]LogXGEController: Cleaning working directory: J:/Users/Михаил/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.16-09.02.14:525][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.16-09.02.14:525][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.16-09.02.14:525][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.16-09.02.15:349][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.16-09.02.15:436][  0]LogDerivedDataCache: Loaded boot cache 0.09s 73MB J:/Users/Михаил/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.16-09.02.15:436][  0]LogDerivedDataCache: Display: Loaded Boot cache: J:/Users/Михаил/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.11.16-09.02.15:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.16-09.02.15:436][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.16-09.02.15:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.16-09.02.15:436][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.16-09.02.15:453][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.16-09.02.15:453][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.16-09.02.15:453][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.16-09.02.15:454][  0]LogDerivedDataCache: Using Local data cache path J:/Users/Михаил/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.16-09.02.15:454][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.16-09.02.15:454][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.16-09.02.15:481][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.16-09.02.15:484][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.16-09.02.15:485][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.16-09.02.15:549][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2019.11.16-09.02.15:918][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.16-09.02.16:108][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.16-09.02.16:108][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.16-09.02.16:108][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.16-09.02.16:108][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.16-09.02.16:108][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.16-09.02.16:119][  0]LogNetVersion: Proj 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 557408676)
+[2019.11.16-09.02.16:639][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.043387 seconds
+[2019.11.16-09.02.16:647][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.11.16-09.02.16:647][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.11.16-09.02.16:647][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.16-09.02.17:582][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.16-09.02.17:586][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.16-09.02.17:642][  0]SourceControl: Source control is disabled
+[2019.11.16-09.02.17:642][  0]SourceControl: Source control is disabled
+[2019.11.16-09.02.17:644][  0]SourceControl: Source control is disabled
+[2019.11.16-09.02.17:645][  0]SourceControl: Source control is disabled
+[2019.11.16-09.02.17:736][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.16-09.02.17:854][  0]LogOcInput: OculusInput pre-init called
+[2019.11.16-09.02.17:859][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.11.16-09.02.17:859][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.11.16-09.02.17:942][  0]LogEngine: Initializing Engine...
+[2019.11.16-09.02.17:943][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.16-09.02.17:944][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.16-09.02.18:261][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.16-09.02.18:280][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.16-09.02.18:293][  0]LogInit: XAudio2 using 'Динамики (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.16-09.02.18:302][  0]LogInit: FAudioDevice initialized.
+[2019.11.16-09.02.18:302][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.16-09.02.18:430][  0]LogDerivedDataCache: Saved boot cache 0.13s 73MB J:/Users/Михаил/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.16-09.02.18:433][  0]LogInit: Texture streaming: Enabled
+[2019.11.16-09.02.18:466][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.16-09.02.18:468][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={35CDC540-4151-0613-091F-139D49620B74}
+[2019.11.16-09.02.18:504][  0]LogInit: Transaction tracking system initialized
+[2019.11.16-09.02.18:536][  0]BlueprintLog: New page: Editor Load
+[2019.11.16-09.02.18:609][  0]LocalizationService: Localization service is disabled
+[2019.11.16-09.02.18:872][  0]LogFileCache: Scanning file cache for directory 'J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Content/' took 0.00s
+[2019.11.16-09.02.18:872][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.16-09.02.18:872][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.16-09.02.19:067][  0]SourceControl: Source control is disabled
+[2019.11.16-09.02.19:068][  0]Cmd: MAP LOAD FILE="J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.16-09.02.19:068][  0]LightingResults: New page: Lighting Build
+[2019.11.16-09.02.19:071][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.11.16-09.02.19:071][  0]MapCheck: New page: Map Check
+[2019.11.16-09.02.19:071][  0]LightingResults: New page: Lighting Build
+[2019.11.16-09.02.19:102][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2019.11.16-09.02.19:403][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.11.16-09.02.19:421][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.16-09.02.19:449][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2019.11.16-09.02.19:449][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.16-09.02.19:450][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,15ms to complete.
+[2019.11.16-09.02.19:450][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.382
+[2019.11.16-09.02.19:545][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.16-09.02.19:555][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.16-09.02.19:564][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.16-09.02.19:574][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.16-09.02.19:580][  0]LogCollectionManager: Loaded 0 collections in 0.001815 seconds
+[2019.11.16-09.02.19:587][  0]LogFileCache: Scanning file cache for directory 'J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Saved/Collections/' took 0.00s
+[2019.11.16-09.02.19:587][  0]LogFileCache: Scanning file cache for directory 'J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Content/Developers/Михаил/Collections/' took 0.00s
+[2019.11.16-09.02.19:587][  0]LogFileCache: Scanning file cache for directory 'J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Content/Collections/' took 0.00s
+[2019.11.16-09.02.19:587][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.11.16-09.02.19:596][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2863 classes and 680 folders.
+[2019.11.16-09.02.19:602][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.16-09.02.19:635][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.16-09.02.19:640][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.11.16-09.02.19:728][  0]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.16-09.02.19:733][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.16-09.02.19:736][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.16-09.02.19:815][  0]LogRenderer: Reallocating scene render targets to support 1168x528 Format 10 NumSamples 1 (Frame:1).
+[2019.11.16-09.02.19:955][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.16-09.02.19:955][  0]LogLoad: (Engine Initialization) Total time: 7.43 seconds
+[2019.11.16-09.02.19:956][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.16-09.02.20:012][  0]LogAssetRegistry: Asset discovery search completed in 4.4638 seconds
+[2019.11.16-09.02.20:018][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2019.11.16-09.02.20:018][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
+[2019.11.16-09.02.20:018][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.16-09.02.20:042][  0]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.16-09.02.22:260][230]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.16-09.02.22:429][250]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.16-09.02.22:446][250]LogLevelStreaming: Display: Failed to find streaming level package file: /Game/Proj/Maps/2. This streaming level may not load or save properly.
+[2019.11.16-09.02.22:447][250]LogLevelStreaming: Display: Failed to find streaming level package file: /Game/Proj/Maps/3. This streaming level may not load or save properly.
+[2019.11.16-09.02.22:449][250]LogAIModule: Creating AISystem for world Transit
+[2019.11.16-09.02.22:459][250]LogAssetEditorManager: Opening Asset editor for World /Game/Proj/Maps/Transit.Transit
+[2019.11.16-09.02.22:487][250]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2019.11.16-09.02.22:488][250]Cmd: MAP LOAD FILE="J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Content/Proj/Maps/Transit.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.16-09.02.22:488][250]LightingResults: New page: Lighting Build
+[2019.11.16-09.02.22:489][250]LoadErrors: New page: Loading map: Transit.umap
+[2019.11.16-09.02.22:489][250]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.16-09.02.22:490][250]MapCheck: New page: Map Check
+[2019.11.16-09.02.22:490][250]LightingResults: New page: Lighting Build
+[2019.11.16-09.02.22:516][250]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2019.11.16-09.02.22:517][250]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Proj/Maps/1) is flushing async loading
+[2019.11.16-09.02.22:517][250]LogStreaming: Display: Flushing async loaders.
+[2019.11.16-09.02.22:646][250]LogStreaming: Error: Couldn't find file for package /Game/Proj/Maps/3.
+[2019.11.16-09.02.22:646][250]LogStreaming: Error: Couldn't find file for package /Game/Proj/Maps/2.
+[2019.11.16-09.02.22:756][250]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.16-09.02.22:784][250]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2019.11.16-09.02.22:950][250]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.16-09.02.22:973][250]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 23,17ms to complete.
+[2019.11.16-09.02.22:973][250]LogFileHelpers: Loading map 'Transit' took 0.486
+[2019.11.16-09.02.56:461][944]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2019.11.16-09.02.57:575][ 74]LogAIModule: Creating AISystem for world 1_2
+[2019.11.16-09.03.31:578][832]LogAssetEditorManager: Opening Asset editor for World /Game/Proj/Maps/1.1
+[2019.11.16-09.03.31:605][832]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2019.11.16-09.03.31:606][832]Cmd: MAP LOAD FILE="J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Content/Proj/Maps/1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.16-09.03.31:606][832]LightingResults: New page: Lighting Build
+[2019.11.16-09.03.31:606][832]LoadErrors: New page: Loading map: 1.umap
+[2019.11.16-09.03.31:607][832]LogWorld: UWorld::CleanupWorld for Transit, bSessionEnded=true, bCleanupResources=true
+[2019.11.16-09.03.31:607][832]LogWorld: UWorld::CleanupWorld for 1, bSessionEnded=true, bCleanupResources=true
+[2019.11.16-09.03.31:607][832]MapCheck: New page: Map Check
+[2019.11.16-09.03.31:607][832]LightingResults: New page: Lighting Build
+[2019.11.16-09.03.31:633][832]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2019.11.16-09.03.31:662][832]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2019.11.16-09.03.31:687][832]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.11.16-09.03.31:689][832]LogAIModule: Creating AISystem for world 1
+[2019.11.16-09.03.31:765][832]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.16-09.03.31:794][832]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2019.11.16-09.03.31:807][832]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.16-09.03.31:807][832]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,099ms to complete.
+[2019.11.16-09.03.31:809][832]LogFileHelpers: Loading map '1' took 0.204
+[2019.11.16-09.03.31:842][832]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2019.11.16-09.03.33:261][978]LogAIModule: Creating AISystem for world 1_2
+[2019.11.16-09.03.33:266][978]LogAssetEditorManager: Opening Asset editor for World /Game/Proj/Maps/1_2.1_2
+[2019.11.16-09.03.33:292][978]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2019.11.16-09.03.33:293][978]Cmd: MAP LOAD FILE="J:/Users/Михаил/Documents/GitHub/DTFHacka/Proj/Content/Proj/Maps/1_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.16-09.03.33:293][978]LightingResults: New page: Lighting Build
+[2019.11.16-09.03.33:294][978]LoadErrors: New page: Loading map: 1_2.umap
+[2019.11.16-09.03.33:295][978]LogWorld: UWorld::CleanupWorld for 1, bSessionEnded=true, bCleanupResources=true
+[2019.11.16-09.03.33:295][978]MapCheck: New page: Map Check
+[2019.11.16-09.03.33:295][978]LightingResults: New page: Lighting Build
+[2019.11.16-09.03.33:322][978]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2019.11.16-09.03.33:420][978]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.16-09.03.33:450][978]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2019.11.16-09.03.33:462][978]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.16-09.03.33:462][978]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,103ms to complete.
+[2019.11.16-09.03.33:462][978]LogFileHelpers: Loading map '1_2' took 0.169
+[2019.11.16-09.03.38:197][506]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Carpet_1A)
+[2019.11.16-09.03.38:992][592]Cmd: DELETE
+[2019.11.16-09.03.38:992][592]Cmd: ACTOR DELETE
+[2019.11.16-09.03.39:126][592]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.11.16-09.03.39:154][592]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2019.11.16-09.03.39:155][592]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2019.11.16-09.03.39:954][683]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_4_10)
+[2019.11.16-09.03.44:532][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_4_5)
+[2019.11.16-09.03.47:462][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.16-09.03.51:290][973]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.16-09.03.54:232][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_4_10)
+[2019.11.16-09.03.55:629][461]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.16-09.04.00:573][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.16-09.04.05:994][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_4_5)
+[2019.11.16-09.04.11:736][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_4_5)
+[2019.11.16-09.04.17:038][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Pot_Flower_2)
+[2019.11.16-09.04.19:112][103]Cmd: DELETE
+[2019.11.16-09.04.19:112][103]Cmd: ACTOR DELETE
+[2019.11.16-09.04.19:114][103]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.11.16-09.04.19:139][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2019.11.16-09.04.19:139][103]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.11.16-09.04.24:996][757]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Cube2)
+[2019.11.16-09.04.30:963][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube12)
+[2019.11.16-09.04.31:661][512]Cmd: DELETE
+[2019.11.16-09.04.31:661][512]Cmd: ACTOR DELETE
+[2019.11.16-09.04.31:663][512]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.11.16-09.04.31:686][512]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2019.11.16-09.04.31:686][512]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.11.16-09.04.33:431][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube13)
+[2019.11.16-09.04.33:477][715]Cmd: DELETE
+[2019.11.16-09.04.33:477][715]Cmd: ACTOR DELETE
+[2019.11.16-09.04.33:480][715]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.11.16-09.04.33:503][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.11.16-09.04.33:504][715]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.11.16-09.04.35:136][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2019.11.16-09.04.35:233][913]Cmd: DELETE
+[2019.11.16-09.04.35:233][913]Cmd: ACTOR DELETE
+[2019.11.16-09.04.35:235][913]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.11.16-09.04.35:261][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.11.16-09.04.35:261][913]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.11.16-09.04.35:657][959]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_3_5)
+[2019.11.16-09.04.35:800][969]Cmd: DELETE
+[2019.11.16-09.04.35:800][969]Cmd: ACTOR DELETE
+[2019.11.16-09.04.35:801][969]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.11.16-09.04.35:827][969]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.11.16-09.04.35:827][969]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.11.16-09.04.36:377][ 33]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.11.16-09.04.42:097][690]Cmd: TRANSACTION UNDO
+[2019.11.16-09.04.42:097][690]LogEditorTransaction: Undo Clicking on Actors
