@@ -1,0 +1,5 @@
+Begin Object Class=/Script/Engine.TouchInterface Name="DefaultVirtualJoysticks"
+   Controls(0)=(Image1=Texture2D'"/Engine/MobileResources/HUD/VirtualJoystick_Thumb.VirtualJoystick_Thumb"',Image2=Texture2D'"/Engine/MobileResources/HUD/VirtualJoystick_Background.VirtualJoystick_Background"',Center=(X=135.000000,Y=-135.000000),VisualSize=(X=192.000000,Y=192.000000),ThumbSize=(X=96.000000,Y=96.000000),InteractionSize=(X=256.000000,Y=192.000000),MainInputKey=Gamepad_LeftX,AltInputKey=Gamepad_LeftY)
+   Controls(1)=(Image1=Texture2D'"/Engine/MobileResources/HUD/VirtualJoystick_Thumb.VirtualJoystick_Thumb"',Image2=Texture2D'"/Engine/MobileResources/HUD/VirtualJoystick_Background.VirtualJoystick_Background"',Center=(X=-135.000000,Y=-135.000000),VisualSize=(X=192.000000,Y=192.000000),ThumbSize=(X=96.000000,Y=96.000000),InteractionSize=(X=256.000000,Y=192.000000),MainInputKey=Gamepad_RightX,AltInputKey=Gamepad_RightY)
+   InactiveOpacity=0.200000
+End Object

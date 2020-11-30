@@ -1,0 +1,1 @@
+../../../Proj/Proj.uproject  /Game/TwinStickBP/Maps/TwinStickExampleMap -Messaging -SessionId=8684ED034511FF551A11A1B472446FB5 -SessionOwner="neret" -SessionName="Launch On Device" -iterative

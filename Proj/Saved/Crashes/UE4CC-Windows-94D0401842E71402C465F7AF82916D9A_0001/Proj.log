@@ -1,0 +1,1114 @@
+﻿Log file open, 11/30/20 15:24:38
+LogInit: Display: Running engine for game: Proj
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.350469
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/WTFproject/Proj/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/WTFproject/Proj/Saved/Config/Windows/Engine.ini]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/WTFproject/Proj/Saved/Config/Windows/Engine.ini]
+[2020.11.30-12.24.39:495][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/WTFproject/Proj/Saved/Config/Windows/Engine.ini]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/WTFproject/Proj/Saved/Config/Windows/Engine.ini]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.30-12.24.39:495][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.30-12.24.39:496][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.30-12.24.39:496][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.30-12.24.39:496][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.30-12.24.39:496][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.30-12.24.39:496][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.30-12.24.39:496][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/WTFproject/Proj/Saved/Config/Windows/Engine.ini]
+[2020.11.30-12.24.39:496][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/WTFproject/Proj/Saved/Config/Windows/Engine.ini]
+[2020.11.30-12.24.39:500][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/WTFproject/Proj/Saved/Config/Windows/Scalability.ini]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/WTFproject/Proj/Saved/Config/Windows/Scalability.ini]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/WTFproject/Proj/Saved/Config/Windows/Scalability.ini]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/WTFproject/Proj/Saved/Config/Windows/Scalability.ini]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/WTFproject/Proj/Saved/Config/Windows/Scalability.ini]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.30-12.24.39:500][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/WTFproject/Proj/Saved/Config/Windows/Scalability.ini]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.30-12.24.39:501][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/WTFproject/Proj/Saved/Config/Windows/Scalability.ini]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/WTFproject/Proj/Saved/Config/Windows/Scalability.ini]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.30-12.24.39:502][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.30-12.24.39:504][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.30-12.24.39:504][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.30-12.24.39:504][  0]LogHAL: Display: Platform has ~ 16 GB [17032601600 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.30-12.24.39:504][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.30-12.24.39:504][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/WTFproject/Proj/Saved/Config/Windows/Scalability.ini]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/WTFproject/Proj/Saved/Config/Windows/Scalability.ini]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/WTFproject/Proj/Saved/Config/Windows/Scalability.ini]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/WTFproject/Proj/Saved/Config/Windows/Scalability.ini]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/WTFproject/Proj/Saved/Config/Windows/Scalability.ini]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.30-12.24.39:504][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/WTFproject/Proj/Saved/Config/Windows/Scalability.ini]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/WTFproject/Proj/Saved/Config/Windows/Scalability.ini]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.30-12.24.39:505][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/WTFproject/Proj/Saved/Config/Windows/Scalability.ini]
+[2020.11.30-12.24.39:505][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.30-12.24.39:507][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.30-12.24.39:507][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.30-12.24.39:507][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.30-12.24.39:507][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.30-12.24.39:507][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.30-12.24.39:507][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.30-12.24.39:507][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.30-12.24.39:507][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.30-12.24.39:507][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.30-12.24.39:507][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.30-12.24.39:507][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/WTFproject/Proj/Saved/Config/Windows/Engine.ini]
+[2020.11.30-12.24.39:507][  0]LogInit: Computer: DESKTOP-DOUR8LP
+[2020.11.30-12.24.39:507][  0]LogInit: User: neret
+[2020.11.30-12.24.39:507][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.11.30-12.24.39:507][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.30-12.24.39:507][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.11.30-12.24.39:507][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.30-12.24.39:507][  0]LogMemory: Process Physical Memory: 115.74 MB used, 115.74 MB peak
+[2020.11.30-12.24.39:507][  0]LogMemory: Process Virtual Memory: 111.26 MB used, 111.26 MB peak
+[2020.11.30-12.24.39:507][  0]LogMemory: Physical Memory: 8783.55 MB used,  7460.00 MB free, 16243.55 MB total
+[2020.11.30-12.24.39:507][  0]LogMemory: Virtual Memory: 5179.14 MB used,  134212552.00 MB free, 134217728.00 MB total
+[2020.11.30-12.24.39:519][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.30-12.24.39:587][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.30-12.24.39:589][  0]LogInit: Using OS detected language (ru-RU).
+[2020.11.30-12.24.39:589][  0]LogInit: Using OS detected locale (ru-RU).
+[2020.11.30-12.24.39:594][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2020.11.30-12.24.39:595][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/ru/Editor.locres' could not be opened for reading!
+[2020.11.30-12.24.39:595][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/ru/EditorTutorials.locres' could not be opened for reading!
+[2020.11.30-12.24.39:595][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/ru/Keywords.locres' could not be opened for reading!
+[2020.11.30-12.24.39:595][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/ru/Category.locres' could not be opened for reading!
+[2020.11.30-12.24.39:595][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/ru/ToolTips.locres' could not be opened for reading!
+[2020.11.30-12.24.39:595][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/ru/PropertyNames.locres' could not be opened for reading!
+[2020.11.30-12.24.39:596][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/ru/Engine.locres' could not be opened for reading!
+[2020.11.30-12.24.39:597][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.30-12.24.39:660][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.30-12.24.39:660][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.30-12.24.40:030][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.30-12.24.40:030][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.30-12.24.40:030][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.30-12.24.40:030][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.30-12.24.40:183][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.11.30-12.24.40:183][  0]LogD3D11RHI:       4018/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.11.30-12.24.40:244][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.11.30-12.24.40:244][  0]LogD3D11RHI:       128/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.11.30-12.24.40:248][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.30-12.24.40:248][  0]LogD3D11RHI:       0/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.30-12.24.40:248][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.30-12.24.40:266][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.30-12.24.40:266][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2020.11.30-12.24.40:266][  0]LogWindows: EnumDisplayDevices:
+[2020.11.30-12.24.40:266][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.11.30-12.24.40:267][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.11.30-12.24.40:267][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.11.30-12.24.40:268][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.11.30-12.24.40:269][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2020.11.30-12.24.40:269][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.11.30-12.24.40:269][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2020.11.30-12.24.40:269][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2020.11.30-12.24.40:269][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2020.11.30-12.24.40:376][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.30-12.24.40:382][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.11.30-12.24.40:382][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.30-12.24.40:382][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.30-12.24.40:420][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.11.30-12.24.41:121][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.30-12.24.41:168][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.30-12.24.41:168][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.30-12.24.41:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.30-12.24.41:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.30-12.24.41:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.30-12.24.41:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.30-12.24.41:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.30-12.24.41:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.30-12.24.41:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.30-12.24.41:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.30-12.24.41:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.30-12.24.41:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.30-12.24.41:241][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.30-12.24.41:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.30-12.24.41:285][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.30-12.24.41:307][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.30-12.24.41:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.30-12.24.41:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.30-12.24.41:370][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.30-12.24.41:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.30-12.24.41:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.30-12.24.41:469][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.30-12.24.41:469][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.30-12.24.41:490][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.30-12.24.41:512][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.30-12.24.41:533][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.30-12.24.41:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.30-12.24.41:559][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.30-12.24.41:576][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.30-12.24.41:710][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (../../../../../WTFproject/Proj/Intermediate/Shaders/WorkingDirectory/7980/).
+[2020.11.30-12.24.41:710][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/neret/AppData/Local/Temp/UnrealShaderWorkingDir/59EFDA974826E9CB66BCB1B0059700B4/'.
+[2020.11.30-12.24.41:711][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.30-12.24.41:711][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.30-12.24.41:711][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.30-12.24.43:404][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.30-12.24.43:513][  0]LogDerivedDataCache: Loaded boot cache 0.11s 75MB C:/Users/neret/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.30-12.24.43:513][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/neret/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.30-12.24.43:513][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../WTFproject/Proj/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.30-12.24.43:513][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.30-12.24.43:513][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../WTFproject/Proj/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.30-12.24.43:513][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.30-12.24.43:536][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.30-12.24.43:536][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.30-12.24.43:536][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.30-12.24.43:539][  0]LogDerivedDataCache: Using Local data cache path C:/Users/neret/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.30-12.24.43:539][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.30-12.24.43:539][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.30-12.24.43:661][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.30-12.24.43:662][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.30-12.24.43:724][  0]LogAssetRegistry: FAssetRegistry took 0.0139 seconds to start up
+[2020.11.30-12.24.44:263][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.30-12.24.44:507][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.30-12.24.44:507][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.30-12.24.44:507][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.30-12.24.44:507][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.30-12.24.44:507][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.30-12.24.44:535][  0]LogNetVersion: Proj 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 445348130)
+[2020.11.30-12.24.45:407][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001D5DDCAE6C0), frame # 0
+[2020.11.30-12.24.45:407][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D5DDC33B00), frame # 0
+[2020.11.30-12.24.45:410][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D5DDCD8400), frame # 0
+[2020.11.30-12.24.45:502][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.081941 seconds
+[2020.11.30-12.24.45:511][  0]LogUObjectArray: 15913 objects as part of root set at end of initial load.
+[2020.11.30-12.24.45:511][  0]LogUObjectAllocator: 3964304 out of 0 bytes used by permanent object pool.
+[2020.11.30-12.24.45:511][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.30-12.24.46:239][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.30-12.24.46:249][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.30-12.24.46:443][  0]SourceControl: Source control is disabled
+[2020.11.30-12.24.46:443][  0]SourceControl: Source control is disabled
+[2020.11.30-12.24.46:451][  0]SourceControl: Source control is disabled
+[2020.11.30-12.24.46:459][  0]SourceControl: Source control is disabled
+[2020.11.30-12.24.46:479][  0]SourceControl: Source control is disabled
+[2020.11.30-12.24.46:979][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.30-12.24.47:025][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.30-12.24.47:025][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.30-12.24.47:128][  0]LogOcInput: OculusInput pre-init called
+[2020.11.30-12.24.47:148][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.30-12.24.47:148][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.30-12.24.47:268][  0]LogEngine: Initializing Engine...
+[2020.11.30-12.24.47:270][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.30-12.24.47:270][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.30-12.24.47:272][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.11.30-12.24.47:493][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.30-12.24.47:508][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.30-12.24.47:508][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D5E0899C00), frame # 0
+[2020.11.30-12.24.47:508][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D5E081BB00), frame # 0
+[2020.11.30-12.24.47:545][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.30-12.24.47:545][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.30-12.24.47:545][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.30-12.24.47:545][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.30-12.24.47:545][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.30-12.24.47:545][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.30-12.24.47:545][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.30-12.24.47:545][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.30-12.24.47:546][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.30-12.24.47:546][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.30-12.24.47:581][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.30-12.24.47:581][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.30-12.24.47:656][  0]LogAudioMixer: Display: Using Audio Device Динамики (Komplete Audio 2)
+[2020.11.30-12.24.47:661][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.30-12.24.47:664][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.30-12.24.47:664][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.30-12.24.47:666][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.30-12.24.47:668][  0]LogInit: FAudioDevice initialized.
+[2020.11.30-12.24.47:668][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.30-12.24.47:790][  0]LogDerivedDataCache: Saved boot cache 0.12s 75MB C:/Users/neret/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.30-12.24.47:799][  0]LogInit: Texture streaming: Enabled
+[2020.11.30-12.24.47:834][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.30-12.24.47:834][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={29AE572E-4E76-E4F5-4DAB-F4BCE052D86E}
+[2020.11.30-12.24.47:834][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.30-12.24.47:838][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.30-12.24.48:679][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/WTFproject/Proj/Saved/Config/Android/Scalability.ini]
+[2020.11.30-12.24.48:679][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.30-12.24.48:679][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.30-12.24.48:679][  0]LogConfig: Setting CVar [[r.NeverOcclusionTestDistance:2000]]
+[2020.11.30-12.24.48:679][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/WTFproject/Proj/Saved/Config/Android/Scalability.ini]
+[2020.11.30-12.24.48:679][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.30-12.24.48:679][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/WTFproject/Proj/Saved/Config/Android/Scalability.ini]
+[2020.11.30-12.24.48:679][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.30-12.24.48:679][  0]LogConfig: Setting CVar [[r.ShadowQuality:2]]
+[2020.11.30-12.24.48:679][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:2]]
+[2020.11.30-12.24.48:679][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.30-12.24.48:679][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.30-12.24.48:679][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2020.11.30-12.24.48:679][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.30-12.24.48:679][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/WTFproject/Proj/Saved/Config/Android/Scalability.ini]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:3]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.30-12.24.48:680][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.RefractionQuality:1]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[Slate.ForceBackgroundBlurLowQualityOverride:1]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/WTFproject/Proj/Saved/Config/Android/Scalability.ini]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/WTFproject/Proj/Saved/Config/Android/Scalability.ini]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.30-12.24.48:681][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:4]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:1.0]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:8.0]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:1]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.Width:96]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.Height:50]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/WTFproject/Proj/Saved/Config/Android/Scalability.ini]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[grass.CullDistanceScale:1.0]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/WTFproject/Proj/Saved/Config/Android/Scalability.ini]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.30-12.24.48:682][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.30-12.24.48:683][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.30-12.24.48:683][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.30-12.24.48:683][  0]LogInit: Transaction tracking system initialized
+[2020.11.30-12.24.48:724][  0]BlueprintLog: New page: Editor Load
+[2020.11.30-12.24.48:874][  0]LocalizationService: Localization service is disabled
+[2020.11.30-12.24.49:231][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.30-12.24.49:232][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.30-12.24.49:332][  0]LogFileCache: Scanning file cache for directory 'D:/WTFproject/Proj/Content/' took 0.03s
+[2020.11.30-12.24.49:908][  0]SourceControl: Source control is disabled
+[2020.11.30-12.24.49:908][  0]LogUnrealEdMisc: Loading editor; pre map load, took 13.704
+[2020.11.30-12.24.49:909][  0]Cmd: MAP LOAD FILE="../../../../../WTFproject/Proj/Content/Proj/Maps/Transit.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=1
+[2020.11.30-12.24.49:909][  0]LightingResults: New page: Lighting Build
+[2020.11.30-12.24.49:910][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.30-12.24.49:911][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.30-12.24.49:911][  0]MapCheck: New page: Map Check
+[2020.11.30-12.24.49:911][  0]LightingResults: New page: Lighting Build
+[2020.11.30-12.24.49:936][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D5E0899C00), frame # 0
+[2020.11.30-12.24.49:936][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D5E081BB00), frame # 0
+[2020.11.30-12.24.49:938][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.11.30-12.24.50:870][  0]LogAIModule: Creating AISystem for world Transit
+[2020.11.30-12.24.50:870][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D5D235BE00), frame # 0
+[2020.11.30-12.24.50:871][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D5D15107C0), frame # 0
+[2020.11.30-12.24.50:872][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Proj/Maps/1floor) is flushing async loading
+[2020.11.30-12.24.50:872][  0]LogStreaming: Display: Flushing async loaders.
+[2020.11.30-12.24.51:694][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Proj/Maps/2floor) is flushing async loading
+[2020.11.30-12.24.51:789][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Proj/Maps/boss) is flushing async loading
+[2020.11.30-12.24.51:844][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Proj/Maps/3Floor) is flushing async loading
+[2020.11.30-12.24.51:937][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Proj/Maps/4Floor) is flushing async loading
+[2020.11.30-12.24.52:023][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.30-12.24.52:072][  0]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2020.11.30-12.24.52:107][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.11.30-12.24.52:107][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.30-12.24.52:108][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,513ms to complete.
+[2020.11.30-12.24.52:108][  0]LogFileHelpers: Loading map 'Transit' took 2.199
+[2020.11.30-12.24.52:111][  0]LogUnrealEdMisc: Total Editor Startup Time, took 15.906
+[2020.11.30-12.24.52:319][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.30-12.24.52:336][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.30-12.24.52:353][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.30-12.24.52:368][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.30-12.24.52:381][  0]LogCollectionManager: Loaded 0 collections in 0.001682 seconds
+[2020.11.30-12.24.52:407][  0]LogFileCache: Scanning file cache for directory 'D:/WTFproject/Proj/Saved/Collections/' took 0.00s
+[2020.11.30-12.24.52:408][  0]LogFileCache: Scanning file cache for directory 'D:/WTFproject/Proj/Content/Developers/neret/Collections/' took 0.00s
+[2020.11.30-12.24.52:408][  0]LogFileCache: Scanning file cache for directory 'D:/WTFproject/Proj/Content/Collections/' took 0.00s
+[2020.11.30-12.24.52:408][  0]LogContentBrowser: Native class hierarchy populated in 0.0198 seconds. Added 3434 classes and 823 folders.
+[2020.11.30-12.24.52:414][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.30-12.24.52:495][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.11.30-12.24.52:496][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.11.30-12.24.52:967][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.30-12.24.52:976][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.30-12.24.52:980][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.30-12.24.52:992][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.11.30-12.24.53:211][  0]LogRenderer: Reallocating scene render targets to support 972x444 Format 10 NumSamples 1 (Frame:1).
+[2020.11.30-12.24.53:462][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.11.30-12.24.53:462][  0]LogLoad: (Engine Initialization) Total time: 17.26 seconds
+[2020.11.30-12.24.53:462][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.30-12.24.53:581][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.30-12.24.53:652][  0]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.30-12.24.53:735][  1]LogAssetRegistry: Asset discovery search completed in 10.0195 seconds
+[2020.11.30-12.24.53:743][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2020.11.30-12.24.55:022][  5]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.30-12.25.00:406][ 22]LogTcpMessaging: Started Connection to '127.0.0.1:6666'
+[2020.11.30-12.29.24:242][936]LogSlate: Window 'Output Log' being destroyed
+[2020.11.30-12.29.26:351][ 38]LogSlate: Window 'Device Manager' being destroyed
+[2020.11.30-12.29.34:356][491]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Proj/Core/BP_Hero.BP_Hero
+[2020.11.30-12.29.34:775][491]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 125 classes and 0 folders.
+[2020.11.30-12.29.36:634][491]LogWorld: Changing Feature Level (Enum) from 3 to 1
+[2020.11.30-12.29.36:924][491]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.11.30-12.29.37:479][492]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.11.30-12.30.41:987][181]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2020.11.30-12.30.41:993][181]LogPlayLevel: Launcher Device ID: Android_ASTC@BU95SO9DDQJ769EU
+[2020.11.30-12.30.42:009][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.30-12.30.42:009][181]LogCook: Display: Creating asset registry
+[2020.11.30-12.30.42:132][181]LogCook: Display: Discovering localized assets for cultures: en
+[2020.11.30-12.30.42:197][181]LogCook: Display: Clearing all cooked content for platform Android_ASTC
+[2020.11.30-12.30.42:460][181]LogCook: Display: Sandbox cleanup took 0.322 seconds for platforms Android_ASTC 
+[2020.11.30-12.30.45:525][181]Launching UnrealBuildTool... [D:/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe -Mode=QueryTargets -Output="D:/Epic Games/UE_4.25/Engine/Intermediate/TargetInfo.json"]
+[2020.11.30-12.30.46:841][181]LogLauncherProfile: Project does not require temp target
+[2020.11.30-12.30.46:845][181]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Android/UE4Game.target
+[2020.11.30-12.30.46:846][181]LogLauncherProfile: Project does not require temp target
+[2020.11.30-12.30.46:849][181]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Android/UE4Game.target
+[2020.11.30-12.30.46:949][182]LogCook: Display: Cooked packages 0 Packages Remain 669 Total 669
+[2020.11.30-12.30.47:050][182]LogCook: Display: Loading secondary levels for package 'Transit'
+[2020.11.30-12.30.47:999][184]LogCook: Display: Cooked packages 0 Packages Remain 670 Total 670
+[2020.11.30-12.30.48:124][185]LogCook: Display: Cooked packages 0 Packages Remain 672 Total 672
+[2020.11.30-12.30.48:545][188]LogContentBrowser: Native class hierarchy updated for 'BlueprintNativeCodeGen' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.30-12.30.49:590][189]LogCook: Display: Cooked packages 11 Packages Remain 671 Total 682
+[2020.11.30-12.30.49:743][190]LogCook: Display: Cooked packages 16 Packages Remain 670 Total 686
+[2020.11.30-12.30.49:861][191]LogCook: Display: Cooked packages 58 Packages Remain 669 Total 727
+[2020.11.30-12.30.50:081][192]LogCook: Display: Cooked packages 59 Packages Remain 668 Total 727
+[2020.11.30-12.30.50:258][193]LogCook: Display: Cooked packages 74 Packages Remain 667 Total 741
+[2020.11.30-12.30.50:380][194]LogCook: Display: Cooked packages 94 Packages Remain 666 Total 760
+[2020.11.30-12.30.50:505][195]LogCook: Display: Cooked packages 107 Packages Remain 665 Total 772
+[2020.11.30-12.30.50:639][196]LogCook: Display: Cooked packages 118 Packages Remain 664 Total 782
+[2020.11.30-12.30.50:765][197]LogCook: Display: Cooked packages 146 Packages Remain 663 Total 809
+[2020.11.30-12.30.50:887][198]LogCook: Display: Cooked packages 156 Packages Remain 662 Total 818
+[2020.11.30-12.30.51:009][199]LogCook: Display: Cooked packages 176 Packages Remain 661 Total 837
+[2020.11.30-12.30.51:133][200]LogCook: Display: Cooked packages 202 Packages Remain 660 Total 862
+[2020.11.30-12.30.51:310][201]LogCook: Display: Cooked packages 214 Packages Remain 659 Total 873
+[2020.11.30-12.30.51:614][202]LogCook: Display: Cooked packages 229 Packages Remain 658 Total 887
+[2020.11.30-12.30.51:924][203]LogCook: Display: Cooked packages 232 Packages Remain 657 Total 889
+[2020.11.30-12.30.52:163][204]LogCook: Display: Cooked packages 235 Packages Remain 656 Total 891
+[2020.11.30-12.30.52:304][205]LogCook: Display: Cooked packages 238 Packages Remain 655 Total 893
+[2020.11.30-12.30.52:477][206]LogCook: Display: Cooked packages 256 Packages Remain 654 Total 910
+[2020.11.30-12.30.52:607][207]LogCook: Display: Cooked packages 262 Packages Remain 653 Total 915
+[2020.11.30-12.30.52:734][208]LogCook: Display: Cooked packages 291 Packages Remain 652 Total 943
+[2020.11.30-12.30.52:865][209]LogCook: Display: Cooked packages 321 Packages Remain 651 Total 972
+[2020.11.30-12.30.53:113][209]LogUObjectHash: Compacting FUObjectHashTables data took   8.15ms
+[2020.11.30-12.30.53:291][210]LogCook: Display: Cooked packages 335 Packages Remain 650 Total 985
+[2020.11.30-12.30.53:366][210]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2020.11.30-12.30.53:583][211]LogCook: Display: Cooked packages 336 Packages Remain 649 Total 985
+[2020.11.30-12.30.53:701][212]LogCook: Display: Cooked packages 362 Packages Remain 649 Total 1011
+[2020.11.30-12.30.53:841][213]LogCook: Display: Cooked packages 385 Packages Remain 648 Total 1033
+[2020.11.30-12.30.53:964][214]LogCook: Display: Cooked packages 394 Packages Remain 647 Total 1041
+[2020.11.30-12.30.54:117][215]LogCook: Display: Cooked packages 417 Packages Remain 645 Total 1062
+[2020.11.30-12.30.54:254][216]LogCook: Display: Cooked packages 435 Packages Remain 644 Total 1079
+[2020.11.30-12.30.54:386][217]LogCook: Display: Cooked packages 441 Packages Remain 643 Total 1084
+[2020.11.30-12.30.54:482][217]LogUObjectHash: Compacting FUObjectHashTables data took   5.77ms
+[2020.11.30-12.30.54:686][218]LogCook: Display: Cooked packages 450 Packages Remain 641 Total 1091
+[2020.11.30-12.30.54:828][219]LogCook: Display: Cooked packages 463 Packages Remain 640 Total 1103
+[2020.11.30-12.30.54:966][220]LogCook: Display: Cooked packages 474 Packages Remain 639 Total 1113
+[2020.11.30-12.30.55:108][221]LogCook: Display: Cooked packages 480 Packages Remain 638 Total 1118
+[2020.11.30-12.30.55:228][222]LogCook: Display: Cooked packages 491 Packages Remain 637 Total 1128
+[2020.11.30-12.30.55:350][223]LogCook: Display: Cooked packages 513 Packages Remain 636 Total 1149
+[2020.11.30-12.30.55:468][224]LogCook: Display: Cooked packages 538 Packages Remain 635 Total 1173
+[2020.11.30-12.30.55:597][225]LogCook: Display: Cooked packages 564 Packages Remain 634 Total 1198
+[2020.11.30-12.30.55:723][226]LogCook: Display: Cooked packages 589 Packages Remain 633 Total 1222
+[2020.11.30-12.30.55:931][226]LogUObjectHash: Compacting FUObjectHashTables data took   6.85ms
+[2020.11.30-12.30.56:176][227]LogCook: Display: Cooked packages 601 Packages Remain 632 Total 1233
+[2020.11.30-12.30.56:240][227]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2020.11.30-12.30.56:300][228]LogCook: Display: Cooked packages 607 Packages Remain 631 Total 1238
+[2020.11.30-12.30.56:367][228]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2020.11.30-12.30.56:556][229]LogCook: Display: Cooked packages 614 Packages Remain 630 Total 1244
+[2020.11.30-12.30.56:665][229]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2020.11.30-12.30.56:697][230]LogCook: Display: Cooked packages 652 Packages Remain 27 Total 679
+[2020.11.30-12.30.56:749][230]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.11.30-12.30.56:765][230]LogCook: Display: Cooked packages 658 Packages Remain 26 Total 684
+[2020.11.30-12.30.56:773][230]LogCook: Display: Cooked packages 659 Packages Remain 25 Total 684
+[2020.11.30-12.30.56:782][230]LogCook: Display: Cooked packages 660 Packages Remain 24 Total 684
+[2020.11.30-12.30.56:790][230]LogCook: Display: Cooked packages 661 Packages Remain 23 Total 684
+[2020.11.30-12.30.56:815][231]LogCook: Display: Cooked packages 662 Packages Remain 22 Total 684
+[2020.11.30-12.30.56:823][231]LogCook: Display: Cooked packages 663 Packages Remain 21 Total 684
+[2020.11.30-12.30.56:833][231]LogCook: Display: Cooked packages 664 Packages Remain 20 Total 684
+[2020.11.30-12.30.56:840][231]LogCook: Display: Cooked packages 665 Packages Remain 19 Total 684
+[2020.11.30-12.30.56:851][231]LogCook: Display: Cooked packages 666 Packages Remain 18 Total 684
+[2020.11.30-12.30.56:858][231]LogCook: Display: Cooked packages 667 Packages Remain 17 Total 684
+[2020.11.30-12.30.56:865][231]LogCook: Display: Cooked packages 668 Packages Remain 16 Total 684
+[2020.11.30-12.30.56:874][231]LogCook: Display: Cooked packages 669 Packages Remain 15 Total 684
+[2020.11.30-12.30.56:881][231]LogCook: Display: Cooked packages 670 Packages Remain 14 Total 684
+[2020.11.30-12.30.56:887][231]LogCook: Display: Cooked packages 671 Packages Remain 13 Total 684
+[2020.11.30-12.30.56:895][231]LogCook: Display: Cooked packages 672 Packages Remain 12 Total 684
+[2020.11.30-12.30.56:903][231]LogCook: Display: Cooked packages 673 Packages Remain 0 Total 673
+[2020.11.30-12.30.56:903][231]LogCook: Display: Finishing up...
+[2020.11.30-12.30.56:996][231]LogCook: Display: Saving BulkData manifest(s)...
+[2020.11.30-12.30.57:005][231]LogCook: Display: Done saving BulkData manifest(s)
+[2020.11.30-12.30.57:006][231]LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+[2020.11.30-12.30.57:006][231]LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+[2020.11.30-12.30.57:006][231]LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+[2020.11.30-12.30.57:172][231]LogShaderLibrary: Display: 
+[2020.11.30-12.30.57:172][231]LogShaderLibrary: Display: Shader Code Stats: GLSL_ES3_1_ANDROID
+[2020.11.30-12.30.57:172][231]LogShaderLibrary: Display: =================
+[2020.11.30-12.30.57:172][231]LogShaderLibrary: Display: Unique Shaders: 2896, Total Shaders: 19115
+[2020.11.30-12.30.57:172][231]LogShaderLibrary: Display: Unique Shaders Size: 9.53mb, Total Shader Size: 9.53mb
+[2020.11.30-12.30.57:172][231]LogShaderLibrary: Display: =================
+[2020.11.30-12.30.57:301][231]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.11.30-12.30.57:305][231]LogAssetRegistryGenerator: Chunk: 0, Started with 669 packages, Final after dependency resolve: 669
+[2020.11.30-12.30.57:310][231]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.009 s
+[2020.11.30-12.30.57:310][231]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.11.30-12.30.57:365][231]LogAssetRegistryGenerator: Display: Generated asset registry num assets 669, size is 271.85kb
+[2020.11.30-12.30.57:366][231]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.11.30-12.30.57:380][231]LogCook: Display: Cook by the book total time in tick 7.418341s total time 15.370009
+[2020.11.30-12.30.57:380][231]LogCook: Display: Peak Used virtual 2065MB Peak Used physical 1569MB
+[2020.11.30-12.30.57:380][231]LogCook: Display: Hierarchy Timer Information:
+[2020.11.30-12.30.57:380][231]LogCook: Display:   Root: 0.000s (0)
+[2020.11.30-12.30.57:380][231]LogCook: Display:     StartCookByTheBookTime: 3.515s (1)
+[2020.11.30-12.30.57:380][231]LogCook: Display:       CleanSandbox: 0.322s (1)
+[2020.11.30-12.30.57:380][231]LogCook: Display:         ProcessingAccessedStrings: 0.010s (1)
+[2020.11.30-12.30.57:380][231]LogCook: Display:       CollectFilesToCook: 0.025s (1)
+[2020.11.30-12.30.57:380][231]LogCook: Display:         CookModificationDelegate: 0.000s (1)
+[2020.11.30-12.30.57:380][231]LogCook: Display:         SearchForPackageOnDisk: 0.000s (1)
+[2020.11.30-12.30.57:380][231]LogCook: Display:         GeneratePackageNames: 0.019s (1)
+[2020.11.30-12.30.57:380][231]LogCook: Display:       GenerateLongPackageName: 0.002s (1)
+[2020.11.30-12.30.57:380][231]LogCook: Display:     TickCookOnTheSide: 7.411s (64)
+[2020.11.30-12.30.57:380][231]LogCook: Display:       LoadPackage: 0.086s (20)
+[2020.11.30-12.30.57:380][231]LogCook: Display:       CallBeginCacheForCookedPlatformData: 0.010s (64)
+[2020.11.30-12.30.57:380][231]LogCook: Display:       PostLoadPackageFixup: 0.001s (64)
+[2020.11.30-12.30.57:380][231]LogCook: Display:       SavingPackages: 5.872s (64)
+[2020.11.30-12.30.57:380][231]LogCook: Display:         EnqueueUnsavedPackages: 0.008s (48)
+[2020.11.30-12.30.57:380][231]LogCook: Display:         PrecachePlatformDataForNextPackage: 0.001s (657)
+[2020.11.30-12.30.57:380][231]LogCook: Display:         PrecachePlatformDataForNextNextPackage: 0.110s (656)
+[2020.11.30-12.30.57:380][231]LogCook: Display:         SaveCookedPackage: 5.721s (673)
+[2020.11.30-12.30.57:380][231]LogCook: Display:           LoadPackage: 0.002s (673)
+[2020.11.30-12.30.57:380][231]LogCook: Display:           GEditorSavePackage: 5.689s (673)
+[2020.11.30-12.30.57:381][231]LogCook: Display:             ConvertingBlueprints: 0.009s (673)
+[2020.11.30-12.30.57:381][231]LogCook: Display:             VerifyCanCookPackage: 0.004s (669)
+[2020.11.30-12.30.57:381][231]LogCook: Display:     FinalizePackageStore: 0.009s (1)
+[2020.11.30-12.30.57:381][231]LogCook: Display:     GeneratingBlueprintAssets: 0.001s (1)
+[2020.11.30-12.30.57:381][231]LogCook: Display:     SavingCurrentIniSettings: 0.094s (1)
+[2020.11.30-12.30.57:381][231]LogCook: Display:       ProcessingAccessedStrings: 0.009s (1)
+[2020.11.30-12.30.57:381][231]LogCook: Display:     SavingAssetRegistry: 0.113s (1)
+[2020.11.30-12.30.57:381][231]LogCook: Display:       BuildChunkManifest: 0.034s (1)
+[2020.11.30-12.30.57:381][231]LogCook: Display:       SaveManifests: 0.009s (1)
+[2020.11.30-12.30.57:381][231]LogCook: Display:       SaveRealAssetRegistry: 0.056s (1)
+[2020.11.30-12.30.57:381][231]LogCook: Display:       WriteCookerOpenOrder: 0.014s (1)
+[2020.11.30-12.30.57:381][231]LogCook: Display: Done!
+[2020.11.30-12.30.58:170][231]LogPlayLevel: Completed Launch On Stage: Cooking in the editor, Time: 9.563838
+[2020.11.30-12.30.58:218][233]LogPlayLevel: Running AutomationTool...
+[2020.11.30-12.30.59:388][287]LogPlayLevel: Parsing command line: -ScriptsForProject=D:/WTFproject/Proj/Proj.uproject BuildCookRun -project=D:/WTFproject/Proj/Proj.uproject -noP4 -clientconfig=Development -serverconfig=Development -nocompile -nocompileeditor -installed -ue4exe="D:\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -utf8output -platform=Android -targetplatform=Android -cookflavor=ASTC -ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled -build -map=/Game/Proj/Maps/Transit -skipcook -CookInEditor -iterativecooking -compressed -iterativedeploy -stage -deploy -cmdline="/Game/Proj/Maps/Transit -Messaging" -device=Android_ASTC@BU95SO9DDQJ769EU -addcmdline="-SessionId=F41412224E9434113CF1779B256BB40B -SessionOwner='neret' -SessionName='Launch On Device'  " -run
+[2020.11.30-12.30.59:950][314]LogPlayLevel: Setting up ProjectParams for D:\WTFproject\Proj\Proj.uproject
+[2020.11.30-12.31.00:067][319]LogPlayLevel: ********** STAGE COMMAND STARTED **********
+[2020.11.30-12.31.00:105][321]LogPlayLevel: Creating UE4CommandLine.txt
+[2020.11.30-12.31.00:145][323]LogPlayLevel: Creating Staging Manifest...
+[2020.11.30-12.31.00:145][323]LogPlayLevel: Excluding config file D:\Epic Games\UE_4.25\Engine\Config\BaseEditor.ini
+[2020.11.30-12.31.00:145][323]LogPlayLevel: Excluding config file D:\Epic Games\UE_4.25\Engine\Config\BaseEditorKeyBindings.ini
+[2020.11.30-12.31.00:145][323]LogPlayLevel: Excluding config file D:\Epic Games\UE_4.25\Engine\Config\BaseEditorPerProjectUserSettings.ini
+[2020.11.30-12.31.00:145][323]LogPlayLevel: Excluding config file D:\Epic Games\UE_4.25\Engine\Config\BaseEditorSettings.ini
+[2020.11.30-12.31.00:145][323]LogPlayLevel: Excluding config file D:\Epic Games\UE_4.25\Engine\Config\BaseLightmass.ini
+[2020.11.30-12.31.00:145][323]LogPlayLevel: Excluding config file D:\Epic Games\UE_4.25\Engine\Config\BasePakFileRules.ini
+[2020.11.30-12.31.00:145][323]LogPlayLevel: Excluding config file D:\Epic Games\UE_4.25\Engine\Config\Localization\Category.ini
+[2020.11.30-12.31.00:145][323]LogPlayLevel: Excluding config file D:\Epic Games\UE_4.25\Engine\Config\Localization\Editor.ini
+[2020.11.30-12.31.00:145][323]LogPlayLevel: Excluding config file D:\Epic Games\UE_4.25\Engine\Config\Localization\EditorTutorials.ini
+[2020.11.30-12.31.00:145][323]LogPlayLevel: Excluding config file D:\Epic Games\UE_4.25\Engine\Config\Localization\Engine.ini
+[2020.11.30-12.31.00:168][324]LogPlayLevel: Excluding config file D:\Epic Games\UE_4.25\Engine\Config\Localization\Keywords.ini
+[2020.11.30-12.31.00:168][324]LogPlayLevel: Excluding config file D:\Epic Games\UE_4.25\Engine\Config\Localization\PortableObjectExport.ini
+[2020.11.30-12.31.00:168][324]LogPlayLevel: Excluding config file D:\Epic Games\UE_4.25\Engine\Config\Localization\PortableObjectImport.ini
+[2020.11.30-12.31.00:168][324]LogPlayLevel: Excluding config file D:\Epic Games\UE_4.25\Engine\Config\Localization\PropertyNames.ini
+[2020.11.30-12.31.00:168][324]LogPlayLevel: Excluding config file D:\Epic Games\UE_4.25\Engine\Config\Localization\RepairData.ini
+[2020.11.30-12.31.00:168][324]LogPlayLevel: Excluding config file D:\Epic Games\UE_4.25\Engine\Config\Localization\ToolTips.ini
+[2020.11.30-12.31.00:168][324]LogPlayLevel: Excluding config file D:\Epic Games\UE_4.25\Engine\Config\Localization\WordCount.ini
+[2020.11.30-12.31.00:168][324]LogPlayLevel: Excluding config file D:\WTFproject\Proj\Config\DefaultEditor.ini
+[2020.11.30-12.31.00:334][332]LogPlayLevel: Excluding config file D:\WTFproject\Proj\Config\DefaultEditorPerProjectUserSettings.ini
+[2020.11.30-12.31.02:954][465]LogPlayLevel: Cleaning Stage Directory: D:\WTFproject\Proj\Saved\StagedBuilds\Android_ASTC
+[2020.11.30-12.31.02:999][467]LogPlayLevel: Copying NonUFSFiles to staging directory: D:\WTFproject\Proj\Saved\StagedBuilds\Android_ASTC
+[2020.11.30-12.31.14:387][ 34]LogPlayLevel: Copying UFSFiles to staging directory: D:\WTFproject\Proj\Saved\StagedBuilds\Android_ASTC
+[2020.11.30-12.31.14:428][ 36]LogPlayLevel: Copying DebugFiles to staging directory: D:\WTFproject\Proj\Saved\StagedBuilds\Android_ASTC
+[2020.11.30-12.31.14:591][ 44]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU shell "echo $EXTERNAL_STORAGE"
+[2020.11.30-12.31.14:591][ 44]LogPlayLevel: Took 0,1538324s to run adb.exe, ExitCode=0
+[2020.11.30-12.31.14:796][ 53]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU  pull /sdcard/UE4Game/Proj/Manifest_UFSFiles_Android.txt "D:\WTFproject\Proj\Saved\StagedBuilds\Android_ASTC\Manifest_UFSFiles_Android_BU95SO9DDQJ769EU.txt"
+[2020.11.30-12.31.14:796][ 53]LogPlayLevel: Took 0,201916s to run adb.exe, ExitCode=0
+[2020.11.30-12.31.14:887][ 57]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU  pull /sdcard/UE4Game/Proj/Manifest_NonUFSFiles_Android.txt "D:\WTFproject\Proj\Saved\StagedBuilds\Android_ASTC\Manifest_NonUFSFiles_Android_BU95SO9DDQJ769EU.txt"
+[2020.11.30-12.31.15:087][ 65]LogPlayLevel: Took 0,0977409s to run adb.exe, ExitCode=0
+[2020.11.30-12.31.15:110][ 66]LogPlayLevel: ********** STAGE COMMAND COMPLETED **********
+[2020.11.30-12.31.15:110][ 66]LogPlayLevel: ********** PACKAGE COMMAND STARTED **********
+[2020.11.30-12.31.15:110][ 66]LogPlayLevel: ********** PACKAGE COMMAND COMPLETED **********
+[2020.11.30-12.31.15:180][ 69]LogPlayLevel: ********** DEPLOY COMMAND STARTED **********
+[2020.11.30-12.31.15:320][ 75]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU  shell getprop ro.product.cpu.abi
+[2020.11.30-12.31.15:321][ 75]LogPlayLevel: Took 0,1336414s to run adb.exe, ExitCode=0
+[2020.11.30-12.31.15:321][ 75]LogPlayLevel: AndroidPlugin: Plugins\Online\Android\OnlineSubsystemGooglePlay\Source\OnlineSubsystemGooglePlay_UPL.xml
+[2020.11.30-12.31.15:321][ 75]LogPlayLevel: AndroidPlugin: Plugins\Runtime\AndroidPermission\Source\AndroidPermission\AndroidPermission_APL.xml
+[2020.11.30-12.31.15:321][ 75]LogPlayLevel: AndroidPlugin: Plugins\Runtime\GoogleCloudMessaging\Source\GoogleCloudMessaging\GoogleCloudMessaging_UPL.xml
+[2020.11.30-12.31.15:321][ 75]LogPlayLevel: AndroidPlugin: Plugins\Runtime\GooglePAD\Source\GooglePAD\GooglePAD_APL.xml
+[2020.11.30-12.31.15:321][ 75]LogPlayLevel: AndroidPlugin: Plugins\Runtime\Oculus\OculusVR\Source\OculusHMD\OculusMobile_APL.xml
+[2020.11.30-12.31.15:321][ 75]LogPlayLevel: AndroidPlugin: Source\Runtime\Online\Voice\AndroidVoiceImpl_UPL.xml
+[2020.11.30-12.31.15:321][ 75]LogPlayLevel: AndroidPlugin: Source\Runtime\Advertising\Android\AndroidAdvertising\AndroidAdvertising_APL.xml
+[2020.11.30-12.31.15:350][ 76]LogPlayLevel: AndroidPlugin: Source\ThirdParty\GoogleGameSDK\GoogleGameSDK_APL.xml
+[2020.11.30-12.31.15:351][ 76]LogPlayLevel: UPL: Engine\Plugins/Online/Android/OnlineSubsystemGooglePlay/Source/OnlineSubsystemGooglePlay_UPL.xml
+[2020.11.30-12.31.15:351][ 76]LogPlayLevel: UPL: Engine\Plugins/Runtime/AndroidPermission/Source/AndroidPermission/AndroidPermission_APL.xml
+[2020.11.30-12.31.15:351][ 76]LogPlayLevel: UPL: Engine\Plugins/Runtime/GoogleCloudMessaging/Source/GoogleCloudMessaging/GoogleCloudMessaging_UPL.xml
+[2020.11.30-12.31.15:351][ 76]LogPlayLevel: UPL: Engine\Plugins/Runtime/GooglePAD/Source/GooglePAD/GooglePAD_APL.xml
+[2020.11.30-12.31.15:351][ 76]LogPlayLevel: UPL: Engine\Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/OculusMobile_APL.xml
+[2020.11.30-12.31.15:351][ 76]LogPlayLevel: UPL: Engine\Source/Runtime/Online/Voice/AndroidVoiceImpl_UPL.xml
+[2020.11.30-12.31.15:351][ 76]LogPlayLevel: UPL: Engine\Source/Runtime/Advertising/Android/AndroidAdvertising/AndroidAdvertising_APL.xml
+[2020.11.30-12.31.15:351][ 76]LogPlayLevel: UPL: Engine\Source/ThirdParty/GoogleGameSDK/GoogleGameSDK_APL.xml
+[2020.11.30-12.31.15:371][ 77]LogPlayLevel: Using package name: 'com.YourCompany.Proj'
+[2020.11.30-12.31.15:371][ 77]LogPlayLevel: GotStoreVersion found v1. (bUseChangeListAsStoreVersion=False IsBuildMachine=False EngineChangeList=0)
+[2020.11.30-12.31.15:472][ 82]LogPlayLevel: Writing packageInfo pkgName:com.YourCompany.Proj storeVersion:1 versionDisplayName:1.0 to D:\WTFproject\Proj\Binaries\Android\packageInfo.txt
+[2020.11.30-12.31.15:472][ 82]LogPlayLevel: 
+[2020.11.30-12.31.15:472][ 82]LogPlayLevel: ====30.11.2020 15:31:15====PREPARING TO MAKE APK=================================================================
+[2020.11.30-12.31.15:472][ 82]LogPlayLevel: bBuildForES31: true
+[2020.11.30-12.31.15:472][ 82]LogPlayLevel: bSupportsVulkan: false
+[2020.11.30-12.31.15:497][ 83]LogPlayLevel: Building Java with SDK API level 'android-30'
+[2020.11.30-12.31.15:528][ 84]LogPlayLevel: Building with Build Tools version '30.0.2'
+[2020.11.30-12.31.15:528][ 84]LogPlayLevel: 
+[2020.11.30-12.31.15:528][ 84]LogPlayLevel: ==== Writing to shim file D:\WTFproject\Proj\Build\Android\src\com\epicgames\ue4\DownloadShim.java ====
+[2020.11.30-12.31.15:528][ 84]LogPlayLevel: 
+[2020.11.30-12.31.15:528][ 84]LogPlayLevel: ==== Shim data file up to date so not writing. ====
+[2020.11.30-12.31.15:528][ 84]LogPlayLevel: 
+[2020.11.30-12.31.15:528][ 84]LogPlayLevel: ==== Writing to template target file D:\WTFproject\Proj\Build\Android\src\com\YourCompany\Proj\AlarmReceiver.java ====
+[2020.11.30-12.31.15:528][ 84]LogPlayLevel: 
+[2020.11.30-12.31.15:528][ 84]LogPlayLevel: ==== Template target file up to date so not writing. ====
+[2020.11.30-12.31.15:528][ 84]LogPlayLevel: 
+[2020.11.30-12.31.15:528][ 84]LogPlayLevel: ==== Writing to template target file D:\WTFproject\Proj\Build\Android\src\com\YourCompany\Proj\DownloaderActivity.java ====
+[2020.11.30-12.31.15:528][ 84]LogPlayLevel: 
+[2020.11.30-12.31.15:528][ 84]LogPlayLevel: ==== Template target file up to date so not writing. ====
+[2020.11.30-12.31.15:529][ 84]LogPlayLevel: 
+[2020.11.30-12.31.15:529][ 84]LogPlayLevel: ==== Writing to template target file D:\WTFproject\Proj\Build\Android\src\com\YourCompany\Proj\OBBDownloaderService.java ====
+[2020.11.30-12.31.15:529][ 84]LogPlayLevel: 
+[2020.11.30-12.31.15:529][ 84]LogPlayLevel: ==== Template target file up to date so not writing. ====
+[2020.11.30-12.31.15:652][ 90]LogPlayLevel: Cleaning up files based on template dir D:\WTFproject\Proj\Build\Android\src\com\YourCompany\Proj
+[2020.11.30-12.31.15:773][ 95]LogPlayLevel: UPL Init: armeabi-v7a
+[2020.11.30-12.31.15:773][ 95]LogPlayLevel: Subsystem Google Play SDK Android init
+[2020.11.30-12.31.15:773][ 95]LogPlayLevel: Android Permission Plugin Init
+[2020.11.30-12.31.15:838][ 98]LogPlayLevel: Google Cloud Messaging init
+[2020.11.30-12.31.15:838][ 98]LogPlayLevel: GCMClientSenderID set: false
+[2020.11.30-12.31.15:838][ 98]LogPlayLevel: GooglePAD Plugin Init
+[2020.11.30-12.31.15:838][ 98]LogPlayLevel: GooglePAD enabled: false
+[2020.11.30-12.31.15:839][ 98]LogPlayLevel: Oculus mobile init
+[2020.11.30-12.31.15:839][ 98]LogPlayLevel: Oculus Signature Files (osig) will be removed from APK
+[2020.11.30-12.31.15:839][ 98]LogPlayLevel: Android Voice init
+[2020.11.30-12.31.15:839][ 98]LogPlayLevel: AndroidAdvertising init
+[2020.11.30-12.31.15:839][ 98]LogPlayLevel: Including AdMob support. Disable in Android project settings if you do not need to use it.
+[2020.11.30-12.31.15:839][ 98]LogPlayLevel: GoogleGameSDK Android init
+[2020.11.30-12.31.15:919][102]LogPlayLevel: APK contains data.
+[2020.11.30-12.31.15:919][102]LogPlayLevel: Output .apk file(s) are up to date (dependencies and build settings are up to date)
+[2020.11.30-12.31.15:969][104]LogPlayLevel: Using this aapt: C:\Users\neret\AppData\Local\Android\Sdk\build-tools\30.0.2\aapt.exe
+[2020.11.30-12.31.15:969][104]LogPlayLevel: GetPackageInfo ReturnValue: com.YourCompany.Proj
+[2020.11.30-12.31.16:104][110]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU shell "echo $EXTERNAL_STORAGE"
+[2020.11.30-12.31.16:136][111]LogPlayLevel: Took 0,1253815s to run adb.exe, ExitCode=0
+[2020.11.30-12.31.16:158][112]LogPlayLevel: GetPackageInfo ReturnValue: com.YourCompany.Proj
+[2020.11.30-12.31.16:203][114]LogPlayLevel: GetPackageInfo ReturnValue: 1
+[2020.11.30-12.31.16:224][115]LogPlayLevel: GetPackageInfo ReturnValue: com.YourCompany.Proj
+[2020.11.30-12.31.16:267][117]LogPlayLevel: GetPackageInfo ReturnValue: com.YourCompany.Proj
+[2020.11.30-12.31.16:305][119]LogPlayLevel: GetPackageInfo ReturnValue: 1
+[2020.11.30-12.31.16:305][119]LogPlayLevel: GetPackageInfo ReturnValue: com.YourCompany.Proj
+[2020.11.30-12.31.17:129][156]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU shell pm list packages com.YourCompany.Proj
+[2020.11.30-12.31.17:129][156]LogPlayLevel: Took 0,8288357s to run adb.exe, ExitCode=0
+[2020.11.30-12.31.17:244][161]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU shell cat /sdcard/UE4Game/Proj/APKFileStamp.txt
+[2020.11.30-12.31.17:267][162]LogPlayLevel: Took 0,1166884s to run adb.exe, ExitCode=0
+[2020.11.30-12.31.19:109][254]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU uninstall com.YourCompany.Proj
+[2020.11.30-12.31.19:109][254]LogPlayLevel:   Success
+[2020.11.30-12.31.19:151][256]LogPlayLevel: 
+[2020.11.30-12.31.19:151][256]LogPlayLevel: Took 1,8932959s to run adb.exe, ExitCode=0
+[2020.11.30-12.31.19:242][260]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU install "D:\WTFproject\Proj\Binaries\Android\Proj-armv7.apk"
+[2020.11.30-12.31.33:261][971]LogPlayLevel:   Performing Push Install
+[2020.11.30-12.31.35:206][ 63]LogPlayLevel:   D:\WTFproject\Proj\Binaries\Android\Proj-armv7.apk: 1 file pushed, 0 skipped. 4.8 MB/s (69948800 bytes in 14.006s)
+[2020.11.30-12.31.35:206][ 63]LogPlayLevel:   	pkg: /data/local/tmp/Proj-armv7.apk
+[2020.11.30-12.31.55:621][ 95]LogPlayLevel: 
+[2020.11.30-12.31.55:621][ 95]LogPlayLevel:   Success
+[2020.11.30-12.31.55:716][100]LogPlayLevel: 
+[2020.11.30-12.31.55:736][101]LogPlayLevel: Took 36,5612569s to run adb.exe, ExitCode=0
+[2020.11.30-12.31.56:413][137]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU shell pm grant com.YourCompany.Proj android.permission.READ_EXTERNAL_STORAGE
+[2020.11.30-12.31.56:414][137]LogPlayLevel:   Operation not allowed: java.lang.SecurityException: grantRuntimePermission: Neither user 2000 nor current process has android.permission.GRANT_RUNTIME_PERMISSIONS.
+[2020.11.30-12.31.56:414][137]LogPlayLevel: 
+[2020.11.30-12.31.56:432][138]LogPlayLevel: Took 0,6926613s to run adb.exe, ExitCode=0
+[2020.11.30-12.31.57:105][172]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU shell pm grant com.YourCompany.Proj android.permission.WRITE_EXTERNAL_STORAGE
+[2020.11.30-12.31.57:105][172]LogPlayLevel:   Operation not allowed: java.lang.SecurityException: grantRuntimePermission: Neither user 2000 nor current process has android.permission.GRANT_RUNTIME_PERMISSIONS.
+[2020.11.30-12.31.57:105][172]LogPlayLevel: 
+[2020.11.30-12.31.57:105][172]LogPlayLevel: Took 0,6771886s to run adb.exe, ExitCode=0
+[2020.11.30-12.31.57:125][173]LogPlayLevel: Creating UE4CommandLine.txt
+[2020.11.30-12.32.00:265][344]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU shell rm -r /sdcard/UE4Game/Proj
+[2020.11.30-12.32.00:265][344]LogPlayLevel: Took 3,1526434s to run adb.exe, ExitCode=0
+[2020.11.30-12.32.36:853][153]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU push "D:\WTFproject\Proj\Saved\StagedBuilds\Android_ASTC" "/sdcard/UE4Game/Proj"
+[2020.11.30-12.32.36:853][153]LogPlayLevel: D:\WTFproject\Proj\Saved\StagedBuilds\Android_ASTC\: 2489 files pushed, 0 skipped. 3.7 MB/s (140986316 bytes in 36.474s)
+[2020.11.30-12.32.36:974][159]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU shell rm /sdcard/obb/com.YourCompany.Proj/main.1.com.YourCompany.Proj.obb
+[2020.11.30-12.32.36:974][159]LogPlayLevel:   rm: /sdcard/obb/com.YourCompany.Proj/main.1.com.YourCompany.Proj.obb: No such file or directory
+[2020.11.30-12.32.36:974][159]LogPlayLevel: 
+[2020.11.30-12.32.36:974][159]LogPlayLevel: Took 0,1247102s to run adb.exe, ExitCode=0
+[2020.11.30-12.32.37:099][165]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU shell rm /sdcard/obb/com.YourCompany.Proj/patch.1.com.YourCompany.Proj.obb
+[2020.11.30-12.32.37:099][165]LogPlayLevel:   rm: /sdcard/obb/com.YourCompany.Proj/patch.1.com.YourCompany.Proj.obb: No such file or directory
+[2020.11.30-12.32.37:119][166]LogPlayLevel: 
+[2020.11.30-12.32.37:119][166]LogPlayLevel: Took 0,1279732s to run adb.exe, ExitCode=0
+[2020.11.30-12.32.37:236][172]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU shell "echo 'APK: 27.11.2020 16:04:01' > /sdcard/UE4Game/Proj/APKFileStamp.txt"
+[2020.11.30-12.32.37:237][172]LogPlayLevel: Took 0,1236745s to run adb.exe, ExitCode=0
+[2020.11.30-12.32.37:237][172]LogPlayLevel: ********** DEPLOY COMMAND COMPLETED **********
+[2020.11.30-12.32.37:237][172]LogPlayLevel: ********** RUN COMMAND STARTED **********
+[2020.11.30-12.32.37:276][174]LogPlayLevel: Starting Client....
+[2020.11.30-12.32.37:417][181]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU  shell getprop ro.product.cpu.abi
+[2020.11.30-12.32.37:437][182]LogPlayLevel: Took 0,1346382s to run adb.exe, ExitCode=0
+[2020.11.30-12.32.37:437][182]LogPlayLevel: GetPackageInfo ReturnValue: com.YourCompany.Proj
+[2020.11.30-12.32.37:437][182]LogPlayLevel: Running Package@Device:com.YourCompany.Proj@BU95SO9DDQJ769EU
+[2020.11.30-12.32.37:752][198]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU logcat -c
+[2020.11.30-12.32.37:752][198]LogPlayLevel: Took 0,308176s to run adb.exe, ExitCode=0
+[2020.11.30-12.32.38:357][230]LogPlayLevel: Running: C:\Users\neret\AppData\Local\Android\Sdk\platform-tools\adb.exe -s BU95SO9DDQJ769EU shell am start -n com.YourCompany.Proj/com.epicgames.ue4.SplashActivity
+[2020.11.30-12.32.38:357][230]LogPlayLevel:   Starting: Intent { cmp=com.YourCompany.Proj/com.epicgames.ue4.SplashActivity }
+[2020.11.30-12.32.38:600][243]LogPlayLevel: 
+[2020.11.30-12.32.46:374][656]LogTcpMessaging: Discovered node '004386AA08D895452F10E0BAB0EA977E' on connection '127.0.0.1:6666'...
+[2020.11.30-12.32.49:492][801]LogTcpMessaging: Discovered node '011DDF5D08D89545315BE7DEB1254B67' on connection '127.0.0.1:6666'...
+[2020.11.30-12.34.01:960][157]BlueprintLog: New page: Compile BP_Hero
+[2020.11.30-12.34.02:290][157]LogUObjectHash: Compacting FUObjectHashTables data took   8.95ms
+[2020.11.30-12.34.28:546][268]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.30-12.34.28:546][268]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.30-12.34.52:019][290]BlueprintLog: New page: Compile BP_Hero
+[2020.11.30-12.34.52:219][290]LogUObjectHash: Compacting FUObjectHashTables data took   7.26ms
+[2020.11.30-12.34.56:674][458]LogPlayLevel: Completed Launch On Stage: Build Task, Time: 238.736807
+[2020.11.30-12.34.58:770][542]LogUObjectHash: Compacting FUObjectHashTables data took   6.73ms
+[2020.11.30-12.35.00:293][542]LogSlate: Window 'Save Content' being destroyed
+[2020.11.30-12.35.00:422][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Proj/Core/BP_Hero" FILE="../../../../../WTFproject/Proj/Content/Proj/Core/BP_Hero.uasset" SILENT=true
+[2020.11.30-12.35.00:560][542]LogSavePackage: Moving '../../../../../WTFproject/Proj/Saved/BP_HeroBA285A48459D68CEBDE17180C87AE919.tmp' to '../../../../../WTFproject/Proj/Content/Proj/Core/BP_Hero.uasset'
+[2020.11.30-12.35.00:592][542]LogPlayLevel: Launcher Device ID: Android_ASTC@BU95SO9DDQJ769EU
+[2020.11.30-12.35.00:601][542]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.30-12.35.00:601][542]LogCook: Display: Updating asset registry
+[2020.11.30-12.35.00:663][542]LogCook: Display: Discovering localized assets for cultures: en
+[2020.11.30-12.35.00:763][542]LogCook: Display: Iterative cooking summary for Android_ASTC, 
+Considered: 669, 
+File Hash missmatch: 25, 
+Packages Kept: 644, 
+Packages failed save kept: 4, 
+Missing Cooked Info(expected 0): 0
+[2020.11.30-12.35.00:764][542]LogCook: Display: Sandbox cleanup took 0.091 seconds for platforms Android_ASTC 
+[2020.11.30-12.35.02:724][542]LogLauncherProfile: Project does not require temp target
+[2020.11.30-12.35.02:728][542]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Android/UE4Game.target
+[2020.11.30-12.35.02:729][542]LogLauncherProfile: Project does not require temp target
+[2020.11.30-12.35.02:733][542]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Android/UE4Game.target
+[2020.11.30-12.35.02:836][543]AssetCheck: New page: Asset Save: BP_Hero
+[2020.11.30-12.35.02:836][543]LogContentValidation: Display: Validating Blueprint /Game/Proj/Core/BP_Hero.BP_Hero
+[2020.11.30-12.35.02:836][543]LogCook: Display: Cooked packages 657 Packages Remain 46 Total 703
+[2020.11.30-12.35.02:850][543]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.11.30-12.35.02:851][543]LogWindows: Windows GetLastError: Операция успешно завершена. (0)
