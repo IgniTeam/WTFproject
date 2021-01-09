@@ -1,1 +1,1 @@
-../../../Proj/Proj.uproject  /Game/Proj/Maps/Transit -Messaging -SessionId=AAB16DF840BEC5163A3F1A926B6DA0C0 -SessionOwner="misha" -SessionName="Launch On Device" -iterative
+../../../Proj/Proj.uproject  /Game/Proj/Maps/Transit -Messaging -SessionId=A9E2DEDA4040E743EAF9B6AA3BF3C772 -SessionOwner="misha" -SessionName="Launch On Device" -iterative

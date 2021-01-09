@@ -1,0 +1,2054 @@
+{
+	"AssetInfoVersion": 1,
+	"ShaderCodeToAssets": [
+		{
+			"ShaderMapHash": "90EB2896E0D8BD0779EAFED4FEF96C5F417B97B7",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C05BF21EC5B8872BBDC1DE63F199289CA62EDF5E",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/GizmoMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A73F0505BCD9492E59234A540469332A98893367",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "BF8DA73A05B5D9953CC46699A9264B471D955765",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/EmissiveMeshMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3CCFB8D9BA178D1C4C577D014EB13408462F17C7",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset",
+				"../../../Engine/Content/EngineDebugMaterials/M_SimpleUnlitTranslucent.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A1F5FA23342A48848652035CE85B1101A563E1AE",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset",
+				"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FF5E507496125896845FB5E695D536D1FF88FC91",
+			"Assets": [
+				"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset",
+				"../../../Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2AB7CD4D62A2268EE29A0A3A4975C45A586BEE85",
+			"Assets": [
+				"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "029D4BC8B4A004AD5B2F4FA798CBEF78DE315226",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "01C4914B787E20701CD5B6F884DAA8F73399B7B5",
+			"Assets": [
+				"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboardMaster.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "61896EC57986D9A3176151C8974F65048E3B5ABD",
+			"Assets": [
+				"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeMaster.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "41184462543EAFBFF583AB956437D34FB0F0F322",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "26961D5EC7699BC38432C3298871E975C87E279E",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/VertexColorMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D26F59A2E1C87884AD1B51D8ECC31DE3C39F5A11",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D32B024B592549D7B3651D4B0706199D82B023F7",
+			"Assets": [
+				"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1E5A93A29182FAF7A29E58674031D39FE1573575",
+			"Assets": [
+				"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4E894E20BAF7E886396B8AF4D947FBAA1B8C0EE9",
+			"Assets": [
+				"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E982FB60BD1B0668AD7A0109E85F31E8CCCC0B4E",
+			"Assets": [
+				"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D271ECEB705E8672A3F534CADBBF13C69672BDC0",
+			"Assets": [
+				"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A2024644A094BA248829E467664A3AA1B8FBBBF6",
+			"Assets": [
+				"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CF0E0BCE88E6645C3B4725BFE5074CB1CB0F9DEC",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "56AAD9BBF1B4DCA37E1CA3F171AF08C33DC55E33",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4C6F94B1491FBBE9E7EBFFFE4C19C30678FE9F52",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "55B219B6136FC96AECC357E5A2593F66360763DA",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "441F6045484EF88E0A638B42C4EED4451F14B520",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset",
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "23A4936D5AC070B4EF61DB999E857ABF0913A869",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "674868FAB59B9281817FB9EEE5550CC89170BB5F",
+			"Assets": [
+				"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/WallCoverDown_001.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/WallCover2_001.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/WallCover1_002.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/WallCoverDown.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/WallCover2.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/WallCover1_001.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Plate.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Metal.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/PaperYellow.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Clock.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Paper.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Cross.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Black.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/plane.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Table.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/Interactables/Elevator/Material_002.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/Interactables/Elevator/Material_001.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3EDB8034D4957258C159AC30905E43334D417114",
+			"Assets": [
+				"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C1B73E791638B21A1D76E64699B544F96D567D36",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6BAE1CCC4D6DCB0F569B335BCC63FA51DF95C717",
+			"Assets": [
+				"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A3FF1D2920BBCF76528397038E083A8C8F11A73D",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "82997EAA0B9847B912569EBAFFD351319DC094A7",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2701174C27096ABB6A057A75E810E894BE191769",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "17886232CA2DA2DFD3EF53A68750554A7691D2AD",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D966B2738C4045C725CEF5520194EF283DAD4AF2",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A6AB7911168545B5FDC26808F3EE65B004695188",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/ElevatorDoors_001.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D495D4FCA5D17FEB5293F47117DC1EA5708FEAF7",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/ElevatorMat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "48E48796CC6FDA1B5DF1CDA14EB75F696DFD89F8",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/TransparentWall.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C1DBB6104D75ACCE79EABEC0FACFD04F83CAE32C",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/ElevatorFloor.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/ElevatorDoors.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Secretary/Hair.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/Character/Suit.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/Character/Pants.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Zombie/Material_003.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Zombie/Material_002.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Zombie/Material.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Demon/NewDemon/Suit_001.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Demon/NewDemon/Suit.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Demon/NewDemon/Skin.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Demon/NewDemon/Pants.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Secretary/Suit.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Secretary/Pants.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Secretary/Horns.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Demon/NewDemon/Tie.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/M_Characters.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "163430052CFF9378EEBC1D3000A7A1C124D4CD6E",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/UI/Loading_Mat.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/UI/TheEnd_Video_Mat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8E77C8BD5295E7C65F59114AFCD38C5875E9C157",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/Character/Skin.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Zombie/Material_001.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Zombie/Material_004.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Secretary/Skin.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8531A64E0C159DA8A0EA744E244F3B608FEFEA9E",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FEE446870BC10011A77B2AAA80EEC5537865F8A8",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "012190496F713CF8E4B6D27A95850C5379DF245C",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_SubUV_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B54B249C6965A3B0E42822B157AC53C486CF8225",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_SubUV_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1A1C4513A4B9C15B5E627E3EB32AA74581F7A8DB",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "98419F6E72FFA7C8C99DB75BE3FF982483427D94",
+			"Assets": [
+				"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E042CB4DA4B8C8DB1816A30514166C485B6D62EA",
+			"Assets": [
+				"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9AD2C1950A9CEEF679B829B91AB5170F14C60D54",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0F4278B917BCC99883F98D8C46754D2BCD94DC73",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Geometry/Meshes/CubeMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7ACDA29BC37AFF3DB62C884338472A36F8E115FB",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/TwinStick/Meshes/BaseMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "29BB4CAF4719A0BA0385155781889DB94AC1AEED",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B224CE3F0AAB8DEC40AFF6859159A52F64335D53",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F1CD837BE2BC9718CAB8EFDD36271EA6749F4FB0",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Props/Materials/M_Frame.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E06183DC61C6E72D8E3989568E20A0549162252D",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Glass.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9ACFB7AD9D1DED87D40E9B8D547B1430ECC70D61",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DA1158D46375E83A9409CE02219C57DDC802BEB9",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "EE7DB9210260B3D09E0845C4D5D53A349CFECD58",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1C5A5D6A4E2A59F9C7BB6387CCBCCA89E82DBA3B",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AC5CF0EC7261FE60F9A837941C987C6F687D897A",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6E614073B7521DC7DF47A8A33A8FEBDA1C23CDB2",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "219251BCB6A5D1BBAC0F3D5E9E32AD2F74F1F0FE",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9B6B9D4E56B0B9B298A81952B9789A54D0FB9E16",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AC2ADEEB6F389561D78772955F73B7E8E9825FCF",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Water_Lake.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0C78F9EE900B467D90A2929ED653C08A4B2A7BC8",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E25A0209681C8A8FFAD7E399C621B323681E9680",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2362E6BF234CE306AB9A91560F9C39025E470879",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2FA21A27912604F83FEA4F32AE99FB2E1BF63D89",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "61F452348942C7E326537E783728DA26289CEF75",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A9D2180E69C4E3A205B5634AFA87787AD6F13D4E",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "18060EA98D350866EB9A2A3A9A4580009407E942",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "666D001C54F0FEECE99586055AF6A6A083CF2C3F",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4DA988EF8D43F67666220D3C0393A9083AB75D67",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A0185EF78897D4A3A86BAA80BA9BA625DD613623",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "73C955519D2D1688146165C1CD58C3B7D850B238",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0F56A785634BDAAECB495B214DD666B2563C61CC",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "EAFDCF40E4F9200F0FAA2EA910BC4255D5F6F3A5",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A792B120F5A75B78C080D1900A7EC97ACF0EBEA2",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6239C3A492B8818DD6D18AA573C1C1D364384E78",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "48C23A03A3E9FC7AB65F9E44C10C39EEB19DE8D5",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "465BF36ADEBCCD3D63F3DF3BFD2CB753EF05FB1F",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "04BD430C802AE002C1C3265CEEAC1C2F4968A4B7",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "35FE3ED73E95C458043B67CD996499168C134FAB",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D1F13177C4A3126EA7ACCB8079362DC463BA37B9",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CB95E57B8C0EE3486A95492F9A41F6CF85B0AAE6",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CE0951B5F4C4B087AE0191AC7844506323DBF95E",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "63663E4DA2B6589300F56317FD5623C754666361",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "73BD9FBEF0574774C5DB67AF7D931DBDB9B964BE",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0B9429E1551F28C4A7B7BEF72902E2F46D94EC9B",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9A0BA8A3BF8D93F87534F814EEC81A8A6E3CA601",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8F69F13382C2662FB6D60C7F3A006FE76575A0D2",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "ACEFD0207CEAA753BE098DE4A68DC4129F10F65F",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7E5F932B36E1E60005CBD69F7298E9E0EED68655",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "67285C2D1681DF3C47D4356151C6F8BD20166618",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E61A818236795DDBFB140C8CC6D5887F493ED4D7",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Props/Materials/M_Statue.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "66101B727F8C02D2F183FEE2A465670F2576EA0D",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Props/Materials/M_Chair.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "32F6F679EA128D65F778ABD95E78988D2291DD02",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "96C953BFFB9E697ABA8CD72F0D221E6509C49F34",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C818F67E6F3FBE2606C984F1E33D92F872482531",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D8F6BD082D8E759359D0E3FA695B536F63E4E1D5",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7ECCEEFA56019E9C93AB4CEFA3B892E0398ED5D2",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "92D6DA91DCEDF36ACCD9CBCEE67193B31CAC3B87",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F6F0819DF72D0A8CFE27792A3532C7F1C1AF3DA9",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "93AC62D9EFC534C5D3748973634A35F152991DD6",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3EED5DB770B6605ECD061D03E1BA53BE5604D16E",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "38489CD8CACB16C1E0162DC107D0E0797336A375",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B73FB06F480C5CA6A08E99C42D96698F459D39AD",
+			"Assets": [
+				"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4AAA893062EFBBC66229F15196F8F795BA1B37FD",
+			"Assets": [
+				"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FDCFDF2425A4B1684D77E26B8C939A3A41C94281",
+			"Assets": [
+				"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DCEFC2159D82E7713CAEA834B28A3901F77E2210",
+			"Assets": [
+				"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "99BF155C611DA7D1D96CA06B5AF4FD03476E5840",
+			"Assets": [
+				"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "558B6011AFEBCC41A99E40809A7AABCE234F880D",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9ADDD84D056B96B681357E591140D3A45A7EAFEB",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7280F65B965F7AB4787D0F3968B8DA234B2A6639",
+			"Assets": [
+				"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5015B0502BAA86BBCA56F57B0B3E7ADDBCA263E0",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/TrashCan.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2195302748CD9CABC1F53851506F18D9F7D61FC1",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Texture_Atlas.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B3A6A4404427D109FC9BC6DC9F55AE8D18C4B3AA",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_BlueOnly.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5EEFF077D1124A88F4F73A3FD326B25E2958E736",
+			"Assets": [
+				"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_FogSheet_Trans.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_BlobShadow_01.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Liquid/M_Water_Bucket_Cin04.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2C34788B0EDA714DF83B1ED3177C371B9D4D004A",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/CubeMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CA66F39E58CD6EE13F9F14904E5186EDE50B2CBD",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_RedOnly.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2C4946B35825483C86E4BD0F1FF6BCCE54E58A0F",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Mirror_Glass.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Mirror_Glass_4.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Mirror_Glass_7.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Mirror_Glass_6.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Mirror_Glass_5.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Mirror_Glass_3.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Mirror_Glass_2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F3478C5249D016DC66D7A065794F5FD3AA88CBB3",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/TableMat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AC1606D3321AA225500BD44336206C90F6EE5156",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/M_SurfaceBase.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8125C2A3BE933FB07E7FFEA51096D9F939FCC7DC",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Window_Glass.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F875779FD7CFF14BDDC05550A3B8005C791CACA8",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Materials/PP_Outliner_M.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AFA49BE83B8E26BA5EB0701E6227794451367D1D",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_Master_DepthFade.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D4CAD9376CBA001C0052EC108AD32C0F70C984F3",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_2Sided_Master.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_GhostSkull.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_ReflectArrow_Grad.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9AF0143888D59CD718FCB6831CE5E9A3CC33CDAD",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_Master_DepthFade.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "840B5E7FCE34F3ACF1FF4751204EA32BBAE3F61B",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_IceBlastIcicles.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_AuraCircle.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6C42A6B61194042F3728BB28D4F5DD60DCDF39BB",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/ICE/M_IceBlastBase.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "59B5565EF20BD8C77F11E2FE29369D18627B2736",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Glyph/M_IB_Debris_Boxes_Trans.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DEE3A2A552E5E52304282207B394E12787015A97",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Glyph/M_IB_Debris_Boxes_Opaque.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "49B2EFE380390BBE26E4B9ACC5C0C0972923A87E",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_SubUV_Master_DepthFade.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6A843D3BFF4358AF7A6FDC0251824489A23BC48A",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Misc/M_Targeting_Enemy.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "09B3EE7D088CC9B1631893B178C87835F043E176",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Environments/Misc/Env_ALL_Artifacts/Materials/M_Env_Health_Terminus.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2D3F097164A9835AD5B70D5C692109C8DD753944",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Dungeon_Pipe_FlowingLava_Cool.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "36B6EA65B3004AF48DBD517AB061CFCDB2049BBB",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_Master.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_2Sided_Master.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Trans_MeshEmit_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7A651EDD60489B3E5448D1836CDA34ED6F926C17",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Maps/LevelContent/Architecture/M_CycRoom_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4F694A9EADDC11F06674A1FE40D46DD92142CFD6",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Maps/LevelContent/Architecture/M_1Meter_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6DAFECA16B2EFDE8C8A1B196225BD7B4A91E9DF4",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Maps/LevelContent/Architecture/M_CycWall_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "BD9568A33168976E7AC0C658DC72C49CAE7391A4",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Sprite_01_5x5_SubUV.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Lightning_Radial_add_subuv_4x4.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Lightning_Bolt_01.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_LightCone.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Add_subUV_2.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Add_subUV.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Add_RingsubUV.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Add_2side_subUV.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_CombatArea_Solid.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_CombatArea_Edge.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_CombatArea_Base.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3823B758B6D6B5B27AB45E1AAC648D06C5EF206D",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_Lit_SubUV_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "10F4A42C0072EC046BFFFF18C5324C7182F3ABF5",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Opaque_MeshEmit_Emis_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7FE9B1E484B3F691C889BF8374A75774C61D5688",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Fire/M_Fire_Trans_TilePan_2sided_meshEmit_02.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4D9D2AA43384DFE0A9412535BCE89D8DAC58F3E4",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/ICE/M_IceShard.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8849D933B93120FC8FE6287D3626B0F46D403B60",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Trail_2Sided_Pan_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C6F35708D37A5F53C8C271F687117EB3483A3CE4",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_LevelRing_00.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3B0DA361FEC910B0C5FAFDD3E5AC9152B96A4311",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_IceBlastFog.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "50F239A26B34A60FEEC1E3A4B7C04376E0600D33",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Opaque_MeshEmit_Emis_Master_Surface.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Opaque_MeshEmit_Emis_Master_Surface2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "20FC2AC57FC494400799A6AE70CFFEB8E27F95FA",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/ICE/M_IceChunksBase.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "19E49C1D19DCB005A53F65D3A876CBA7257FB038",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Trail_2Sided_Pan_Emis_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3B2639D4102CBFEBD7E481AEEA8E4058B761CAB9",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_Master_Surface.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C6F60DD5C8EB9AD9FAD6F54027C0711A274F7783",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/ICE/M_JaggedRockIce_MeshEmit_Blue.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7E6075A852442B09ED101726689E2661798BF0AB",
+			"Assets": [
+				"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacity_Mat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0F3BF625BF56D5495209D84744216B4D289ED9BC",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Fire/M_JaggedRockFire_MeshEmit_Lit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C9CC505A44469F3B55DE18B60CA71C9667C8E85B",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Opaque_MeshEmit_Lit_Emis_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4FB06EAC5FADE23471D1887FC52AA04AEB56DA67",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Fire/M_Fire_Sheet_01_INST.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "432F594CD07CC38149FF49E0DF63BD71C84E4A35",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_IceSword.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_SnowSubUV_2_3_MeshEmit.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_SnowSubUV_2_3.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Smoke_Trans_subUV_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Smoke_Trans_subUV_4_8_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Smoke_Trans_subUV_3_4_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Smoke_Trans_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_SmokeWispy_Gradient_Pan.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_SmokeSingle_Trans_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Smoke3_Trans_subUV_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Smoke2_Trans_subUV_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_RoboChains_MeshEmit.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_JaggedRock_Trans_MeshEmit_Lit.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_IceSkills_Base.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_GlowVert_Trans.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_GlowNoise_Radial_01_Trans.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_BlastWave_MeshEmit_Trans.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B1727BC377FF1805E5561950EFD31187E99A0CF7",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/ICE/M_IceBlastIcicles_Fade.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2B7F7305B8C21D0A42F8603935CA9C2E381E94C7",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Trans_Trail_2Sided_Pan_Base_Emis_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3DD553C9B62B4DC1387B791424ED52F657730CF0",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/TopDownBP/Blueprints/M_Cursor_Decal.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E75603B0DCBB335AAD61E55368ADE32440CC5B56",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6DEFE25A3C1AEC7853B91C2CF597D91D56AC82F8",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Props/Materials/M_Rock.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "289C95E87657279EFCC7A107AC5C9F73F7404EC9",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "12209652A72DDEBAAB6D5295BCF9F927AEEB723D",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "82921E3FEEBA2EC79016DB90C6E8788586E569FD",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Props/Materials/M_Door.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "67B71A8DC75FFA24E39A0DD987303A246E77840A",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Props/Materials/M_Bush.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "893331B5C4B855C749021F3EAA9409B1FC7B2800",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E7C4FD7937414F9575A4BAB1047141B03F003533",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C456781333DAF1C2391411C58FA9749B220E2791",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2F8781539C99931411F5332AA82FA2C5866C75C1",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_GreenOnly.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AEB0F87491C6F93A2EC62AD87A94A85C1694DCCD",
+			"Assets": [
+				"../../../Engine/Content/EditorMaterials/WidgetMaterial_Z.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2635EC09720B8689491F202F0BC0EC5CE5257267",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/NewBaseFlattenMaterial.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/M_Calendar_Paper_0ED00E814083A040B65E2085E5A46EBF.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CFF932DC22248FC9BD820A6ABA23DB18B4AA5605",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Environments/Plains/Env_Plains_Ruins/Materials/M_PLains_FloorStone.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6A3D54CAD106DF070804758A09D5F28B4A69698E",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Environments/Ice/Env_Ice_Mountain/Materials/M_IceMountain_Boulder.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "01F493B4907A3C7BF93A9F9AAA161593BC37537C",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Environments/Fire/Env_Fire_Magma/Materials/M_Lava_flows_trans.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A5B4E31E41F382CCD0ED4691C945E781CA9ED8C8",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Environments/Env_Rocks/Materials/M_JaggedRock_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CAB9103D6756D391E070934838D648FF74196403",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Environments/Breakables/Materials/M_Breakables_Fort_Wall_Destroyed.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Environments/Breakables/Materials/M_Breakables_Fort_Wall_Destroyed_Trim.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "386B2B3BC75F05852209E07703BBB0B3BDAF79BA",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Environments/Breakables/Materials/M_Breakables_Pots_Red.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6D90007C5B98D2BAFB64F70B44C2416CB568FFC5",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Enemy/Enemy_Chicken/Materials/M_EnemyChicken.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9279A1E589286631907EDA148FAAF807CAB65948",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Enemy/Enemy_Chicken/Materials/M_Survival_CA_Chicken_02.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "87F001C903A6A9E4231FB47E62007BC6233B2681",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/OLD/Effects/FX_Materials/ICE/M_IceMountain_Boulder_MeshEmit.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/ICE/M_IceMountain_Boulder_MeshEmit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "37959C0604350946D084AF669CAA626134FBE3F3",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/OLD/Effects/FX_Materials/Gradient/M_Add_Unlit_TerminGlow.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_GlowNoise_01_2sided_MeshEmit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F93ECC652432D344D8338BBBD0B1A5928A40F029",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Trans_Trail_2Sided_Pan_Tile_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CFB5477C19B05A7A14C682DB6638CA85F795E9DD",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Trans_StaticMesh_Lit_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0ACC64E3D8F9E3317C4CD0BE592FBDD776F1DC15",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_SubUV_Master_Surface.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DABFAE1170C86880219FF30C773129332294E82B",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Trans_MeshEmit_2Sided_Pan_Mask_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E64682C6D385247E46FE2E08432845F9BC8EE6BA",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Opaque_Static_Lit_Emis_PanMaster.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7C9979BAD7233684A9E9C3659BC8B63FA64EA116",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_SubUV_Master_DepthFade.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "55DF06FCA24D5A5DF9BA41078ED7CAC694CE2479",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_Pan_Emis_Mask_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5C516A0C267A4637D85A2FB24CE53659C45460E9",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Mesh_2Sided_Pan_Emis_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0AA11F263574B512892601BA4FB278BB880F073F",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Mesh_2Sided_Pan_Base_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "BB386D9ACCA12217DCBDCC8B9FCB28BEC89C7528",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/M_GoldBag.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F0F744B1BE544E1C73288C6E192464906C218EE1",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Env/M_Treasure_Gold_Add_2sided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CD1C84E084A20FAE66FA11A340CA6C1624DD1FEA",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Opaque_Hammer_Spin.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C8F0687CD524C38C7234BF8224B52EE362F22B27",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/ICE/M_JaggedRockIce_MeshEmit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "869F72D9668D8F6F2418BBB1E207460A0C5929FB",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Misc/M_Telecharge_char_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "90F1D5E5C475C3EAD08C3A0848C2941C483D95D4",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/EmissiveTexturedMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C08FB872E8537CD0816C31E02FC37FA4981A9C2B",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/Beakable_Master_MeshEmit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "80DB2A2B3618A74F405B91755011C5A24362D77E",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Tile_Noise_Tendril_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FDC309F2F01F7538808566CF6D83FAA7B82C0607",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Noise/M_AuraCircle_02_INST.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "51E137F49557EBC5663B065C70D98D40D8732269",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Trails/M_Trail_Lightning_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B466409B6C369846E04216F9EE273E6F3E7D9A5B",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_ChargeMesh_mobile1.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "32DCAD91DA941638AC285A47B1651D1371161283",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_SparkCore_Add_01_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Spark_Add_01_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Spark_2_2_01.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_SlashDir_Add_01_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Shield_Rim_Add.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_IceHammerGlow.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Glyph_Add_Outer_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Glyph_Add_Inner_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_GlowNoise_Radial_01.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_GlowNoise_01_2sided.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_GlowNoise_01.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_ForgeLogo.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_FlashHalf_Add_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Flare_Add_RadialRings_03.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Flare_Add_RadialRings_02.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Flare_Add_RadialRings_01.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Flare_Add_04_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Flare_Add_04_Inst.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Flare_Add_03_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Flare_Add_03_2sided.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Flare_Add_02_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Flare_Add_01_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Flare_Add_01_2sided.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_CandleFlame.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_BlastWave_mobile.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C8521B4B6AD161D178756DA146301F596715C293",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Liquid/M_Liquid_Splat_03_INST.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Ice_Attack_Top.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Ice_Attack_Side.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_IB_Blood_Trans_subUV_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_ForgeFail_X.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Blood_Trans_Emissive_02.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Blood_Trans_03.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Blood_Trans_02.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Blood_Trans_01.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Blood_Mod_03_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Blood_Mod_02_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Blood_Mod_01_mobile.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5D6C5A643C2731CA66F6C413CD30C215FACD8505",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Misc/M_DeathPlane_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E7400ECE0DAA20F14A5C9447CEB34B11E6E32ADA",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Add_Unlit_TerminGlow.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4EAAC7FD9441223A0FCF0114C006E74AE7355DD5",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Trails/M_IB_SwipeTrail.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6B87CCC0CD042D8CB2C840720342C5470D33DB47",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Glyph/M_IB_AnimGrid_Trans_MeshEmit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "78E502DA90F60F91441029CC9FD77044980202DC",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Glyph/M_IB_Flares.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Glyph/M_IB_Flash_Add.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "36CB1DD5819745578F0E086E1054A4F72D67BC18",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Noise_Beam_01_INST.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Glyph/M_Resurrection_Phoenix_INST.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "508E609C1785237308FEFE7C991D1E45F58FC901",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Glyph/M_IB_AnimGrid_2_Trans.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Glyph/M_IB_AnimGrid_Trans.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Glyph/M_IB_AnimGrid_Masked_Trans.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "834DB69A595976B732EB49B92BC6594DA4BC8D49",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Enemy/M_Ausar_ShieldBlast_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "625C85E18BCAEB7881B4A023606D49CD73FF7686",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Tornado.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "137AB480DEDE2923BC76BAB606ED0F1CFDAF724D",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Mobile/ICE/M_Tornado_Ice_Trans.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "87C00BE8934BDC3231EBD75BD2D70470A968AE52",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Ice_Shard_Tiled_D.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "686AB7D637842760CAC1161D8B38E4FB36213B51",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Ice_Unlit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5FC00C34BD7BE69308AB6A48B8C1E70E800BB683",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Ice_Shard_Tiled_Mesh_Unlit_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "534515C27B815D97C645C7B8786EE645ABD7A6D9",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Opaque_Axes_Spin.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_SpikeTrap_Fire.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3A57EEA4142FF633C90881C2C169245EF9173F8D",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_JaggedRock_MeshEmit_Lit.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_JaggedRockFire_MeshEmit_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "02260E22118860B87B7E7C5439B97C0DC42A7391",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/ICE/M_IceSkills_Base_Lit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "96CD0B762C8CAA6752CA93761D889F54C69A5BBA",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Tornado_Fire_Trans_03.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9DCCD4F0107345E7F9E82B3EC2C9AD0840B1A893",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_BlastWave_2sided.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_BlastWave_MeshEmit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "925B48F6BE8FCD6F6307F4D606F052D8CBD9C87D",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_CrackedGround_Trans.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_HeartHeal_Trans.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_ExploD_Trans_subUV_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_cracks_01_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_CrackedGroundPoison_Trans.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_CrackedGroundIce_Trans.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_CrackedGroundFire_Trans.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "89545AE94FBC64084582B68BE637A647163E10A4",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_FireSword_Add_mobile.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CD4F2F2843AD7CA354E286C685D5360C910A7F4F",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Enemy/M_Enemy_GreaterSpiderBoss_FX_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A02A55BCC6B5F4353D6D3E4F444987C8364C0387",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_LeachBeam_Trans.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "BD255969A433CD9C63F2BDEC7D5D158CD7675C17",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_HealBeam_Trans.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1FB66B7D727C2CC30A137EE6C919EFB0247E30C4",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Liquid/M_Water_fountain_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F171D5FA4C11ADDE4737AB8559D3A7EE9D9020F2",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Smoke/M_FogSheet_Fire_03.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Smoke/M_FogSheet_Add_Ice_T3.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FD221244DD8011E44F9B3272D2AFCA7928E939E4",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Smoke/M_FogSheet_Add.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DCA7BB999CE1E6C73C28F18111590EC55064D205",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_YinYang_Circle.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F1EB7C6CB2741C52040F73771640C67CF5A1759D",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_TraceTrail_Fire.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "952F5BD0BFF7BF26214E13AF9232F2CCB1CF906A",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Tornado_Ice_Trans_UT.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "381598DA65C5FEB1ADA5B2AEF664E33B33093096",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Tornado_Fire_Trans_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "102C95F71F997C4FBF9C0F258A180AE1667A8039",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Tornado_Fire_Trans_02.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "788DF7A5B221E5FBE9E8548A3ABAA138EEF483EF",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Tornado_Fire_Trans.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C507AF58FF5E2AA94B2F775B6956D7DB9558B77C",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Tornado_Fire_Add.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C5D2CFFEDA40F23DF090A4B7CF2A6CA81220C794",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Sword_Opaque_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2A09C88C19644E385499A19C6F325D736D019ABB",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_SwipeTrail_EdgeFade.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1DCBC42349871F1FCE9E8B2B2185A2933B9BB6C0",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Add_Trail_MeshEmit_2Sided_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CD0D876F13E67FC6146979382EBD004559BA0530",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_SwipeTrail_Add_2Sided_Emissive_MESH.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "BBB21A0C6EAC601656A116040DA4003935EAF554",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Spider_Anim.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "36ED50A6C13456922A2E58B514B97EB29B745CCD",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Snow.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1603A976872FAD19AADFC20C619D5798E95AC13B",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Smoke_Add_subUV_mult.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Smoke_Add_2_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_SmokeSingle_Add.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Smoke3_Add_subUV_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Impact_SubUV.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_GlowVert_Add.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_BlastWave_MeshEmit_2Sided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B87FD33ED805B997DB53454B2F88BD3C79C6F5D0",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Smoke_Addit_subUV_mobile.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0338BFE558DBC586BFE874B9E58CA46A6F7DA863",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_SmokeWispy_Pan.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B0A3FB1B30E207A6309DD42D4AB0789287794085",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_SmokeTile_Trail_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7F4BDB8082AE48C4BB1249297E4294BCA3637F0D",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Sky_Flashing_Panning_Master.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Sky_Flashing_Panning.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3057DE95787528A8CCAC4CAD587ACDB9574B555A",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Skill_Vortex_Fire_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "76A436CD9B4609A8548699F03A229710BF4D3C92",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_ShieldMesh_mobile.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9373BA4B1D3D8CC8F28D828702511DF5DE198533",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Projectile_2Side_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F896AEE96B9C3C53E7D135668F52DCD21DEDF976",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Projectile_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FF644F614E8F550950459B48F5A8E5DA0B87762B",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Portal_Trans.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "59EAB94516C9B6FA28F316F0CCB529CC45CFD11B",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Portal_Add.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A00AD9EC90E146619628A02B5B2BE597CF15088F",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Plate_Floor_2_Ice.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "30C4D5050923E43B8DCA68013A6F18875D0969EB",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_LightSconces_Glow.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6A8EF5253C08F1A67914B52F68A865398D2FD331",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Lightning_Arc_Add_subUV.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "60099E6195175587AB403E7B07C08FEF7C76A576",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_LeafFlip_Masked.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1D368023B7BD4D98A6BF44F28D7185674A2D6BE1",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Lava_Flowing.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "15DAF537269D187E90F9852E2207C5657C84FE05",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_LavaFlows_Trans_2sided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B455C9D71C0F1ECE75B2183459B1C2C2D93AD7D1",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_LavaFlows_Trans.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7AD3635AEB687D15DE55CB92BEBA497BED72E13C",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_LavaFlows_Fast_Trans.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8CB6A8186652A0360D0128E4CC8FC040C5254591",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_JaggedRockFireBase_MeshEmit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "982DF2B16E68C57C41E341409DC7463A8C5A3396",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Ice_Mesh03.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A85BE81D4A1DC1496C1CB46023C8EB62FC661F25",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Ice_Attack_Side_Add.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "86F7BA5DF4D7223F3C2C31692183232269ED4E8A",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_IceTrap_Shard.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F543AFC654685EE4AB135E1C6B120EFE526148EE",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_HeartHeal_02_Trans.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "87CD278CF1C323CED4CA1549633C347B06F6D7A8",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Heal_Add_2Sided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "08D4092CFC52556C20E9B8D6679DFB515D34E7DC",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_HealSpiral_Add.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2ADAE884923555F3F1BF5344933A47C436E2FAE4",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_GroundCrack_SubUV.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "933B06A37DBA242183897EA59DCCB478B626D606",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Glowing_Eyes.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8B457D442C901FAAE57875A70A68A1B527606255",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_ForgeCoals_Fire.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6EDFA6069C7CE869EA8FEDE32E96DDF508130928",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fog_Orng_mobile.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fog_Green_mobile.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C8C4BFAAF88C03F74419D6FECDBA7C63FF89912D",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fog_Blue_mobile.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "73D7B648036BD4FE62225C167573470F27151AAF",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_FlowingLava_HOT_red_Cool.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "769EDD86B220420AFBD240BFFC3418929B2229E5",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Fire/M_FlickerGlow_Forge.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CA77AC4F8D46C1F7B803814E8896B42D59F88FEB",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Trans_Tile_Pan_mobile.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "BC2D111D7736B33B6B042EA9E3B26EFECAF440B7",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Trans_Tile_2sided_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C84E246C6468BE9D698B04E0403E7FFE37BE7DE4",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Trans_Tile_2sided_MeshEmit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "EE547CBE8B0BA1BCFB9F0F3DAAD1A6028FC081C4",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Trans_Tile_2sided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "474AE7D5390D39FBD8375D2214CB15059E8059E6",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Trans_TilePan_2sided_meshEmit_01.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Trans_TilePan_2sided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3CABFEA41740B07E219E6F7E102557B72957B66D",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Trans_TilePan_2sided_meshEmit.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Trans_TilePan_2sided_Blue.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "88311C24B2FA6B23B3E7D3A99E11A676C8F7B318",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Trans_subUV.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DC6C00D17B98F6A07FD9B8B76DC1AE4D5C42D974",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Trans_DetailMask_2sided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E89FCCF12081989ABC00EF02649AC5A60E503967",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Ribbon_Pan_Add.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1E8A013D282DB8EF125A142460C2079CB576D7ED",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Add_Tile_Grey_2Sided_meshEmit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B9AECC0A1614A9E3FEE2B3121E94912007CF7BDE",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Add_Tile_Grey_2sided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "68273E34BD20202572B2466F362732BD1F07761A",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Add_Tile_2Sided.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Fire_Add_DetailMask_meshEmit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7AD01633131A85AD4F483024339FD7D1AA8D78C4",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_FireWall_Add.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "428583E619FC444F79145855DA2EDBA91D1A9A55",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_FireSky_moving.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "315D7387C38300614B79EF3B4D8F60690F0A9F66",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_FireSky.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_BlueSky_Moving.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_BlueSky.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "61AB818C80A1278503544E61CA5F42464ACA2FED",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_FireBlast_Add_VertexAnim_2sided.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_FireBlast_Add.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D0868AA75642BF1684685BEFF19A029B09BE3F83",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_FireBlast_Add_FireBall_MeshEmit.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_FireBlast_Add_FireBall.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "658A205746C65317A5D692A34D5357D460C7F4A7",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_FireBlast_Add_2sided_meshEmit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1347E4AD800F969B55ACF50944A724360E769F5C",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_FireBeam_Trans.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9C4E195A02958FF571210E4D14CEC8928113BE44",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_CrackedGround_Fire_Unlit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3829DB484666CAB352D9406C1305F60C867AB20E",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_CrackedGround_Fire_Lit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A008DF0CF1A6C46D705D676DBC9F6C795C41F1D4",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_CrackedGroundFire.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0059DD770F061EA3D66544C889E6018CD7758AD2",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_CandleGlow_2sided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2ABA2D6A80C232DFDD22D122B1D4FE0A7BF5DD07",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_CandleGlow.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "162110DF80F6BE6491F3A0189ABE97BD064F573A",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_BlastDir_Add_01_mobile.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B2720D151CFCC65A043115A8D4B35ED789DC2F9F",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_BladeSwipe04.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C9F1F09F452D62B933B7B6EE7E8C1538D0F195F7",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Bats_Trans_mobile.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "BF986081A21257094C0E25B8362511D3E5314AB3",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_AuraCircle_add.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D26D392A436583539C1F4DA8E5F73C00D944E1E7",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Add_Unlit_EndGate.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "BE1B0099596F36D9969572FF911C67DF54FCC10D",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Misc/M_Noise_Beam_01_IN_2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C8B0E384F3C221621C66DC549936862CB9EFE250",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Impact_IB_SubUV.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "03894EEC6C83DF8940DAF1E4F0E677285F7B7D33",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Glyph/M_IB_Flares_Grid.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E7CC83308BC11F6B651B74028999B075982C0B18",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Glyph/M_IB_AnimGrid_Trans_MeshMat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B103A82FD4156445050076B1EC2082B7F8641F56",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX/M_FogPlane03_add.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7BB911B5CD1E2F4D8A55563F5F518EA0D29AA6C1",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX/M_FogPlane03.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9943FF473C4D622D076B84E9019FC6305AA6846E",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX/M_FogPlane02.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "660ECEBD6048D5FF767D73FC1A9F9555DD4F2092",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX/M_FogPlane01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F54A05D7A54EC2411D169DD078CBCF2399B5EB94",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX/M_Embers.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C976A96174E9FFB972207E3778FAEC7572FE8DF4",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX/M_BloomPlane.uasset"
+			]
+		}
+	]
+}

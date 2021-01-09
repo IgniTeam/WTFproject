@@ -75,6 +75,7 @@ import android.app.NativeActivity;
 import android.app.ActivityManager;
 import android.app.ProgressDialog;
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.util.Log;
 
 import android.os.Vibrator;
@@ -82,6 +83,7 @@ import android.os.SystemClock;
 import android.os.Looper;
 import android.os.Handler;
 import android.os.HandlerThread;
+import android.os.PowerManager;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -139,6 +141,7 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.WindowInsets;
 import android.view.WindowManager;
+import android.view.Display;
 import android.view.Window;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
@@ -155,6 +158,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.games.Games;
+import com.google.android.apps.internal.games.memoryadvice.MemoryAdvisor;
 
 import com.google.android.gms.plus.Plus;
 
@@ -208,6 +212,9 @@ import android.content.BroadcastReceiver;
 import android.support.v4.app.NotificationManagerCompat;
 import android.support.v4.content.FileProvider;
 import com.epicgames.ue4.GooglePlayStoreHelper;
+import java.io.UnsupportedEncodingException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -357,6 +364,9 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 	// remember screensaver state to restore
 	private boolean bKeepScreenOn = false;
 	
+	// number of times screen capturing has been disabled
+	private int NumTimesScreenCaptureDisabled = 0;
+
 	// Virtual keyboard
 	AlertDialog virtualKeyboardAlert;
 	EditText virtualKeyboardInputBox;
@@ -460,6 +470,9 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 	/** Whether we are in VRMode */
 	private boolean IsInVRMode = false;
 
+	/** Whether this application uses VR keyboard as input */
+	private boolean bUsesVrKeyboard = false;
+
 	/** Used for SurfaceHolder.setFixedSize buffer scaling workaround on early Amazon devices and some others */
 	private boolean bUseSurfaceView = false;
 	private SurfaceView MySurfaceView;
@@ -517,6 +530,12 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 	public static final int ANDROID_BUILD_VERSION = android.os.Build.VERSION.SDK_INT;
 	
 	private StoreHelper IapStoreHelper;
+	
+	private MemoryAdvisor MemAdvisor;
+	private static final int MemoryAdvisorPollDelayMs = 100;
+	private static final int ProcessMemoryInfoPollDelayMs = 10000;
+	private long LastMemoryInfoPollTime;
+	private MemoryAdvisor.MemoryState MemState = MemoryAdvisor.MemoryState.OK;
 
 	/** Implement this if app wants to handle IAB activity launch. For e.g use DaydreamApi for transitions **/
 	GooglePlayStoreHelper.PurchaseLaunchCallback purchaseLaunchCallback = null;
@@ -2542,6 +2561,30 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 		return containerFrameLayout;
 	}
 
+	protected String FindLineFromStatus(String fieldToReport)
+	{
+		File file = new File("/proc/self/status");
+		if (file.exists())
+		{
+			try (BufferedReader reader = new BufferedReader(new FileReader(file));)
+			{
+				String line;
+				while ((line = reader.readLine()) != null)
+				{
+					if(line.contains(fieldToReport))
+					{
+						return line;
+					}
+				}
+			}
+			 catch (IOException ie)
+			 {
+				Log.debug("failed to read status: " + ie);
+			}
+		}
+		return "";
+	}
+
 	@Override
 	public void onCreate(Bundle savedInstanceState)
 	{
@@ -2558,6 +2601,12 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 
 		InternalFilesDir = getFilesDir().getAbsolutePath() + "/";
 		ExternalFilesDir = getExternalFilesDir(null).getAbsolutePath() + "/";
+
+		// disable autofill to avoid possible Android 10 crash (android.view.autofill.AutofillManager.ensureServiceClientAddedIfNeededLocked() SyncResultReceiver$TimeoutException)
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
+		{
+			getWindow().getDecorView().setImportantForAutofill(View.IMPORTANT_FOR_AUTOFILL_NO_EXCLUDE_DESCENDANTS);
+		}
 
 		// create splashscreen dialog (if launched by SplashActivity)
 		_extrasBundle = getIntent().getExtras();
@@ -2654,39 +2703,77 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 		{
 			Logger.SuppressLogs();
 		}
+		
+		MemAdvisor = new MemoryAdvisor(this);
+		LastMemoryInfoPollTime = System.currentTimeMillis();
 
 		// update memory stats every 10 seconds
 		memoryRunnable = new Runnable() {
 			@Override
 			public void run()
 			{
-				int ProcessMemory = 0;
-
-				ActivityManager activityManager = (ActivityManager)_activity.getSystemService(Context.ACTIVITY_SERVICE);
-				int pid = android.os.Process.myPid();
-				int pids[] = new int[] { pid };
-				android.os.Debug.MemoryInfo[] memoryInfo = activityManager.getProcessMemoryInfo(pids);
-				if (memoryInfo.length > 0)
+				JSONObject Advice = MemAdvisor.getAdvice();
+				MemoryAdvisor.MemoryState CurrentMemoryState = MemoryAdvisor.getMemoryState(Advice);				
+				if (CurrentMemoryState != MemState)
 				{
-					ProcessMemory = memoryInfo[0].dalvikPss + memoryInfo[0].nativePss + memoryInfo[0].otherPss;
-
-					if (Build.VERSION.SDK_INT >= 23)
+					switch (CurrentMemoryState)
 					{
-						Map<String, String> memstats = memoryInfo[0].getMemoryStats();
-						if (memstats.containsKey("summary.total-pss"))
+						case UNKNOWN:
+							Log.warn("Cannot determine memory state");
+							nativeOnMemoryWarningChanged(_activity, -1);
+							break;
+						case OK:
+							nativeOnMemoryWarningChanged(_activity, 0);
+							break;
+						case APPROACHING_LIMIT:
+							Log.warn("Approaching memory limit. Estimated available memory is " + MemoryAdvisor.availabilityEstimate(Advice) + " bytes");
+							nativeOnMemoryWarningChanged(_activity, 1);
+							break;
+						case CRITICAL:
+							Log.warn("Critical memory limit. Estimated available memory is " + MemoryAdvisor.availabilityEstimate(Advice) + " bytes");
+							nativeOnMemoryWarningChanged(_activity, 2);
+							break;
+					}
+					
+					MemState = CurrentMemoryState;
+				}
+				
+				int ProcessMemory = 0;
+				
+				long CurrentTimeMs = System.currentTimeMillis();
+				if (CurrentTimeMs - LastMemoryInfoPollTime >= ProcessMemoryInfoPollDelayMs)
+				{
+					ActivityManager activityManager = (ActivityManager)_activity.getSystemService(Context.ACTIVITY_SERVICE);
+					int pid = android.os.Process.myPid();
+					int pids[] = new int[] { pid };
+					android.os.Debug.MemoryInfo[] memoryInfo = activityManager.getProcessMemoryInfo(pids);
+					if (memoryInfo.length > 0)
+					{
+						ProcessMemory = memoryInfo[0].dalvikPss + memoryInfo[0].nativePss + memoryInfo[0].otherPss;
+
+						if (Build.VERSION.SDK_INT >= 23)
 						{
-							ProcessMemory = Integer.parseInt(memstats.get("summary.total-pss"));
+							Map<String, String> memstats = memoryInfo[0].getMemoryStats();
+							if (memstats.containsKey("summary.total-pss"))
+							{
+								ProcessMemory = Integer.parseInt(memstats.get("summary.total-pss"));
+							}
 						}
 					}
+					Log.debug("Used memory: " + ProcessMemory + " ("+FindLineFromStatus("VmRSS:")+")");
+					LastMemoryInfoPollTime = CurrentTimeMs;
 				}
-				Log.debug("Used memory: " + ProcessMemory);
-
+				
 				synchronized(_activity)
 				{
-					_activity.UsedMemory = ProcessMemory;
+					if (ProcessMemory > 0)
+					{
+						_activity.UsedMemory = ProcessMemory;
+					}
+					
 					if (_activity.memoryHandler != null)
 					{
-						_activity.memoryHandler.postDelayed(this, 10000);
+						_activity.memoryHandler.postDelayed(this, _activity.MemoryAdvisorPollDelayMs);
 					}
 				}
 			}
@@ -3003,11 +3090,32 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 				ProjectVersion = bundle.getString("com.epicgames.ue4.GameActivity.ProjectVersion");
 			}
 
+					boolean hasVR = false;
+
+					Intent vrIntent = new Intent(Intent.ACTION_MAIN, null);
+					vrIntent.addCategory("com.oculus.intent.category.VR");
+					vrIntent.addFlags(PackageManager.GET_INTENT_FILTERS);
+					vrIntent.setPackage(getApplicationContext().getPackageName());
+
+					PackageManager pkgManager = getApplicationContext().getPackageManager();
+					if (pkgManager != null)
+					{
+						if(!pkgManager.queryIntentActivities(vrIntent, PackageManager.GET_INTENT_FILTERS).isEmpty())
+						{
+							hasVR = true;
+						}
+					}
+
 					if (bundle.containsKey("com.samsung.android.vr.application.mode"))
 					{
+						hasVR = true;
+					}
+
+					if (hasVR)
+					{
 						PackagedForOculusMobile = true;
-						String VRMode = bundle.getString("com.samsung.android.vr.application.mode");
-						Log.debug("Found Oculus Mobile mode = " + VRMode);
+						bUsesVrKeyboard = true;
+						Log.debug("Found Oculus Mobile mode.");
 					}
 					else
 					{
@@ -3060,7 +3168,7 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 		Log.debug( "OS language is set to " + Language );
 		Log.debug( "Debugger attached is " + bDebuggerAttached );
 
-		nativeSetAndroidVersionInformation( android.os.Build.VERSION.RELEASE, android.os.Build.MANUFACTURER, android.os.Build.MODEL, android.os.Build.DISPLAY, Language );
+		nativeSetAndroidVersionInformation( android.os.Build.VERSION.RELEASE, targetSdkVersion, android.os.Build.MANUFACTURER, android.os.Build.MODEL, android.os.Build.DISPLAY, Language );
 
 		try
 		{
@@ -3416,6 +3524,19 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 
 
 		clipboardManager = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+		
+		if (Build.VERSION.SDK_INT >= 29)
+		{
+			PowerManager powerManager = (PowerManager) getSystemService(POWER_SERVICE);
+			powerManager.addThermalStatusListener(getMainExecutor(), new PowerManager.OnThermalStatusChangedListener() {
+				@Override 
+				public void onThermalStatusChanged(int status) 
+				{
+					Log.debug("=== Thermal status changed to " + status);
+					nativeOnThermalStatusChangedListener(null, status);
+				}
+			});
+		}
 
 			//Google Play SDK onCreate additions
 			try {
@@ -3656,6 +3777,9 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 		// restore screensaver state
 		AndroidThunkJava_KeepScreenOn(bKeepScreenOn);
 		
+		// restore screep capture state
+		SetDisableScreenCaptureInternal(AndroidThunkJava_IsScreenCaptureDisabled());
+
 		if (bForceGameEndWithError || bForceGameEndWithWarning)
 		{
 			final boolean bWarning = bForceGameEndWithWarning;
@@ -3681,7 +3805,7 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 							public void onClick(DialogInterface dialog, int id) {
 								dialog.dismiss();
 								AndroidThunkJava_LaunchURL(ForceExitLink);
-								System.exit(0);
+								AndroidThunkJava_ForceQuit();
 							}
 						});
 					}
@@ -3719,7 +3843,7 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 										AndroidThunkJava_OpenIntentAction("android.settings.SETTINGS");
 									}
 								}
-								System.exit(0);
+								AndroidThunkJava_ForceQuit();
 							}
 						});
 					}
@@ -3729,7 +3853,7 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 							@Override
 							public void onClick(DialogInterface dialog, int id) {
 								dialog.dismiss();
-								System.exit(0);
+								AndroidThunkJava_ForceQuit();
 							}
 						});
 					}
@@ -3799,6 +3923,27 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 
 		super.onPause();
 		Log.debug("==============> GameActive.onPause complete!");
+	}
+
+	@Override
+	public void onRestart()
+	{
+		super.onRestart();
+
+	}
+
+	@Override
+	public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState)
+	{
+		super.onSaveInstanceState(outState, outPersistentState);
+
+	}
+
+	@Override
+	public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults)
+	{
+		super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+
 	}
 	
 	@Override
@@ -4077,6 +4222,50 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 		}
 	}
 
+	public boolean AndroidThunkJava_IsScreenCaptureDisabled()
+	{
+		return NumTimesScreenCaptureDisabled != 0;
+	}
+
+	private void SetDisableScreenCaptureInternal(boolean bDisable)
+	{
+		if (bDisable)
+		{
+			_activity.runOnUiThread(new Runnable()
+			{
+				@Override
+				public void run()
+				{
+					Log.debug("==============> [JAVA] AndroidThunkJava_DisableScreenCapture(true) - Disabled screen captures");
+					_activity.getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
+				}
+			});
+		}
+		else
+		{
+			_activity.runOnUiThread(new Runnable()
+			{
+				@Override
+				public void run()
+				{
+					Log.debug("==============> [JAVA] AndroidThunkJava_DisableScreenCapture(false) - Enabled screen captures");
+					_activity.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_SECURE);
+				}
+			});
+		}
+	}
+
+	public void AndroidThunkJava_DisableScreenCapture(boolean bDisable)
+	{
+		boolean bWasDisabled = AndroidThunkJava_IsScreenCaptureDisabled();
+		NumTimesScreenCaptureDisabled += bDisable ? 1 : -1;
+		// Change in state?
+		if (AndroidThunkJava_IsScreenCaptureDisabled() != bWasDisabled)
+		{
+			SetDisableScreenCaptureInternal(!bWasDisabled);
+		}
+	}
+
 	private class VibrateRunnable implements Runnable {
 		private int duration;
 		private Vibrator vibrator;
@@ -4337,7 +4526,13 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 						{
 							//Log.debug("VK: Hide newVirtualKeyboardInput");
 
-							newVirtualKeyboardInput.clearFocus();
+							if (newVirtualKeyboardInput.hasFocus()) {
+								try {
+									newVirtualKeyboardInput.clearFocus();
+								} catch (Exception e) {
+									Log.warn("Unable to clear focus from virtualKeyboardInput");
+								}
+							}
 							//set offscreen
 							newVirtualKeyboardInput.setY(-1000);
 
@@ -4719,6 +4914,7 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 
 	public void AndroidThunkJava_ForceQuit()
 	{
+
 		System.exit(0);
 		// finish();
 	}
@@ -4881,10 +5077,7 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 				return;
 			}
 		}
-		else if( IapStoreHelper != null )
-		{
-				super.onActivityResult(requestCode, resultCode, data);
-		}
+
 		else
 		{
 			super.onActivityResult(requestCode, resultCode, data);
@@ -4898,20 +5091,43 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 		}
 	}
 	
-	public boolean AndroidThunkJava_IapBeginPurchase(String ProductId)
+public boolean AndroidThunkJava_IapBeginPurchase(String ProductId, String AccountId)
+{
+	Log.debug("[JAVA] - AndroidThunkJava_IapBeginPurchase");
+	boolean bTriggeredPurchase = false;
+	if( IapStoreHelper != null )
 	{
-		Log.debug("[JAVA] - AndroidThunkJava_IapBeginPurchase");
-		boolean bTriggeredPurchase = false;
-		if( IapStoreHelper != null )
+		// sha-256 the accountId and get the hex string representation
+		String ObfuscatedAccountId = null;
+		if (AccountId != null)
 		{
-			bTriggeredPurchase = IapStoreHelper.BeginPurchase(ProductId);
+			try
+			{
+				MessageDigest md = MessageDigest.getInstance("SHA-256");
+				byte[] sha256hash = md.digest(AccountId.getBytes("UTF-8"));
+				StringBuilder builder = new StringBuilder(sha256hash.length * 2);
+				for (byte b : sha256hash)
+				{
+					builder.append(String.format("%02x", b));
+				}
+				ObfuscatedAccountId = builder.toString();
+			}
+			catch (NoSuchAlgorithmException ae)
+			{
+			}
+			catch (UnsupportedEncodingException ee)
+			{
+			}
 		}
-		else
-		{
-			Log.debug("[JAVA] - Store Helper is invalid");
-		}
-		return bTriggeredPurchase;
+		bTriggeredPurchase = IapStoreHelper.BeginPurchase(ProductId, ObfuscatedAccountId);
 	}
+	else
+	{
+		Log.debug("[JAVA] - Store Helper is invalid");
+	}
+	return bTriggeredPurchase;
+}
+
 
 	public boolean AndroidThunkJava_IapIsAllowedToMakePurchases()
 	{
@@ -5538,6 +5754,99 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 		return false;
 	}
 
+	public int[] AndroidThunkJava_GetSupportedNativeDisplayRefreshRates()
+	{
+		if(ANDROID_BUILD_VERSION >= 24)
+		{
+			WindowManager windowManager =  getWindowManager();
+			Display display = windowManager.getDefaultDisplay();
+			Display.Mode currentmode = display.getMode();
+			Display.Mode[] modes = display.getSupportedModes();
+			ArrayList<Integer> refreshlist = new ArrayList<Integer>();
+
+			for (int i = 0; i < modes.length; i++)
+			{
+				if (modes[i].getPhysicalHeight() == currentmode.getPhysicalHeight() &&
+					modes[i].getPhysicalWidth() == currentmode.getPhysicalWidth())
+				{
+					refreshlist.add((int)modes[i].getRefreshRate());
+				}
+			}
+			if (refreshlist.size() == 0)
+			{
+				refreshlist.add(60);
+			}
+			int[] result = new int[refreshlist.size()];
+			for (int i=0; i < result.length; i++)
+			{
+				result[i] = refreshlist.get(i).intValue();
+			}
+			return result;
+		}
+		else
+		{
+			int[] result = new int[1];
+			result[0] = 60;
+			return result;
+		}
+	}
+
+	public boolean AndroidThunkJava_SetNativeDisplayRefreshRate(int RefreshRate)
+	{
+		if(ANDROID_BUILD_VERSION >= 24)
+		{
+			WindowManager windowManager =  getWindowManager();
+			Display display = windowManager.getDefaultDisplay();
+			Display.Mode currentmode = display.getMode();
+			int currentmodeid = currentmode.getModeId();
+			Display.Mode[] modes = display.getSupportedModes();
+
+			for (int i = 0; i < modes.length; i++)
+			{
+				if (modes[i].getPhysicalHeight() == currentmode.getPhysicalHeight() &&
+					modes[i].getPhysicalWidth() == currentmode.getPhysicalWidth() &&
+					(int)modes[i].getRefreshRate() == RefreshRate)
+				{
+					final int modeid = modes[i].getModeId();
+					if(currentmodeid != modeid)
+					{
+						_activity.runOnUiThread(new Runnable()
+						{
+							public void run()
+							{
+								Window w = getWindow();
+								WindowManager.LayoutParams l = w.getAttributes();
+								l.preferredDisplayModeId = modeid;
+								w.setAttributes(l);
+							}
+						});
+						Log.debug("Found mode " + modeid + " for native refresh rate "+RefreshRate);
+					}
+					return true;
+				}
+			}
+
+			return false;
+		}
+		else
+		{
+			return (RefreshRate == 60);
+		}
+	}
+
+	public int AndroidThunkJava_GetNativeDisplayRefreshRate()
+	{
+		if(ANDROID_BUILD_VERSION >= 24)
+		{
+			WindowManager windowManager =  getWindowManager();
+			Display display = windowManager.getDefaultDisplay();
+			Display.Mode currentmode = display.getMode();
+			return (int)currentmode.getRefreshRate();
+		}
+
+		return 60;
+	}
+
 	@SuppressWarnings("deprecation")
 	@TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
 	public static boolean isAirplaneModeOn(Context context)
@@ -6090,7 +6399,7 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 				//Log.debug("VK onTextChanged " + charSequence);
 
 				//#jira UE-49143 Inconsistent virtual keyboard behavior tapping between controls
-				if(newVirtualKeyboardInput.getY() > 0)
+				if(newVirtualKeyboardInput.getY() > 0 || bUsesVrKeyboard)
 				{
 					//try to avoid "false empty string" events
 					//delay the "set empty string" event and wait for a second call
@@ -6107,16 +6416,22 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 					}
 					else
 					{
-						String message = newVirtualKeyboardInput.getText().toString();
-						//#jira UE-50645 Carriage returns can be pasted into single line UMG fields on Android
-						//oddly enough, we have to use events/filters to control the EditText's copy/paste behaviour
-						if(newVirtualKeyboardInput.getMaxLines() == 1 && message.contains("\n"))
+						virtualKeyboardHandler.postDelayed(new Runnable()
 						{
-							message = message.replaceAll("\n" , " ");
-							newVirtualKeyboardInput.setText(message);
+							public void run()
+							{
+								String message = newVirtualKeyboardInput.getText().toString();
+								//#jira UE-50645 Carriage returns can be pasted into single line UMG fields on Android
+								//oddly enough, we have to use events/filters to control the EditText's copy/paste behaviour
+								if(newVirtualKeyboardInput.getMaxLines() == 1 && message.contains("\n"))
+								{
+									message = message.replaceAll("\n" , " ");
+									newVirtualKeyboardInput.setText(message);
 						
-						}
-						nativeVirtualKeyboardChanged(message);
+								}
+								nativeVirtualKeyboardChanged(message);
+							}
+						}, 100);
 					}
 				}
 				downgradeEasyCorrectionSpans();
@@ -6253,7 +6568,7 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 		if (intent.resolveActivity(getPackageManager()) != null)
 		{
 			startActivity(intent);
-			System.exit(0);
+			AndroidThunkJava_ForceQuit();
 			return true;
 		}
 
@@ -6318,13 +6633,13 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 
 		if (bExit)
 		{
-			System.exit(0);
+			AndroidThunkJava_ForceQuit();
 		}
 		
 		return true;
 	}
 
-	public void AndroidThunkJava_RestartApplication(String RestartExtra) 
+	private void RestartApplication(String RestartExtra)
 	{
 		Context context = getApplicationContext();
 	
@@ -6339,6 +6654,33 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 
 		// kill the current application instance. Undefined behaviour after this!
 		Runtime.getRuntime().exit(0); 
+	}
+
+	public void AndroidThunkJava_RestartApplication(final String RestartExtra) 
+	{
+	    Runnable restartRunnableUIThread = new Runnable()
+		{
+			@Override
+			public void run()
+			{
+				RestartApplication(RestartExtra);
+			}
+		};
+		Log.debug("app restart : " + RestartExtra);
+
+		runOnUiThread(restartRunnableUIThread);
+
+		// wait for exit.
+		while(true)
+		{
+			try 
+			{
+				Thread.sleep(Long.MAX_VALUE); 
+			}
+			catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
 	}
 	
 	public void AndroidThunkJava_ClipboardCopy(String text) 
@@ -6467,10 +6809,10 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 	public native boolean nativeIsShippingBuild();
 	public native void nativeSetAndroidStartupState(boolean bDebuggerAttached);
 	public native void nativeSetGlobalActivity(boolean bUseExternalFilesDir, boolean bPublicLogFiles, String internalFilePath, String externalFilePath, boolean bOBBInAPK, String APKPath);
-	public native void nativeSetObbFilePaths(String OBBMainFilePath, String OBBPatchFilePath);
+	public native void nativeSetObbFilePaths(String OBBMainFilePath, String OBBPatchFilePath, String OBBOverflow1FilePath, String OBBOverflow2FilePath);
 	public native void nativeSetWindowInfo(boolean bIsPortrait, int DepthBufferPreference);
 	public native void nativeSetObbInfo(String ProjectName, String PackageName, int Version, int PatchVersion, String AppType);
-	public native void nativeSetAndroidVersionInformation( String AndroidVersion, String PhoneMake, String PhoneModel, String PhoneBuildNumber, String OSLanguage );
+	public native void nativeSetAndroidVersionInformation( String AndroidVersion, int TargetSDK, String PhoneMake, String PhoneModel, String PhoneBuildNumber, String OSLanguage );
 
 	public native void nativeSetSurfaceViewInfo(int width, int height);
 	public native void nativeSetSafezoneInfo(boolean bIsPortrait, float left, float top, float right, float bottom);
@@ -6497,6 +6839,9 @@ public class GameActivity extends NativeActivity implements SurfaceHolder.Callba
 		
 	public native void nativeOnInitialDownloadStarted();
 	public native void nativeOnInitialDownloadCompleted();
+	
+	public native void nativeOnThermalStatusChangedListener(GameActivity activity, int status);
+	public native void nativeOnMemoryWarningChanged(GameActivity activity, int status);
 
 	static
 	{

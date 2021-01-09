@@ -1,0 +1,1 @@
+../../../Proj/Proj.uproject   -Messaging -SessionId=9DD682DC44E8FE1D1FDE29AAA82CD72B -SessionOwner="misha" -SessionName="Redmi_Note_8_Pro (t4z5mru4amkvbiy9)"    -filehostip=192.168.43.180+127.0.0.1

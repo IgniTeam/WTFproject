@@ -250,60 +250,73 @@ public class GooglePlayStoreHelper implements StoreHelper
 	 * Start the purchase flow for a particular sku
 	 */
 	final int purchaseIntentIdentifier = 1001;
-	public boolean BeginPurchase(String ProductID)
+	public boolean BeginPurchase(String ProductID, String ObfuscatedAccountId)
 	{
 		ArrayList<String> skuList = new ArrayList<String>(1);
 		skuList.add(ProductID);
 
 		SkuDetailsParams.Builder skuDetailsParams = SkuDetailsParams.newBuilder();
 		skuDetailsParams.setSkusList(skuList).setType(BillingClient.SkuType.INAPP);
-		mBillingClient.querySkuDetailsAsync(skuDetailsParams.build(),
-				new SkuDetailsResponseListener() {
-					@Override
-					public void onSkuDetailsResponse(BillingResult billingResult,
-						List<SkuDetails> skuDetailsList) 
+		
+		class SkuDetailsResponseListenerImpl implements SkuDetailsResponseListener
+		{
+			String ObfuscatedAccountId = null;
+			public SkuDetailsResponseListenerImpl setObfuscatedAccountId(String InObfuscatedAccountId)
+			{
+				ObfuscatedAccountId = InObfuscatedAccountId;
+				return this;
+			}
+			
+			@Override
+			public void onSkuDetailsResponse(BillingResult billingResult,
+				List<SkuDetails> skuDetailsList) 
+			{
+				int response = billingResult.getResponseCode();
+				if(response == BillingClient.BillingResponseCode.OK)
+				{
+					for(SkuDetails skuDetails : skuDetailsList)
 					{
+						BillingFlowParams.Builder flowParams = BillingFlowParams.newBuilder().setSkuDetails(skuDetails);
 						
-						int response = billingResult.getResponseCode();
-						if(response == BillingClient.BillingResponseCode.OK)
+						if(ObfuscatedAccountId != null)
 						{
-							for(SkuDetails skuDetails : skuDetailsList)
+							flowParams = flowParams.setObfuscatedAccountId(ObfuscatedAccountId);
+						}
+	
+						if (gameActivity.IsInVRMode())
+						{
+							int responseCode = mBillingClient.isFeatureSupported(BillingClient.FeatureType.IN_APP_ITEMS_ON_VR).getResponseCode();
+							boolean isSupportedInVR = (responseCode == BillingClient.BillingResponseCode.OK);
+							if (isSupportedInVR)
 							{
-								BillingFlowParams.Builder flowParams = BillingFlowParams.newBuilder().setSkuDetails(skuDetails);
-			
-			
-								if (gameActivity.IsInVRMode())
-								{
-									int responseCode = mBillingClient.isFeatureSupported(BillingClient.FeatureType.IN_APP_ITEMS_ON_VR).getResponseCode();
-									boolean isSupportedInVR = (responseCode == BillingClient.BillingResponseCode.OK);
-									if (isSupportedInVR)
-									{
-										Log.debug("[GooglePlayStoreHelper] - GooglePlayStoreHelper::BeginPurchase - v7 VR purchase" + skuDetails.getSku());
-										flowParams = flowParams.setVrPurchaseFlow(true);
-									}
-									else
-									{
-										Log.debug("[GooglePlayStoreHelper] - GooglePlayStoreHelper::BeginPurchase - v3 IAB purchase:" + skuDetails.getSku());
-										flowParams = flowParams.setVrPurchaseFlow(false);
-									}
-								}
-								else
-								{
-									Log.debug("[GooglePlayStoreHelper] - GooglePlayStoreHelper::BeginPurchase - v3 IAB purchase:" + skuDetails.getSku());
-									flowParams = flowParams.setVrPurchaseFlow(false);
-								}
-
-								int responseCode = mBillingClient.launchBillingFlow(gameActivity, flowParams.build()).getResponseCode();
-								Log.debug("[GooglePlayStoreHelper] - GooglePlayStoreHelper::BeginPurchase - Launching billing flow " + skuDetails.getSku());
+								Log.debug("[GooglePlayStoreHelper] - GooglePlayStoreHelper::BeginPurchase - v7 VR purchase" + skuDetails.getSku());
+								flowParams = flowParams.setVrPurchaseFlow(true);
+							}
+							else
+							{
+								Log.debug("[GooglePlayStoreHelper] - GooglePlayStoreHelper::BeginPurchase - v3 IAB purchase:" + skuDetails.getSku());
+								flowParams = flowParams.setVrPurchaseFlow(false);
 							}
 						}
 						else
 						{
-							Log.debug("[GooglePlayStoreHelper] - GooglePlayStoreHelper::BeginPurchase - Failed! " + TranslateServerResponseCode(response));
-							nativePurchaseComplete(UndefinedFailureResponse, "", "", "", "");
+							Log.debug("[GooglePlayStoreHelper] - GooglePlayStoreHelper::BeginPurchase - v3 IAB purchase:" + skuDetails.getSku());
+							flowParams = flowParams.setVrPurchaseFlow(false);
 						}
+
+						int responseCode = mBillingClient.launchBillingFlow(gameActivity, flowParams.build()).getResponseCode();
+						Log.debug("[GooglePlayStoreHelper] - GooglePlayStoreHelper::BeginPurchase - Launching billing flow " + skuDetails.getSku());
 					}
-		});
+				}
+				else
+				{
+					Log.debug("[GooglePlayStoreHelper] - GooglePlayStoreHelper::BeginPurchase - Failed! " + TranslateServerResponseCode(response));
+					nativePurchaseComplete(UndefinedFailureResponse, "", "", "", "");
+				}
+			}
+		}
+		
+		mBillingClient.querySkuDetailsAsync(skuDetailsParams.build(), new SkuDetailsResponseListenerImpl().setObfuscatedAccountId(ObfuscatedAccountId));
 		return true;
 	}
 
@@ -500,6 +513,12 @@ public class GooglePlayStoreHelper implements StoreHelper
 				}));
 			}
 		});
+	}
+	
+	public boolean onActivityResult(int requestCode, int resultCode, Intent data)
+	{
+		Log.debug("[GooglePlayStoreHelper] - GooglePlayStoreHelper::onActivityResult unimplemented on BillingApiV2");
+		return false;
 	}
 
 	///////////////////////////////////////////////////////
