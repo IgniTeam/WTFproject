@@ -10,9 +10,9 @@ bDisableVerifyOBBOnStartUp=False
 bUseExternalFilesDir=False
 UPLHashCode=357183598
 TemplatesHashCode=3e17d0f6e2fd6467e0d089548652db25
-bEnableGooglePlaySupport=false
+bEnableGooglePlaySupport=True
 bSupportAdMob=true
-bBuildForArmV7=true
+bBuildForArmV7=False
 bBuildForArm64=True
 bBuildForX86=false
 bBuildForX8664=false
@@ -74,6 +74,5 @@ KeyStore=\Proj\Build\Android
 SDKPath=(Path="C:/Users/misha/AppData/Local/Android/Sdk")
 NDKPath=(Path="C:/Users/misha/AppData/Local/Android/Sdk/ndk/21.1.6352462")
 JavaPath=(Path="C:/Program Files/Java/jdk1.8.0_271")
-Arch=-armv7
 Arch=-arm64
 GPUArch=

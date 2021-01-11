@@ -26,11 +26,11 @@
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/WallCoverDown_001.uasset",
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Metal.uasset",
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Plate.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Black.uasset",
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Clock.uasset",
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Cross.uasset",
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Paper.uasset",
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/PaperYellow.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Black.uasset",
 				"../../../Engine/Content/EngineDebugMaterials/M_SimpleOpaque.uasset",
 				"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset"
 			]
@@ -45,7 +45,8 @@
 			"ShaderMapHash": "2C4946B35825483C86E4BD0F1FF6BCCE54E58A0F",
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Mirror_Glass.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Mirror_Glass_4.uasset"
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Mirror_Glass_4.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Mirror_Glass_6.uasset"
 			]
 		},
 		{
@@ -96,20 +97,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "2195302748CD9CABC1F53851506F18D9F7D61FC1",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Texture_Atlas.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "A1F5FA23342A48848652035CE85B1101A563E1AE",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset",
-				"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset",
-				"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset"
-			]
-		},
-		{
 			"ShaderMapHash": "AC1606D3321AA225500BD44336206C90F6EE5156",
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/M_SurfaceBase.uasset"
@@ -122,9 +109,23 @@
 			]
 		},
 		{
+			"ShaderMapHash": "A1F5FA23342A48848652035CE85B1101A563E1AE",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset",
+				"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset",
+				"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset"
+			]
+		},
+		{
 			"ShaderMapHash": "98419F6E72FFA7C8C99DB75BE3FF982483427D94",
 			"Assets": [
 				"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2195302748CD9CABC1F53851506F18D9F7D61FC1",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Texture_Atlas.uasset"
 			]
 		},
 		{
@@ -179,6 +180,12 @@
 			"ShaderMapHash": "163430052CFF9378EEBC1D3000A7A1C124D4CD6E",
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/UI/Loading_Mat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7F4BDB8082AE48C4BB1249297E4294BCA3637F0D",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Sky_Flashing_Panning.uasset"
 			]
 		},
 		{
@@ -443,6 +450,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "029D4BC8B4A004AD5B2F4FA798CBEF78DE315226",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset"
+			]
+		},
+		{
 			"ShaderMapHash": "01C4914B787E20701CD5B6F884DAA8F73399B7B5",
 			"Assets": [
 				"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboardMaster.uasset"
@@ -452,12 +465,6 @@
 			"ShaderMapHash": "61896EC57986D9A3176151C8974F65048E3B5ABD",
 			"Assets": [
 				"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeMaster.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "029D4BC8B4A004AD5B2F4FA798CBEF78DE315226",
-			"Assets": [
-				"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset"
 			]
 		},
 		{
@@ -639,6 +646,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "C1B73E791638B21A1D76E64699B544F96D567D36",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset"
+			]
+		},
+		{
 			"ShaderMapHash": "6BAE1CCC4D6DCB0F569B335BCC63FA51DF95C717",
 			"Assets": [
 				"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud.uasset"
@@ -690,24 +703,6 @@
 			"ShaderMapHash": "015C8080FC8A7D9381BA987C1E0B4B45D237E41D",
 			"Assets": [
 				"../../../Engine/Content/EditorMaterials/MatineeCam_mat.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "233ACC3516C6A51010B04186E88058D182F9E744",
-			"Assets": [
-				"../../../Engine/Content/EditorMaterials/PersonaFloorMat.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "EC716D0A173AFB9EA7854109F46821827262AEC4",
-			"Assets": [
-				"../../../Engine/Content/EditorMaterials/GridMaterial.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "C1B73E791638B21A1D76E64699B544F96D567D36",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset"
 			]
 		}
 	]
