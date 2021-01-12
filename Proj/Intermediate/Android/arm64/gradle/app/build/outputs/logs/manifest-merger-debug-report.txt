@@ -1,15 +1,15 @@
 -- Merging decision tree log ---
 manifest
-ADDED from Y:\app\src\main\AndroidManifest.xml:1:1-60:12
-INJECTED from Y:\app\src\main\AndroidManifest.xml:1:1-60:12
-INJECTED from Y:\app\src\main\AndroidManifest.xml:1:1-60:12
-INJECTED from Y:\app\src\main\AndroidManifest.xml:1:1-60:12
+ADDED from Z:\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-60:12
 MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\a5bfefc3390fe8242124503106abe28c\play-services-auth-11.8.0\AndroidManifest.xml:17:1-39:12
 MERGED from [com.google.android.gms:play-services-games:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\7757ebbb5eb2df33ec17bdee31a954bf\play-services-games-11.8.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\1b3128fc4c39ad319f19749ab0ed54b3\play-services-nearby-11.8.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-plus:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\807577d7e014edfac0a575371ca99ae5\play-services-plus-11.8.0\AndroidManifest.xml:17:1-24:12
-MERGED from [:downloader_library] Y:\downloader_library\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:permission_library] Y:\permission_library\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:downloader_library] Z:\downloader_library\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:permission_library] Z:\permission_library\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.billingclient:billing:3.0.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\fea0b2694902a22c66dc331417215d14\billing-3.0.0\AndroidManifest.xml:2:1-23:12
 MERGED from [com.android.support:support-v13:27.1.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\07769079e94d401503658160fda4b18f\support-v13-27.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\1bd1f907dc6bf6039b783bacee15f65b\play-services-ads-11.8.0\AndroidManifest.xml:17:1-25:12
@@ -47,27 +47,27 @@ MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users
 MERGED from [com.google.android.gms:play-services-drive-license:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\2c9618a627c2f1aea559fece40d76b41\play-services-drive-license-11.8.0\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\08e42310765fb1a29b3bf0d1ede4707a\play-services-ads-lite-license-11.8.0\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\e5b0524dfd91ba077918531e56b9c78e\play-services-gass-license-11.8.0\AndroidManifest.xml:2:1-6:12
-INJECTED from Y:\app\src\main\AndroidManifest.xml:1:1-60:12
-INJECTED from Y:\app\src\main\AndroidManifest.xml:1:1-60:12
-INJECTED from Y:\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-60:12
 	package
-		ADDED from Y:\app\src\main\AndroidManifest.xml:1:70-100
-		INJECTED from Y:\app\src\main\AndroidManifest.xml
-		INJECTED from Y:\app\src\main\AndroidManifest.xml
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:70-100
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from Y:\app\src\main\AndroidManifest.xml:1:164-189
-		INJECTED from Y:\app\src\main\AndroidManifest.xml
-		INJECTED from Y:\app\src\main\AndroidManifest.xml
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:164-189
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from Y:\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:11-69
 	android:versionCode
-		ADDED from Y:\app\src\main\AndroidManifest.xml:1:140-163
-		INJECTED from Y:\app\src\main\AndroidManifest.xml
-		INJECTED from Y:\app\src\main\AndroidManifest.xml
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:140-163
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
 	android:installLocation
-		ADDED from Y:\app\src\main\AndroidManifest.xml:1:101-139
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:101-139
 application
-ADDED from Y:\app\src\main\AndroidManifest.xml:3:3-46:17
+ADDED from Z:\app\src\main\AndroidManifest.xml:3:3-46:17
 MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\a5bfefc3390fe8242124503106abe28c\play-services-auth-11.8.0\AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\a5bfefc3390fe8242124503106abe28c\play-services-auth-11.8.0\AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.android.gms:play-services-games:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\7757ebbb5eb2df33ec17bdee31a954bf\play-services-games-11.8.0\AndroidManifest.xml:22:5-20
@@ -117,309 +117,309 @@ MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Us
 MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\e5b0524dfd91ba077918531e56b9c78e\play-services-gass-license-11.8.0\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\e5b0524dfd91ba077918531e56b9c78e\play-services-gass-license-11.8.0\AndroidManifest.xml:5:5-20
 	android:requestLegacyExternalStorage
-		ADDED from Y:\app\src\main\AndroidManifest.xml:3:163-206
+		ADDED from Z:\app\src\main\AndroidManifest.xml:3:163-206
 	android:label
-		ADDED from Y:\app\src\main\AndroidManifest.xml:3:16-48
+		ADDED from Z:\app\src\main\AndroidManifest.xml:3:16-48
 	android:hasCode
-		ADDED from Y:\app\src\main\AndroidManifest.xml:3:207-229
+		ADDED from Z:\app\src\main\AndroidManifest.xml:3:207-229
 	android:hardwareAccelerated
-		ADDED from Y:\app\src\main\AndroidManifest.xml:3:79-113
+		ADDED from Z:\app\src\main\AndroidManifest.xml:3:79-113
 	android:icon
-		ADDED from Y:\app\src\main\AndroidManifest.xml:3:49-78
+		ADDED from Z:\app\src\main\AndroidManifest.xml:3:49-78
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:3:114-162
+		ADDED from Z:\app\src\main\AndroidManifest.xml:3:114-162
 activity#com.epicgames.ue4.SplashActivity
-ADDED from Y:\app\src\main\AndroidManifest.xml:4:5-9:16
+ADDED from Z:\app\src\main\AndroidManifest.xml:4:5-9:16
 	android:screenOrientation
-		ADDED from Y:\app\src\main\AndroidManifest.xml:4:166-209
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:166-209
 	android:label
-		ADDED from Y:\app\src\main\AndroidManifest.xml:4:63-95
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:63-95
 	android:launchMode
-		ADDED from Y:\app\src\main\AndroidManifest.xml:4:134-165
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:134-165
 	android:debuggable
-		ADDED from Y:\app\src\main\AndroidManifest.xml:4:210-235
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:210-235
 	android:theme
-		ADDED from Y:\app\src\main\AndroidManifest.xml:4:96-133
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:96-133
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:4:15-62
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:15-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from Y:\app\src\main\AndroidManifest.xml:5:7-8:23
+ADDED from Z:\app\src\main\AndroidManifest.xml:5:7-8:23
 action#android.intent.action.MAIN
-ADDED from Y:\app\src\main\AndroidManifest.xml:6:9-61
+ADDED from Z:\app\src\main\AndroidManifest.xml:6:9-61
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:6:17-58
+		ADDED from Z:\app\src\main\AndroidManifest.xml:6:17-58
 category#android.intent.category.LAUNCHER
-ADDED from Y:\app\src\main\AndroidManifest.xml:7:9-69
+ADDED from Z:\app\src\main\AndroidManifest.xml:7:9-69
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:7:19-66
+		ADDED from Z:\app\src\main\AndroidManifest.xml:7:19-66
 activity#com.epicgames.ue4.GameActivity
-ADDED from Y:\app\src\main\AndroidManifest.xml:10:5-12:16
+ADDED from Z:\app\src\main\AndroidManifest.xml:10:5-12:16
 	android:screenOrientation
-		ADDED from Y:\app\src\main\AndroidManifest.xml:10:325-368
+		ADDED from Z:\app\src\main\AndroidManifest.xml:10:325-368
 	android:label
-		ADDED from Y:\app\src\main\AndroidManifest.xml:10:61-93
+		ADDED from Z:\app\src\main\AndroidManifest.xml:10:61-93
 	android:launchMode
-		ADDED from Y:\app\src\main\AndroidManifest.xml:10:293-324
+		ADDED from Z:\app\src\main\AndroidManifest.xml:10:293-324
 	android:debuggable
-		ADDED from Y:\app\src\main\AndroidManifest.xml:10:369-394
+		ADDED from Z:\app\src\main\AndroidManifest.xml:10:369-394
 	android:resizeableActivity
-		ADDED from Y:\app\src\main\AndroidManifest.xml:10:258-292
+		ADDED from Z:\app\src\main\AndroidManifest.xml:10:258-292
 	android:configChanges
-		ADDED from Y:\app\src\main\AndroidManifest.xml:10:132-257
+		ADDED from Z:\app\src\main\AndroidManifest.xml:10:132-257
 	android:theme
-		ADDED from Y:\app\src\main\AndroidManifest.xml:10:94-131
+		ADDED from Z:\app\src\main\AndroidManifest.xml:10:94-131
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:10:15-60
+		ADDED from Z:\app\src\main\AndroidManifest.xml:10:15-60
 meta-data#android.app.lib_name
-ADDED from Y:\app\src\main\AndroidManifest.xml:11:7-76
+ADDED from Z:\app\src\main\AndroidManifest.xml:11:7-76
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:11:54-73
+		ADDED from Z:\app\src\main\AndroidManifest.xml:11:54-73
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:11:18-53
+		ADDED from Z:\app\src\main\AndroidManifest.xml:11:18-53
 activity#com.YourCompany.Proj.DownloaderActivity
-ADDED from Y:\app\src\main\AndroidManifest.xml:13:5-228
+ADDED from Z:\app\src\main\AndroidManifest.xml:13:5-228
 	android:screenOrientation
-		ADDED from Y:\app\src\main\AndroidManifest.xml:13:50-93
+		ADDED from Z:\app\src\main\AndroidManifest.xml:13:50-93
 	android:configChanges
-		ADDED from Y:\app\src\main\AndroidManifest.xml:13:94-187
+		ADDED from Z:\app\src\main\AndroidManifest.xml:13:94-187
 	android:theme
-		ADDED from Y:\app\src\main\AndroidManifest.xml:13:188-225
+		ADDED from Z:\app\src\main\AndroidManifest.xml:13:188-225
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:13:15-49
+		ADDED from Z:\app\src\main\AndroidManifest.xml:13:15-49
 meta-data#com.epicgames.ue4.GameActivity.EngineVersion
-ADDED from Y:\app\src\main\AndroidManifest.xml:14:5-101
+ADDED from Z:\app\src\main\AndroidManifest.xml:14:5-101
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:14:76-98
+		ADDED from Z:\app\src\main\AndroidManifest.xml:14:76-98
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:14:16-75
+		ADDED from Z:\app\src\main\AndroidManifest.xml:14:16-75
 meta-data#com.epicgames.ue4.GameActivity.EngineBranch
-ADDED from Y:\app\src\main\AndroidManifest.xml:15:5-112
+ADDED from Z:\app\src\main\AndroidManifest.xml:15:5-112
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:15:75-109
+		ADDED from Z:\app\src\main\AndroidManifest.xml:15:75-109
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:15:16-74
+		ADDED from Z:\app\src\main\AndroidManifest.xml:15:16-74
 meta-data#com.epicgames.ue4.GameActivity.ProjectVersion
-ADDED from Y:\app\src\main\AndroidManifest.xml:16:5-103
+ADDED from Z:\app\src\main\AndroidManifest.xml:16:5-103
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:16:77-100
+		ADDED from Z:\app\src\main\AndroidManifest.xml:16:77-100
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:16:16-76
+		ADDED from Z:\app\src\main\AndroidManifest.xml:16:16-76
 meta-data#com.epicgames.ue4.GameActivity.DepthBufferPreference
-ADDED from Y:\app\src\main\AndroidManifest.xml:17:5-104
+ADDED from Z:\app\src\main\AndroidManifest.xml:17:5-104
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:17:84-101
+		ADDED from Z:\app\src\main\AndroidManifest.xml:17:84-101
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:17:16-83
+		ADDED from Z:\app\src\main\AndroidManifest.xml:17:16-83
 meta-data#com.epicgames.ue4.GameActivity.bPackageDataInsideApk
-ADDED from Y:\app\src\main\AndroidManifest.xml:18:5-108
+ADDED from Z:\app\src\main\AndroidManifest.xml:18:5-107
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:18:84-105
+		ADDED from Z:\app\src\main\AndroidManifest.xml:18:84-104
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:18:16-83
+		ADDED from Z:\app\src\main\AndroidManifest.xml:18:16-83
 meta-data#com.epicgames.ue4.GameActivity.bVerifyOBBOnStartUp
-ADDED from Y:\app\src\main\AndroidManifest.xml:19:5-106
+ADDED from Z:\app\src\main\AndroidManifest.xml:19:5-106
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:19:82-103
+		ADDED from Z:\app\src\main\AndroidManifest.xml:19:82-103
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:19:16-81
+		ADDED from Z:\app\src\main\AndroidManifest.xml:19:16-81
 meta-data#com.epicgames.ue4.GameActivity.bShouldHideUI
-ADDED from Y:\app\src\main\AndroidManifest.xml:20:5-99
+ADDED from Z:\app\src\main\AndroidManifest.xml:20:5-99
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:20:76-96
+		ADDED from Z:\app\src\main\AndroidManifest.xml:20:76-96
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:20:16-75
+		ADDED from Z:\app\src\main\AndroidManifest.xml:20:16-75
 meta-data#com.epicgames.ue4.GameActivity.ProjectName
-ADDED from Y:\app\src\main\AndroidManifest.xml:21:5-97
+ADDED from Z:\app\src\main\AndroidManifest.xml:21:5-97
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:21:74-94
+		ADDED from Z:\app\src\main\AndroidManifest.xml:21:74-94
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:21:16-73
+		ADDED from Z:\app\src\main\AndroidManifest.xml:21:16-73
 meta-data#com.epicgames.ue4.GameActivity.AppType
-ADDED from Y:\app\src\main\AndroidManifest.xml:22:5-89
+ADDED from Z:\app\src\main\AndroidManifest.xml:22:5-89
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:22:70-86
+		ADDED from Z:\app\src\main\AndroidManifest.xml:22:70-86
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:22:16-69
+		ADDED from Z:\app\src\main\AndroidManifest.xml:22:16-69
 meta-data#com.epicgames.ue4.GameActivity.bHasOBBFiles
-ADDED from Y:\app\src\main\AndroidManifest.xml:23:5-99
+ADDED from Z:\app\src\main\AndroidManifest.xml:23:5-98
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:23:75-96
+		ADDED from Z:\app\src\main\AndroidManifest.xml:23:75-95
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:23:16-74
+		ADDED from Z:\app\src\main\AndroidManifest.xml:23:16-74
 meta-data#com.epicgames.ue4.GameActivity.BuildConfiguration
-ADDED from Y:\app\src\main\AndroidManifest.xml:24:5-111
+ADDED from Z:\app\src\main\AndroidManifest.xml:24:5-111
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:24:81-108
+		ADDED from Z:\app\src\main\AndroidManifest.xml:24:81-108
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:24:16-80
+		ADDED from Z:\app\src\main\AndroidManifest.xml:24:16-80
 meta-data#com.epicgames.ue4.GameActivity.CookedFlavors
-ADDED from Y:\app\src\main\AndroidManifest.xml:25:5-99
+ADDED from Z:\app\src\main\AndroidManifest.xml:25:5-99
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:25:76-96
+		ADDED from Z:\app\src\main\AndroidManifest.xml:25:76-96
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:25:16-75
+		ADDED from Z:\app\src\main\AndroidManifest.xml:25:16-75
 meta-data#com.epicgames.ue4.GameActivity.bValidateTextureFormats
-ADDED from Y:\app\src\main\AndroidManifest.xml:26:5-109
+ADDED from Z:\app\src\main\AndroidManifest.xml:26:5-109
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:26:86-106
+		ADDED from Z:\app\src\main\AndroidManifest.xml:26:86-106
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:26:16-85
+		ADDED from Z:\app\src\main\AndroidManifest.xml:26:16-85
 meta-data#com.epicgames.ue4.GameActivity.bUseExternalFilesDir
-ADDED from Y:\app\src\main\AndroidManifest.xml:27:5-107
+ADDED from Z:\app\src\main\AndroidManifest.xml:27:5-107
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:27:83-104
+		ADDED from Z:\app\src\main\AndroidManifest.xml:27:83-104
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:27:16-82
+		ADDED from Z:\app\src\main\AndroidManifest.xml:27:16-82
 meta-data#com.epicgames.ue4.GameActivity.bPublicLogFiles
-ADDED from Y:\app\src\main\AndroidManifest.xml:28:5-102
+ADDED from Z:\app\src\main\AndroidManifest.xml:28:5-102
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:28:78-99
+		ADDED from Z:\app\src\main\AndroidManifest.xml:28:78-99
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:28:16-77
+		ADDED from Z:\app\src\main\AndroidManifest.xml:28:16-77
 meta-data#com.epicgames.ue4.GameActivity.bUseDisplayCutout
-ADDED from Y:\app\src\main\AndroidManifest.xml:29:5-104
+ADDED from Z:\app\src\main\AndroidManifest.xml:29:5-104
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:29:80-101
+		ADDED from Z:\app\src\main\AndroidManifest.xml:29:80-101
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:29:16-79
+		ADDED from Z:\app\src\main\AndroidManifest.xml:29:16-79
 meta-data#com.epicgames.ue4.GameActivity.bAllowIMU
-ADDED from Y:\app\src\main\AndroidManifest.xml:30:5-95
+ADDED from Z:\app\src\main\AndroidManifest.xml:30:5-95
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:30:72-92
+		ADDED from Z:\app\src\main\AndroidManifest.xml:30:72-92
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:30:16-71
+		ADDED from Z:\app\src\main\AndroidManifest.xml:30:16-71
 meta-data#com.epicgames.ue4.GameActivity.bSupportsVulkan
-ADDED from Y:\app\src\main\AndroidManifest.xml:31:5-102
+ADDED from Z:\app\src\main\AndroidManifest.xml:31:5-102
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:31:78-99
+		ADDED from Z:\app\src\main\AndroidManifest.xml:31:78-99
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:31:16-77
+		ADDED from Z:\app\src\main\AndroidManifest.xml:31:16-77
 meta-data#com.epicgames.ue4.GameActivity.StartupPermissions
-ADDED from Y:\app\src\main\AndroidManifest.xml:32:5-141
+ADDED from Z:\app\src\main\AndroidManifest.xml:32:5-141
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:32:81-138
+		ADDED from Z:\app\src\main\AndroidManifest.xml:32:81-138
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:32:16-80
+		ADDED from Z:\app\src\main\AndroidManifest.xml:32:16-80
 meta-data#com.google.android.gms.games.APP_ID
-ADDED from Y:\app\src\main\AndroidManifest.xml:33:5-100
+ADDED from Z:\app\src\main\AndroidManifest.xml:33:5-100
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:33:67-97
+		ADDED from Z:\app\src\main\AndroidManifest.xml:33:67-97
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:33:16-66
+		ADDED from Z:\app\src\main\AndroidManifest.xml:33:16-66
 meta-data#com.google.android.gms.version
-ADDED from Y:\app\src\main\AndroidManifest.xml:34:5-118
+ADDED from Z:\app\src\main\AndroidManifest.xml:34:5-118
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\34f6a859df4bcf69902a637ffe8ab045\play-services-basement-11.8.0\AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\34f6a859df4bcf69902a637ffe8ab045\play-services-basement-11.8.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:34:62-115
+		ADDED from Z:\app\src\main\AndroidManifest.xml:34:62-115
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:34:16-61
+		ADDED from Z:\app\src\main\AndroidManifest.xml:34:16-61
 activity#com.google.android.gms.ads.AdActivity
-ADDED from Y:\app\src\main\AndroidManifest.xml:35:5-180
+ADDED from Z:\app\src\main\AndroidManifest.xml:35:5-180
 MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\ee8d2326dfb6e3dec8b76a2191cef84c\play-services-ads-lite-11.8.0\AndroidManifest.xml:29:9-33:64
 MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\ee8d2326dfb6e3dec8b76a2191cef84c\play-services-ads-lite-11.8.0\AndroidManifest.xml:29:9-33:64
 	android:exported
 		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\ee8d2326dfb6e3dec8b76a2191cef84c\play-services-ads-lite-11.8.0\AndroidManifest.xml:32:13-37
 	android:configChanges
-		ADDED from Y:\app\src\main\AndroidManifest.xml:35:68-177
+		ADDED from Z:\app\src\main\AndroidManifest.xml:35:68-177
 	android:theme
 		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\ee8d2326dfb6e3dec8b76a2191cef84c\play-services-ads-lite-11.8.0\AndroidManifest.xml:33:13-61
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:35:15-67
+		ADDED from Z:\app\src\main\AndroidManifest.xml:35:15-67
 service#com.YourCompany.Proj.OBBDownloaderService
-ADDED from Y:\app\src\main\AndroidManifest.xml:36:5-52
+ADDED from Z:\app\src\main\AndroidManifest.xml:36:5-52
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:36:14-49
+		ADDED from Z:\app\src\main\AndroidManifest.xml:36:14-49
 receiver#com.YourCompany.Proj.AlarmReceiver
-ADDED from Y:\app\src\main\AndroidManifest.xml:37:5-46
+ADDED from Z:\app\src\main\AndroidManifest.xml:37:5-46
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:37:15-43
+		ADDED from Z:\app\src\main\AndroidManifest.xml:37:15-43
 receiver#com.epicgames.ue4.LocalNotificationReceiver
-ADDED from Y:\app\src\main\AndroidManifest.xml:38:5-76
+ADDED from Z:\app\src\main\AndroidManifest.xml:38:5-76
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:38:15-73
+		ADDED from Z:\app\src\main\AndroidManifest.xml:38:15-73
 receiver#com.epicgames.ue4.MulticastBroadcastReceiver
-ADDED from Y:\app\src\main\AndroidManifest.xml:39:5-43:16
+ADDED from Z:\app\src\main\AndroidManifest.xml:39:5-43:16
 	android:exported
-		ADDED from Y:\app\src\main\AndroidManifest.xml:39:75-98
+		ADDED from Z:\app\src\main\AndroidManifest.xml:39:75-98
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:39:15-74
+		ADDED from Z:\app\src\main\AndroidManifest.xml:39:15-74
 intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from Y:\app\src\main\AndroidManifest.xml:40:7-42:23
+ADDED from Z:\app\src\main\AndroidManifest.xml:40:7-42:23
 action#com.android.vending.INSTALL_REFERRER
-ADDED from Y:\app\src\main\AndroidManifest.xml:41:9-71
+ADDED from Z:\app\src\main\AndroidManifest.xml:41:9-71
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:41:17-68
+		ADDED from Z:\app\src\main\AndroidManifest.xml:41:17-68
 meta-data#android.max_aspect
-ADDED from Y:\app\src\main\AndroidManifest.xml:44:5-73
+ADDED from Z:\app\src\main\AndroidManifest.xml:44:5-73
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:44:50-70
+		ADDED from Z:\app\src\main\AndroidManifest.xml:44:50-70
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:44:16-49
+		ADDED from Z:\app\src\main\AndroidManifest.xml:44:16-49
 meta-data#com.oculus.supportedDevices
-ADDED from Y:\app\src\main\AndroidManifest.xml:45:5-83
+ADDED from Z:\app\src\main\AndroidManifest.xml:45:5-83
 	android:value
-		ADDED from Y:\app\src\main\AndroidManifest.xml:45:59-80
+		ADDED from Z:\app\src\main\AndroidManifest.xml:45:59-80
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:45:16-58
+		ADDED from Z:\app\src\main\AndroidManifest.xml:45:16-58
 uses-feature#0x00030001
-ADDED from Y:\app\src\main\AndroidManifest.xml:48:3-76
+ADDED from Z:\app\src\main\AndroidManifest.xml:48:3-76
 	android:glEsVersion
-		ADDED from Y:\app\src\main\AndroidManifest.xml:48:17-49
+		ADDED from Z:\app\src\main\AndroidManifest.xml:48:17-49
 	android:required
-		ADDED from Y:\app\src\main\AndroidManifest.xml:48:50-73
+		ADDED from Z:\app\src\main\AndroidManifest.xml:48:50-73
 uses-permission#android.permission.INTERNET
-ADDED from Y:\app\src\main\AndroidManifest.xml:49:3-65
+ADDED from Z:\app\src\main\AndroidManifest.xml:49:3-65
 MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\ee8d2326dfb6e3dec8b76a2191cef84c\play-services-ads-lite-11.8.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\ee8d2326dfb6e3dec8b76a2191cef84c\play-services-ads-lite-11.8.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:49:20-62
+		ADDED from Z:\app\src\main\AndroidManifest.xml:49:20-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from Y:\app\src\main\AndroidManifest.xml:50:3-79
+ADDED from Z:\app\src\main\AndroidManifest.xml:50:3-79
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:50:20-76
+		ADDED from Z:\app\src\main\AndroidManifest.xml:50:20-76
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from Y:\app\src\main\AndroidManifest.xml:51:3-77
+ADDED from Z:\app\src\main\AndroidManifest.xml:51:3-77
 MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\1b3128fc4c39ad319f19749ab0ed54b3\play-services-nearby-11.8.0\AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\1b3128fc4c39ad319f19749ab0ed54b3\play-services-nearby-11.8.0\AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\ee8d2326dfb6e3dec8b76a2191cef84c\play-services-ads-lite-11.8.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\ee8d2326dfb6e3dec8b76a2191cef84c\play-services-ads-lite-11.8.0\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:51:20-74
+		ADDED from Z:\app\src\main\AndroidManifest.xml:51:20-74
 uses-permission#android.permission.WAKE_LOCK
-ADDED from Y:\app\src\main\AndroidManifest.xml:52:3-66
+ADDED from Z:\app\src\main\AndroidManifest.xml:52:3-66
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:52:20-63
+		ADDED from Z:\app\src\main\AndroidManifest.xml:52:20-63
 uses-permission#com.android.vending.CHECK_LICENSE
-ADDED from Y:\app\src\main\AndroidManifest.xml:53:3-71
+ADDED from Z:\app\src\main\AndroidManifest.xml:53:3-71
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:53:20-68
+		ADDED from Z:\app\src\main\AndroidManifest.xml:53:20-68
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from Y:\app\src\main\AndroidManifest.xml:54:3-74
+ADDED from Z:\app\src\main\AndroidManifest.xml:54:3-74
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:54:20-71
+		ADDED from Z:\app\src\main\AndroidManifest.xml:54:20-71
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from Y:\app\src\main\AndroidManifest.xml:55:3-78
+ADDED from Z:\app\src\main\AndroidManifest.xml:55:3-78
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:55:20-75
+		ADDED from Z:\app\src\main\AndroidManifest.xml:55:20-75
 uses-permission#android.permission.VIBRATE
-ADDED from Y:\app\src\main\AndroidManifest.xml:56:3-64
+ADDED from Z:\app\src\main\AndroidManifest.xml:56:3-64
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:56:20-61
+		ADDED from Z:\app\src\main\AndroidManifest.xml:56:20-61
 uses-permission#com.android.vending.BILLING
-ADDED from Y:\app\src\main\AndroidManifest.xml:57:3-65
+ADDED from Z:\app\src\main\AndroidManifest.xml:57:3-65
 MERGED from [com.android.billingclient:billing:3.0.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\fea0b2694902a22c66dc331417215d14\billing-3.0.0\AndroidManifest.xml:10:5-67
 MERGED from [com.android.billingclient:billing:3.0.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\fea0b2694902a22c66dc331417215d14\billing-3.0.0\AndroidManifest.xml:10:5-67
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:57:20-62
+		ADDED from Z:\app\src\main\AndroidManifest.xml:57:20-62
 supports-gl-texture#GL_KHR_texture_compression_astc_ldr
-ADDED from Y:\app\src\main\AndroidManifest.xml:59:3-77
+ADDED from Z:\app\src\main\AndroidManifest.xml:59:3-77
 	android:name
-		ADDED from Y:\app\src\main\AndroidManifest.xml:59:24-74
+		ADDED from Z:\app\src\main\AndroidManifest.xml:59:24-74
 uses-sdk
-INJECTED from Y:\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from Y:\app\src\main\AndroidManifest.xml
-INJECTED from Y:\app\src\main\AndroidManifest.xml
+INJECTED from Z:\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from Z:\app\src\main\AndroidManifest.xml
+INJECTED from Z:\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\a5bfefc3390fe8242124503106abe28c\play-services-auth-11.8.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\a5bfefc3390fe8242124503106abe28c\play-services-auth-11.8.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-games:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\7757ebbb5eb2df33ec17bdee31a954bf\play-services-games-11.8.0\AndroidManifest.xml:20:5-44
@@ -428,10 +428,10 @@ MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\misha\
 MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\1b3128fc4c39ad319f19749ab0ed54b3\play-services-nearby-11.8.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-plus:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\807577d7e014edfac0a575371ca99ae5\play-services-plus-11.8.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-plus:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\807577d7e014edfac0a575371ca99ae5\play-services-plus-11.8.0\AndroidManifest.xml:20:5-44
-MERGED from [:downloader_library] Y:\downloader_library\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:downloader_library] Y:\downloader_library\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:permission_library] Y:\permission_library\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:permission_library] Y:\permission_library\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:downloader_library] Z:\downloader_library\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:downloader_library] Z:\downloader_library\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:permission_library] Z:\permission_library\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_library] Z:\permission_library\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.billingclient:billing:3.0.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\fea0b2694902a22c66dc331417215d14\billing-3.0.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.android.billingclient:billing:3.0.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\fea0b2694902a22c66dc331417215d14\billing-3.0.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.android.support:support-v13:27.1.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\07769079e94d401503658160fda4b18f\support-v13-27.1.0\AndroidManifest.xml:20:5-44
@@ -506,18 +506,18 @@ MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Us
 MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\08e42310765fb1a29b3bf0d1ede4707a\play-services-ads-lite-license-11.8.0\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\e5b0524dfd91ba077918531e56b9c78e\play-services-gass-license-11.8.0\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\e5b0524dfd91ba077918531e56b9c78e\play-services-gass-license-11.8.0\AndroidManifest.xml:4:5-43
-INJECTED from Y:\app\src\main\AndroidManifest.xml
-INJECTED from Y:\app\src\main\AndroidManifest.xml
+INJECTED from Z:\app\src\main\AndroidManifest.xml
+INJECTED from Z:\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\1bd1f907dc6bf6039b783bacee15f65b\play-services-ads-11.8.0\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from Y:\app\src\main\AndroidManifest.xml
-		ADDED from Y:\app\src\main\AndroidManifest.xml
-		INJECTED from Y:\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+		ADDED from Z:\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from Y:\app\src\main\AndroidManifest.xml
-		ADDED from Y:\app\src\main\AndroidManifest.xml
-		INJECTED from Y:\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+		ADDED from Z:\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\a5bfefc3390fe8242124503106abe28c\play-services-auth-11.8.0\AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents

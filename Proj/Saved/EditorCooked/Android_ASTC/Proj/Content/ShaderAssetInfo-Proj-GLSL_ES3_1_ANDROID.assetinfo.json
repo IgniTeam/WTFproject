@@ -8,45 +8,44 @@
 			]
 		},
 		{
-			"ShaderMapHash": "5015B0502BAA86BBCA56F57B0B3E7ADDBCA263E0",
+			"ShaderMapHash": "2C4946B35825483C86E4BD0F1FF6BCCE54E58A0F",
 			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/TrashCan.uasset"
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Mirror_Glass_4.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Mirror_Glass.uasset"
 			]
 		},
 		{
-			"ShaderMapHash": "674868FAB59B9281817FB9EEE5550CC89170BB5F",
+			"ShaderMapHash": "359AF6E7ED2836B47D3185F8C9DEBE55BB0DB7CB",
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/plane.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Table.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/WallCover1_001.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/WallCover2.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/WallCoverDown.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/WallCover1_002.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/WallCover2_001.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/WallCoverDown_001.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Table.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3515AB8C39770F8BFAF1CBC96422C45E78799BA2",
+			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Metal.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Plate.uasset",
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Clock.uasset",
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Cross.uasset",
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Paper.uasset",
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/PaperYellow.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Black.uasset",
-				"../../../Engine/Content/EngineDebugMaterials/M_SimpleOpaque.uasset",
-				"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset"
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/WallCover1_002.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/WallCover2_001.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/WallCoverDown_001.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Plate.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Black.uasset"
 			]
 		},
 		{
-			"ShaderMapHash": "F3478C5249D016DC66D7A065794F5FD3AA88CBB3",
+			"ShaderMapHash": "2BC78161780E2DBAD1BEB6C8DF8C3BF139AC340E",
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/TableMat.uasset"
 			]
 		},
 		{
-			"ShaderMapHash": "2C4946B35825483C86E4BD0F1FF6BCCE54E58A0F",
+			"ShaderMapHash": "2F5D281F9A1003FE930ACD13F20879587E75D299",
 			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Mirror_Glass.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Mirror_Glass_4.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Mirror_Glass_6.uasset"
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/TrashCan.uasset"
 			]
 		},
 		{
@@ -62,7 +61,6 @@
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Demon/NewDemon/Skin.uasset",
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Demon/NewDemon/Suit.uasset",
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Demon/NewDemon/Suit_001.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/ElevatorFloor.uasset",
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/ElevatorDoors.uasset",
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/Character/Suit.uasset",
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/Character/Pants.uasset",
@@ -97,12 +95,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "AC1606D3321AA225500BD44336206C90F6EE5156",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/M_SurfaceBase.uasset"
-			]
-		},
-		{
 			"ShaderMapHash": "F875779FD7CFF14BDDC05550A3B8005C791CACA8",
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Materials/PP_Outliner_M.uasset"
@@ -123,7 +115,7 @@
 			]
 		},
 		{
-			"ShaderMapHash": "2195302748CD9CABC1F53851506F18D9F7D61FC1",
+			"ShaderMapHash": "AD84900F518E4976A0C1DB5267202750AE0A9850",
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Materials/M_Texture_Atlas.uasset"
 			]
@@ -147,19 +139,25 @@
 			]
 		},
 		{
-			"ShaderMapHash": "48E48796CC6FDA1B5DF1CDA14EB75F696DFD89F8",
+			"ShaderMapHash": "BD86E05C938A822593E98766D0DF78D59A0713CF",
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/TransparentWall.uasset"
 			]
 		},
 		{
-			"ShaderMapHash": "A6AB7911168545B5FDC26808F3EE65B004695188",
+			"ShaderMapHash": "A28E750B58AAB9E453AEDFDC21B73A4987A23DC0",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/ElevatorFloor.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "66944BC71A8E89BDE182367D26C073801746161E",
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/ElevatorDoors_001.uasset"
 			]
 		},
 		{
-			"ShaderMapHash": "D495D4FCA5D17FEB5293F47117DC1EA5708FEAF7",
+			"ShaderMapHash": "CC7BBDC114B35A4F163F4AEC280B3D8B15534970",
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/ElevatorMat.uasset"
 			]
@@ -183,27 +181,22 @@
 			]
 		},
 		{
-			"ShaderMapHash": "7F4BDB8082AE48C4BB1249297E4294BCA3637F0D",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Sky_Flashing_Panning.uasset"
-			]
-		},
-		{
 			"ShaderMapHash": "E042CB4DA4B8C8DB1816A30514166C485B6D62EA",
 			"Assets": [
 				"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset"
 			]
 		},
 		{
-			"ShaderMapHash": "FF93A7FCCB1B018E2BD478E9B2EC0B3FB7EDE7E7",
+			"ShaderMapHash": "7F4BDB8082AE48C4BB1249297E4294BCA3637F0D",
 			"Assets": [
-				"../../../Engine/Content/EngineResources/M_StreamingPause.uasset"
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Sky_Flashing_Panning_Master.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Sky_Flashing_Panning.uasset"
 			]
 		},
 		{
-			"ShaderMapHash": "D738B2D46A19E2854EECD8B662D7834B5BC557B2",
+			"ShaderMapHash": "FF93A7FCCB1B018E2BD478E9B2EC0B3FB7EDE7E7",
 			"Assets": [
-				"../../../Engine/Content/EngineMaterials/BlinkingCaret.uasset"
+				"../../../Engine/Content/EngineResources/M_StreamingPause.uasset"
 			]
 		},
 		{
@@ -567,15 +560,16 @@
 			]
 		},
 		{
-			"ShaderMapHash": "04ED617E9430492B782C7B10027525AE3D60D1D9",
-			"Assets": [
-				"../../../Engine/Content/EditorMaterials/Thumbnails/FloorPlaneMaterial.uasset"
-			]
-		},
-		{
 			"ShaderMapHash": "7280F65B965F7AB4787D0F3968B8DA234B2A6639",
 			"Assets": [
 				"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "674868FAB59B9281817FB9EEE5550CC89170BB5F",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/M_SimpleOpaque.uasset",
+				"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset"
 			]
 		},
 		{
@@ -646,12 +640,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "C1B73E791638B21A1D76E64699B544F96D567D36",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset"
-			]
-		},
-		{
 			"ShaderMapHash": "6BAE1CCC4D6DCB0F569B335BCC63FA51DF95C717",
 			"Assets": [
 				"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud.uasset"
@@ -700,9 +688,33 @@
 			]
 		},
 		{
+			"ShaderMapHash": "D738B2D46A19E2854EECD8B662D7834B5BC557B2",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/BlinkingCaret.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "04ED617E9430492B782C7B10027525AE3D60D1D9",
+			"Assets": [
+				"../../../Engine/Content/EditorMaterials/Thumbnails/FloorPlaneMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C1B73E791638B21A1D76E64699B544F96D567D36",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset"
+			]
+		},
+		{
 			"ShaderMapHash": "015C8080FC8A7D9381BA987C1E0B4B45D237E41D",
 			"Assets": [
 				"../../../Engine/Content/EditorMaterials/MatineeCam_mat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "99C6FBD40D23EF33711041C1558AC70908446904",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/M_SurfaceBase.uasset"
 			]
 		}
 	]
