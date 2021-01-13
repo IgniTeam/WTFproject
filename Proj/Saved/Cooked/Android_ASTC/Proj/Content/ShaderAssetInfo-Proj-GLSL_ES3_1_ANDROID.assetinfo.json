@@ -217,6 +217,70 @@
 			]
 		},
 		{
+			"ShaderMapHash": "163430052CFF9378EEBC1D3000A7A1C124D4CD6E",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/UI/Loading_Mat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C1DBB6104D75ACCE79EABEC0FACFD04F83CAE32C",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Secretary/Hair.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/Character/Suit.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/Character/Pants.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/ElevatorDoors.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Secretary/Suit.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Secretary/Pants.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Secretary/Horns.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Zombie/Material_003.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Zombie/Material_002.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Zombie/Material.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Demon/NewDemon/Suit_001.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Demon/NewDemon/Suit.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Demon/NewDemon/Skin.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Demon/NewDemon/Pants.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8E77C8BD5295E7C65F59114AFCD38C5875E9C157",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/Character/Skin.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Secretary/Skin.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Zombie/Material_001.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Zombie/Material_004.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "012190496F713CF8E4B6D27A95850C5379DF245C",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_SubUV_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1A1C4513A4B9C15B5E627E3EB32AA74581F7A8DB",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B54B249C6965A3B0E42822B157AC53C486CF8225",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_SubUV_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8531A64E0C159DA8A0EA744E244F3B608FEFEA9E",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FEE446870BC10011A77B2AAA80EEC5537865F8A8",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset"
+			]
+		},
+		{
 			"ShaderMapHash": "66944BC71A8E89BDE182367D26C073801746161E",
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/ElevatorDoors_001.uasset"
@@ -238,70 +302,6 @@
 			"ShaderMapHash": "A28E750B58AAB9E453AEDFDC21B73A4987A23DC0",
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/ElevatorFloor.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "C1DBB6104D75ACCE79EABEC0FACFD04F83CAE32C",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/ElevatorDoors.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Secretary/Hair.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/Character/Suit.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/Character/Pants.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Secretary/Suit.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Secretary/Pants.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Secretary/Horns.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Zombie/Material_003.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Zombie/Material_002.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Zombie/Material.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Demon/NewDemon/Suit_001.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Demon/NewDemon/Suit.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Demon/NewDemon/Skin.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Demon/NewDemon/Pants.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "163430052CFF9378EEBC1D3000A7A1C124D4CD6E",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/UI/Loading_Mat.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "8E77C8BD5295E7C65F59114AFCD38C5875E9C157",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/Character/Skin.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Secretary/Skin.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Zombie/Material_004.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/AI/Characters/Zombie/Material_001.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "012190496F713CF8E4B6D27A95850C5379DF245C",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_SubUV_Master.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "B54B249C6965A3B0E42822B157AC53C486CF8225",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_SubUV_Master.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "1A1C4513A4B9C15B5E627E3EB32AA74581F7A8DB",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_Master.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "8531A64E0C159DA8A0EA744E244F3B608FEFEA9E",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "FEE446870BC10011A77B2AAA80EEC5537865F8A8",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset"
 			]
 		},
 		{
@@ -351,12 +351,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "2BC78161780E2DBAD1BEB6C8DF8C3BF139AC340E",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/TableMat.uasset"
-			]
-		},
-		{
 			"ShaderMapHash": "2F5D281F9A1003FE930ACD13F20879587E75D299",
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/TrashCan.uasset"
@@ -372,6 +366,12 @@
 			"ShaderMapHash": "98419F6E72FFA7C8C99DB75BE3FF982483427D94",
 			"Assets": [
 				"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2BC78161780E2DBAD1BEB6C8DF8C3BF139AC340E",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/TableMat.uasset"
 			]
 		},
 		{
