@@ -54,6 +54,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "029D4BC8B4A004AD5B2F4FA798CBEF78DE315226",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset"
+			]
+		},
+		{
 			"ShaderMapHash": "01C4914B787E20701CD5B6F884DAA8F73399B7B5",
 			"Assets": [
 				"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboardMaster.uasset"
@@ -63,12 +69,6 @@
 			"ShaderMapHash": "61896EC57986D9A3176151C8974F65048E3B5ABD",
 			"Assets": [
 				"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeMaster.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "029D4BC8B4A004AD5B2F4FA798CBEF78DE315226",
-			"Assets": [
-				"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset"
 			]
 		},
 		{
@@ -275,24 +275,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "012190496F713CF8E4B6D27A95850C5379DF245C",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_SubUV_Master.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "B54B249C6965A3B0E42822B157AC53C486CF8225",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_SubUV_Master.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "1A1C4513A4B9C15B5E627E3EB32AA74581F7A8DB",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_Master.uasset"
-			]
-		},
-		{
 			"ShaderMapHash": "8531A64E0C159DA8A0EA744E244F3B608FEFEA9E",
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset"
@@ -305,9 +287,34 @@
 			]
 		},
 		{
+			"ShaderMapHash": "012190496F713CF8E4B6D27A95850C5379DF245C",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_SubUV_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1A1C4513A4B9C15B5E627E3EB32AA74581F7A8DB",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B54B249C6965A3B0E42822B157AC53C486CF8225",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_SubUV_Master.uasset"
+			]
+		},
+		{
 			"ShaderMapHash": "9AD2C1950A9CEEF679B829B91AB5170F14C60D54",
 			"Assets": [
 				"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7F4BDB8082AE48C4BB1249297E4294BCA3637F0D",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Sky_Flashing_Panning_Master.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Sky_Flashing_Panning.uasset"
 			]
 		},
 		{
@@ -329,13 +336,6 @@
 			"ShaderMapHash": "E042CB4DA4B8C8DB1816A30514166C485B6D62EA",
 			"Assets": [
 				"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "7F4BDB8082AE48C4BB1249297E4294BCA3637F0D",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Sky_Flashing_Panning_Master.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Sky_Flashing_Panning.uasset"
 			]
 		},
 		{

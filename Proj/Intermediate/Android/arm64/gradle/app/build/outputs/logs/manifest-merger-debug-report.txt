@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from Z:\app\src\main\AndroidManifest.xml:1:1-59:12
-INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-59:12
-INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-59:12
-INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-59:12
+ADDED from Z:\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-60:12
 MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\a5bfefc3390fe8242124503106abe28c\play-services-auth-11.8.0\AndroidManifest.xml:17:1-39:12
 MERGED from [com.google.android.gms:play-services-games:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\7757ebbb5eb2df33ec17bdee31a954bf\play-services-games-11.8.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\1b3128fc4c39ad319f19749ab0ed54b3\play-services-nearby-11.8.0\AndroidManifest.xml:2:1-11:12
@@ -47,9 +47,9 @@ MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users
 MERGED from [com.google.android.gms:play-services-drive-license:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\2c9618a627c2f1aea559fece40d76b41\play-services-drive-license-11.8.0\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\08e42310765fb1a29b3bf0d1ede4707a\play-services-ads-lite-license-11.8.0\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\e5b0524dfd91ba077918531e56b9c78e\play-services-gass-license-11.8.0\AndroidManifest.xml:2:1-6:12
-INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-59:12
-INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-59:12
-INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-59:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-60:12
 	package
 		ADDED from Z:\app\src\main\AndroidManifest.xml:1:70-100
 		INJECTED from Z:\app\src\main\AndroidManifest.xml
@@ -412,6 +412,10 @@ MERGED from [com.android.billingclient:billing:3.0.0] C:\Users\misha\.gradle\cac
 MERGED from [com.android.billingclient:billing:3.0.0] C:\Users\misha\.gradle\caches\transforms-2\files-2.1\fea0b2694902a22c66dc331417215d14\billing-3.0.0\AndroidManifest.xml:10:5-67
 	android:name
 		ADDED from Z:\app\src\main\AndroidManifest.xml:57:20-62
+supports-gl-texture#GL_KHR_texture_compression_astc_ldr
+ADDED from Z:\app\src\main\AndroidManifest.xml:59:3-77
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:59:24-74
 uses-sdk
 INJECTED from Z:\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from Z:\app\src\main\AndroidManifest.xml

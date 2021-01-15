@@ -4,7 +4,8 @@
     android:installLocation="internalOnly"
     android:targetSandboxVersion="2"
     android:versionCode="1"
-    android:versionName="1.0" > <!-- Supported texture compression formats (cooked) -->
+    android:versionName="1.0" >
+
     <uses-sdk
         android:minSdkVersion="21"
         android:targetSdkVersion="28" />
@@ -22,6 +23,8 @@
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="com.android.vending.BILLING" />
+    <!-- Supported texture compression formats (cooked) -->
+    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
     <!-- Application Definition -->
     <application
         android:name="com.epicgames.ue4.GameApplication"
@@ -98,7 +101,7 @@
             android:value="Shipping" />
         <meta-data
             android:name="com.epicgames.ue4.GameActivity.CookedFlavors"
-            android:value="ETC2" />
+            android:value="ASTC" />
         <meta-data
             android:name="com.epicgames.ue4.GameActivity.bValidateTextureFormats"
             android:value="true" />

@@ -72,6 +72,7 @@ KeyStorePassword=hardtopass
 KeyPassword=easytopass
 KeyStore=\Proj\Build\Android
 AndroidGraphicsDebugger=None
+ApplicationDisplayName=WTF
 SDKPath=(Path="C:/Users/misha/AppData/Local/Android/Sdk")
 NDKPath=(Path="C:/Users/misha/AppData/Local/Android/Sdk/ndk/21.1.6352462")
 JavaPath=(Path="C:/Program Files/Java/jdk1.8.0_271")

@@ -22,7 +22,7 @@
     <meta-data android:name="com.epicgames.ue4.GameActivity.AppType" android:value="" />
     <meta-data android:name="com.epicgames.ue4.GameActivity.bHasOBBFiles" android:value="true" />
     <meta-data android:name="com.epicgames.ue4.GameActivity.BuildConfiguration" android:value="Shipping" />
-    <meta-data android:name="com.epicgames.ue4.GameActivity.CookedFlavors" android:value="ETC2" />
+    <meta-data android:name="com.epicgames.ue4.GameActivity.CookedFlavors" android:value="ASTC" />
     <meta-data android:name="com.epicgames.ue4.GameActivity.bValidateTextureFormats" android:value="true" />
     <meta-data android:name="com.epicgames.ue4.GameActivity.bUseExternalFilesDir" android:value="false" />
     <meta-data android:name="com.epicgames.ue4.GameActivity.bPublicLogFiles" android:value="false" />
@@ -56,4 +56,5 @@
   <uses-permission android:name="android.permission.VIBRATE" />
   <uses-permission android:name="com.android.vending.BILLING" />
   <!-- Supported texture compression formats (cooked) -->
+  <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
 </manifest>
