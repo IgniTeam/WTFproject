@@ -1,1 +1,1 @@
-../../../Proj/Proj.uproject 
+../../../Proj/Proj.uproject  /Game/Proj/Maps/MainMenu -Messaging -SessionId=94FB128A42931BB34D69D3BF6DA5B8ED -SessionOwner="misha" -SessionName="Launch On Device" -iterative

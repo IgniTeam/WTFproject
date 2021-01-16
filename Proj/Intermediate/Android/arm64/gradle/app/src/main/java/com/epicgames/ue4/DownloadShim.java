@@ -1,10 +1,10 @@
 package com.epicgames.ue4;
 
-import com.YourCompany.Proj.OBBDownloaderService;
-import com.YourCompany.Proj.DownloaderActivity;
+import com.Igniteam.WTF.OBBDownloaderService;
+import com.Igniteam.WTF.DownloaderActivity;
 import android.app.Activity;
 import com.google.android.vending.expansion.downloader.Helpers;
-import com.YourCompany.Proj.OBBData;
+import com.Igniteam.WTF.OBBData;
 
 
 public class DownloadShim

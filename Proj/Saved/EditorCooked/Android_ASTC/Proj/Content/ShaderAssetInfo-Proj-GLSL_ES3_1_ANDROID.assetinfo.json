@@ -2,31 +2,6 @@
 	"AssetInfoVersion": 1,
 	"ShaderCodeToAssets": [
 		{
-			"ShaderMapHash": "8132D20BC8F8512CC9D85296F24D95DE22994625",
-			"Assets": [
-				"../../../Engine/Content/EditorMaterials/AssetViewer/M_SkyBox.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "233ACC3516C6A51010B04186E88058D182F9E744",
-			"Assets": [
-				"../../../Engine/Content/EditorMaterials/PersonaFloorMat.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "EC716D0A173AFB9EA7854109F46821827262AEC4",
-			"Assets": [
-				"../../../Engine/Content/EditorMaterials/GridMaterial.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "163430052CFF9378EEBC1D3000A7A1C124D4CD6E",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/UI/TheEnd_Video_Mat.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/UI/Loading_Mat.uasset"
-			]
-		},
-		{
 			"ShaderMapHash": "A241618BF200314D4C28CFBAE563F27C2B7ABD90",
 			"Assets": [
 				"../../../Engine/Content/EditorMaterials/LevelGridMaterial2.uasset"
@@ -71,6 +46,12 @@
 			"ShaderMapHash": "2F5D281F9A1003FE930ACD13F20879587E75D299",
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/TrashCan.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0DE2A2FF440BBFECDBD7C2DB88560673CD470113",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Materials/M_MirrorMat.uasset"
 			]
 		},
 		{
@@ -134,7 +115,7 @@
 			]
 		},
 		{
-			"ShaderMapHash": "AC1606D3321AA225500BD44336206C90F6EE5156",
+			"ShaderMapHash": "99C6FBD40D23EF33711041C1558AC70908446904",
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/M_SurfaceBase.uasset"
 			]
@@ -191,6 +172,12 @@
 			"ShaderMapHash": "CC7BBDC114B35A4F163F4AEC280B3D8B15534970",
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Placeables/ElevatorMat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "163430052CFF9378EEBC1D3000A7A1C124D4CD6E",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Core/UI/Loading_Mat.uasset"
 			]
 		},
 		{

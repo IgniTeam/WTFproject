@@ -1,0 +1,312 @@
+{
+	"manifestChunkId": -1,
+	"pluginName": "NativizedAssets",
+	"outputDir": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game",
+	"moduleDependencies": [
+		"Package'/Script/CoreUObject'",
+		"Package'/Script/Engine'",
+		"Package'/Script/MagicLeapARPin'",
+		"Package'/Script/NavigationSystem'",
+		"Package'/Script/AnimGraphRuntime'",
+		"Package'/Script/SlateCore'",
+		"Package'/Script/UMG'",
+		"Package'/Script/MovieScene'",
+		"Package'/Script/MediaAssets'",
+		"Package'/Script/AIModule'",
+		"Package'/Script/ClothingSystemRuntimeNv'",
+		"Package'/Script/InputCore'",
+		"Package'/Script/PhysicsCore'",
+		"Package'/Script/Landscape'",
+		"Package'/Script/StaticMeshDescription'",
+		"Package'/Script/MeshDescription'",
+		"Package'/Script/AudioExtensions'",
+		"Package'/Script/AudioPlatformConfiguration'",
+		"Package'/Script/GameplayTasks'",
+		"Package'/Script/GameplayTags'",
+		"Package'/Script/ClothingSystemRuntimeInterface'",
+		"Package'/Script/PropertyAccess'",
+		"Package'/Script/PropertyPath'",
+		"Package'/Script/Slate'",
+		"Package'/Script/AudioMixer'",
+		"Package'/Script/MediaUtils'"
+	],
+	"convertedAssets":
+	{
+		"/Game/Proj/Core/EBaffs.EBaffs":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Game/Proj/Core/EBaffs.EBaffs",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/EBaffs__pf3231479144.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/EBaffs__pf3231479144.cpp"
+		},
+		"/Game/Proj/Data/SDocs.SDocs":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedStruct'",
+			"targetObjPath": "/Game/Proj/Data/SDocs.SDocs",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/SDocs__pf1693275370.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/SDocs__pf1693275370.cpp"
+		},
+		"/MagicLeapPassableWorld/MagicLeapARPinInfoActor.MagicLeapARPinInfoActor_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/MagicLeapPassableWorld/MagicLeapARPinInfoActor.MagicLeapARPinInfoActor_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/MagicLeapARPinInfoActor__pf2635949152.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/MagicLeapARPinInfoActor__pf2635949152.cpp"
+		},
+		"/Game/Proj/Core/Character/AB_Hero.AB_Hero_C":
+		{
+			"assetType": "Class'/Script/Engine.AnimBlueprint'",
+			"targetObjPath": "/Game/Proj/Core/Character/AB_Hero.AB_Hero_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/AB_Hero__pf104867521.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/AB_Hero__pf104867521.cpp"
+		},
+		"/Game/Proj/Core/UI/WB_HP.WB_HP_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/Proj/Core/UI/WB_HP.WB_HP_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/WB_HP__pf4176322116.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/WB_HP__pf4176322116.cpp"
+		},
+		"/Game/Proj/Core/UI/WB_Item.WB_Item_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/Proj/Core/UI/WB_Item.WB_Item_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/WB_Item__pf4176322116.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/WB_Item__pf4176322116.cpp"
+		},
+		"/Game/Proj/Core/UI/WB_Inventory.WB_Inventory_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/Proj/Core/UI/WB_Inventory.WB_Inventory_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/WB_Inventory__pf4176322116.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/WB_Inventory__pf4176322116.cpp"
+		},
+		"/Game/Proj/Core/UI/WB_Main.WB_Main_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/Proj/Core/UI/WB_Main.WB_Main_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/WB_Main__pf4176322116.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/WB_Main__pf4176322116.cpp"
+		},
+		"/Game/Proj/Core/UI/WB_Loading.WB_Loading_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/Proj/Core/UI/WB_Loading.WB_Loading_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/WB_Loading__pf4176322116.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/WB_Loading__pf4176322116.cpp"
+		},
+		"/Game/Proj/Core/UI/WB_MainMenu.WB_MainMenu_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/Proj/Core/UI/WB_MainMenu.WB_MainMenu_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/WB_MainMenu__pf4176322116.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/WB_MainMenu__pf4176322116.cpp"
+		},
+		"/Game/Proj/Core/UI/WB_Options.WB_Options_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/Proj/Core/UI/WB_Options.WB_Options_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/WB_Options__pf4176322116.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/WB_Options__pf4176322116.cpp"
+		},
+		"/Game/Proj/Core/UI/WB_InGameMenu.WB_InGameMenu_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/Proj/Core/UI/WB_InGameMenu.WB_InGameMenu_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/WB_InGameMenu__pf4176322116.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/WB_InGameMenu__pf4176322116.cpp"
+		},
+		"/Game/Proj/Core/BP_Hero.BP_Hero_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Core/BP_Hero.BP_Hero_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_Hero__pf3231479144.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_Hero__pf3231479144.cpp"
+		},
+		"/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C":
+		{
+			"assetType": "Class'/Script/Engine.AnimBlueprint'",
+			"targetObjPath": "/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ThirdPerson_AnimBP__pf2404374163.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ThirdPerson_AnimBP__pf2404374163.cpp"
+		},
+		"/Game/Proj/Core/AI/BTT_FindRandomPosition.BTT_FindRandomPosition_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Core/AI/BTT_FindRandomPosition.BTT_FindRandomPosition_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BTT_FindRandomPosition__pf931210303.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BTT_FindRandomPosition__pf931210303.cpp"
+		},
+		"/Game/Proj/Core/AI/BTT_ChasePlayer.BTT_ChasePlayer_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Core/AI/BTT_ChasePlayer.BTT_ChasePlayer_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BTT_ChasePlayer__pf931210303.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BTT_ChasePlayer__pf931210303.cpp"
+		},
+		"/Game/Proj/Core/AI/BPI_Interaction.BPI_Interaction_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Core/AI/BPI_Interaction.BPI_Interaction_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BPI_Interaction__pf931210303.h",
+			"generatedCppPath": ""
+		},
+		"/Game/Proj/Core/AI/BTT_Attack.BTT_Attack_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Core/AI/BTT_Attack.BTT_Attack_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BTT_Attack__pf931210303.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BTT_Attack__pf931210303.cpp"
+		},
+		"/Game/Proj/Core/AI/C_AI.C_AI_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Core/AI/C_AI.C_AI_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/C_AI__pf931210303.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/C_AI__pf931210303.cpp"
+		},
+		"/Game/Proj/Core/AI/BP_EnemyBase.BP_EnemyBase_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Core/AI/BP_EnemyBase.BP_EnemyBase_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_EnemyBase__pf931210303.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_EnemyBase__pf931210303.cpp"
+		},
+		"/Game/Proj/Core/PC_Main.PC_Main_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Core/PC_Main.PC_Main_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/PC_Main__pf3231479144.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/PC_Main__pf3231479144.cpp"
+		},
+		"/Game/Proj/Core/GM_Main.GM_Main_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Core/GM_Main.GM_Main_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/GM_Main__pf3231479144.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/GM_Main__pf3231479144.cpp"
+		},
+		"/Game/Proj/Core/GI_Main.GI_Main_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Core/GI_Main.GI_Main_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/GI_Main__pf3231479144.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/GI_Main__pf3231479144.cpp"
+		},
+		"/Game/Proj/Placeables/DeathPlane.DeathPlane_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Placeables/DeathPlane.DeathPlane_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/DeathPlane__pf2281100855.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/DeathPlane__pf2281100855.cpp"
+		},
+		"/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_Sky_Sphere__pf1379775596.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_Sky_Sphere__pf1379775596.cpp"
+		},
+		"/Game/Proj/Core/AI/BP_Secretary.BP_Secretary_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Core/AI/BP_Secretary.BP_Secretary_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_Secretary__pf931210303.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_Secretary__pf931210303.cpp"
+		},
+		"/Game/Proj/Placeables/TrashCan.TrashCan_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Placeables/TrashCan.TrashCan_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/TrashCan__pf2281100855.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/TrashCan__pf2281100855.cpp"
+		},
+		"/Game/Proj/Placeables/Flower2.Flower2_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Placeables/Flower2.Flower2_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/Flower2__pf2281100855.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/Flower2__pf2281100855.cpp"
+		},
+		"/Game/Proj/Placeables/Flower1.Flower1_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Placeables/Flower1.Flower1_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/Flower1__pf2281100855.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/Flower1__pf2281100855.cpp"
+		},
+		"/Game/Proj/Placeables/BP_Talllamp.BP_Talllamp_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Placeables/BP_Talllamp.BP_Talllamp_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_Talllamp__pf2281100855.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_Talllamp__pf2281100855.cpp"
+		},
+		"/Game/Proj/Placeables/WorkingPlace.WorkingPlace_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Placeables/WorkingPlace.WorkingPlace_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/WorkingPlace__pf2281100855.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/WorkingPlace__pf2281100855.cpp"
+		},
+		"/Game/Proj/Core/AI/Characters/Zombie/AB_Zombie.AB_Zombie_C":
+		{
+			"assetType": "Class'/Script/Engine.AnimBlueprint'",
+			"targetObjPath": "/Game/Proj/Core/AI/Characters/Zombie/AB_Zombie.AB_Zombie_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/AB_Zombie__pf1775912440.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/AB_Zombie__pf1775912440.cpp"
+		},
+		"/Game/Proj/Core/AI/BP_Zombie.BP_Zombie_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Core/AI/BP_Zombie.BP_Zombie_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_Zombie__pf931210303.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_Zombie__pf931210303.cpp"
+		},
+		"/Game/Proj/Core/AI/Characters/Demon/NewDemon/AB_Demon.AB_Demon_C":
+		{
+			"assetType": "Class'/Script/Engine.AnimBlueprint'",
+			"targetObjPath": "/Game/Proj/Core/AI/Characters/Demon/NewDemon/AB_Demon.AB_Demon_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/AB_Demon__pf1542772542.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/AB_Demon__pf1542772542.cpp"
+		},
+		"/Game/Proj/Core/AI/BP_Demon.BP_Demon_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Core/AI/BP_Demon.BP_Demon_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_Demon__pf931210303.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_Demon__pf931210303.cpp"
+		},
+		"/Game/Proj/Core/AI/BP_SpawnPoints.BP_SpawnPoints_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Core/AI/BP_SpawnPoints.BP_SpawnPoints_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_SpawnPoints__pf931210303.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_SpawnPoints__pf931210303.cpp"
+		},
+		"/Game/Proj/Placeables/BP_Shortlamp.BP_Shortlamp_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Proj/Placeables/BP_Shortlamp.BP_Shortlamp_C",
+			"generatedHeaderPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_Shortlamp__pf2281100855.h",
+			"generatedCppPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_Shortlamp__pf2281100855.cpp"
+		}
+	},
+	"unconvertedDependencies":
+	{
+		"/Game/Proj/Placeables/Interactables/Elevator/BP_Elevator":
+		{
+			"generatedWrapperPath": "C:/Users/misha/Documents/WTFproject/Proj/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_Elevator__pf350680655.h"
+		}
+	},
+	"nativizationOptions":
+	{
+		"platformName": "WindowsNoEditor",
+		"serverOnlyPlatform": false,
+		"clientOnlyPlatform": false,
+		"bExcludeMonolithicHeaders": false,
+		"excludedModules": [],
+		"excludedAssets": [],
+		"excludedFolderPaths": []
+	}
+}

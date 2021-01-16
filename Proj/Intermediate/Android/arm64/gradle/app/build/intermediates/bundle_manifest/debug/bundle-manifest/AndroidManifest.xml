@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.YourCompany.Proj"
+    package="com.Igniteam.WTF"
     android:installLocation="internalOnly"
     android:versionCode="1"
     android:versionName="1.0" >
@@ -60,7 +60,7 @@
                 android:value="UE4" />
         </activity>
         <activity
-            android:name="com.YourCompany.Proj.DownloaderActivity"
+            android:name="com.Igniteam.WTF.DownloaderActivity"
             android:configChanges="mcc|mnc|uiMode|density|screenSize|orientation|keyboardHidden|keyboard"
             android:screenOrientation="sensorLandscape"
             android:theme="@style/UE4SplashTheme" />
@@ -79,7 +79,7 @@
             android:value="0" />
         <meta-data
             android:name="com.epicgames.ue4.GameActivity.bPackageDataInsideApk"
-            android:value="true" />
+            android:value="false" />
         <meta-data
             android:name="com.epicgames.ue4.GameActivity.bVerifyOBBOnStartUp"
             android:value="false" />
@@ -94,10 +94,10 @@
             android:value="" />
         <meta-data
             android:name="com.epicgames.ue4.GameActivity.bHasOBBFiles"
-            android:value="true" />
+            android:value="false" />
         <meta-data
             android:name="com.epicgames.ue4.GameActivity.BuildConfiguration"
-            android:value="Shipping" />
+            android:value="Development" />
         <meta-data
             android:name="com.epicgames.ue4.GameActivity.CookedFlavors"
             android:value="ASTC" />
@@ -129,15 +129,9 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity
-            android:name="com.google.android.gms.ads.AdActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent" />
+        <service android:name="com.Igniteam.WTF.OBBDownloaderService" />
 
-        <service android:name="com.YourCompany.Proj.OBBDownloaderService" />
-
-        <receiver android:name="com.YourCompany.Proj.AlarmReceiver" />
+        <receiver android:name="com.Igniteam.WTF.AlarmReceiver" />
         <receiver android:name="com.epicgames.ue4.LocalNotificationReceiver" />
         <receiver
             android:name="com.epicgames.ue4.MulticastBroadcastReceiver"
@@ -179,7 +173,7 @@
 
         <provider
             android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.YourCompany.Proj.lifecycle-trojan"
+            android:authorities="com.Igniteam.WTF.lifecycle-trojan"
             android:exported="false"
             android:multiprocess="true" />
 

@@ -79,7 +79,7 @@
             android:value="0" />
         <meta-data
             android:name="com.epicgames.ue4.GameActivity.bPackageDataInsideApk"
-            android:value="true" />
+            android:value="false" />
         <meta-data
             android:name="com.epicgames.ue4.GameActivity.bVerifyOBBOnStartUp"
             android:value="false" />
@@ -94,10 +94,10 @@
             android:value="" />
         <meta-data
             android:name="com.epicgames.ue4.GameActivity.bHasOBBFiles"
-            android:value="true" />
+            android:value="false" />
         <meta-data
             android:name="com.epicgames.ue4.GameActivity.BuildConfiguration"
-            android:value="Shipping" />
+            android:value="Development" />
         <meta-data
             android:name="com.epicgames.ue4.GameActivity.CookedFlavors"
             android:value="ASTC" />
@@ -128,12 +128,6 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
-        <activity
-            android:name="com.google.android.gms.ads.AdActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent" />
 
         <service android:name="com.YourCompany.Proj.OBBDownloaderService" />
 

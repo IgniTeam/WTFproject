@@ -4,12 +4,12 @@
         "source": "Z:\\app\\src\\main\\res\\drawable\\splashscreen_l.xml"
     },
     {
-        "merged": "Z:\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splashscreen_landscape.png.flat",
-        "source": "Z:\\app\\src\\main\\res\\drawable\\splashscreen_landscape.png"
-    },
-    {
         "merged": "Z:\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_notify_panel_notification_icon_bg.png.flat",
         "source": "Z:\\app\\src\\main\\res\\drawable-mdpi\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "Z:\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splashscreen_landscape.png.flat",
+        "source": "Z:\\app\\src\\main\\res\\drawable\\splashscreen_landscape.png"
     },
     {
         "merged": "Z:\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon.png.flat",

@@ -293,28 +293,21 @@
 			]
 		},
 		{
-			"ShaderMapHash": "1A1C4513A4B9C15B5E627E3EB32AA74581F7A8DB",
-			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_Master.uasset"
-			]
-		},
-		{
 			"ShaderMapHash": "B54B249C6965A3B0E42822B157AC53C486CF8225",
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_SubUV_Master.uasset"
 			]
 		},
 		{
-			"ShaderMapHash": "9AD2C1950A9CEEF679B829B91AB5170F14C60D54",
+			"ShaderMapHash": "1A1C4513A4B9C15B5E627E3EB32AA74581F7A8DB",
 			"Assets": [
-				"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset"
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_Master.uasset"
 			]
 		},
 		{
-			"ShaderMapHash": "7F4BDB8082AE48C4BB1249297E4294BCA3637F0D",
+			"ShaderMapHash": "9AD2C1950A9CEEF679B829B91AB5170F14C60D54",
 			"Assets": [
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Sky_Flashing_Panning_Master.uasset",
-				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Sky_Flashing_Panning.uasset"
+				"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset"
 			]
 		},
 		{
@@ -336,6 +329,13 @@
 			"ShaderMapHash": "E042CB4DA4B8C8DB1816A30514166C485B6D62EA",
 			"Assets": [
 				"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7F4BDB8082AE48C4BB1249297E4294BCA3637F0D",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Sky_Flashing_Panning_Master.uasset",
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Sky_Flashing_Panning.uasset"
 			]
 		},
 		{
@@ -416,6 +416,12 @@
 			"Assets": [
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/plane.uasset",
 				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Isometric-Interiors/Meshes/Table.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0DE2A2FF440BBFECDBD7C2DB88560673CD470113",
+			"Assets": [
+				"../../../../../../Users/misha/Documents/WTFproject/Proj/Content/Proj/Materials/M_MirrorMat.uasset"
 			]
 		}
 	]
